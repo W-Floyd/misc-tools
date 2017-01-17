@@ -118,38 +118,61 @@ cat "/sys/class/net/${__interface}/address" || { echo "Error: Failed to fetch cu
 }
 
 __get_permanent_mac () {
-sudo ethtool -P "${__interface}" | sed 's/.* //' || { echo "Error: Failed to fetch permanent mac address"; exit 10; }
+if ! sudo which ethtool &> /dev/null; then
+    echo "Error: Please ensure 'ethtool' is installed"
+    exit 10
+fi
+
+sudo ethtool -P "${__interface}" | sed 's/.* //' || { echo "Error: Failed to fetch permanent mac address"; exit 11; }
 }
 
 __set_mac () {
-sudo ifconfig "${__interface}" down || { echo "Error: Failed to take network interface '${__interface}' down"; exit 11; }
-sudo ip link set "${__interface}" address "${1}" || { echo "Error: Failed to change mac on network interface '${__interface}'"; exit 12; }
-sudo ifconfig "${__interface}" up  || { echo "Error: Failed to bring network interface '${__interface}' up"; exit 13; }
+
+if ! which ifconfig &> /dev/null; then
+    echo "Error: Please ensure 'ifconfig' is installed"
+    exit 12
+elif ! sudo which ip &> /dev/null; then
+    echo "Error: Please ensure 'ip' is installed"
+    exit 13
+fi
+
+sudo ifconfig "${__interface}" down || { echo "Error: Failed to take network interface '${__interface}' down"; exit 14; }
+sudo ip link set "${__interface}" address "${1}" || { echo "Error: Failed to change mac on network interface '${__interface}'"; exit 15; }
+sudo ifconfig "${__interface}" up  || { echo "Error: Failed to bring network interface '${__interface}' up"; exit 16; }
 }
 
 __list_interfaces () {
-sudo ifconfig -l | tr ' ' '\n' || { echo "Error: Failed to fetch interface list"; exit 14; }
+if ! which ifconfig &> /dev/null; then
+    echo "Error: Please ensure 'ifconfig' is installed"
+    exit 17
+fi
+
+ifconfig -l | tr ' ' '\n' || { echo "Error: Failed to fetch interface list"; exit 18; }
 }
 
 __fetch_oui () {
-sudo wget -O "${__oui_file}" "${__oui_source}" &> /dev/null || { echo "Error: Failed to fetch oui list"; exit 15; }
+if ! which wget &> /dev/null; then
+    echo "Error: Please ensure 'wget' is installed"
+    exit 19
+fi
+
+sudo wget -O "${__oui_file}" "${__oui_source}" &> /dev/null || { echo "Error: Failed to fetch oui list"; exit 20; }
 }
 
 if ! [ -d "${__store}" ]; then
-    sudo mkdir -p "${__store}" || { echo "Error: Failed to make directory for oui list"; exit 16; }
+    sudo mkdir -p "${__store}" || { echo "Error: Failed to make directory for oui list"; exit 21; }
 fi
 
 if [ "${__update}" = '1' ] && [ -e "${__oui_file}" ]; then
-    rm "${__oui_file}" || { echo "Error: Failed to remove existing oui list"; exit 17; }
+    rm "${__oui_file}" || { echo "Error: Failed to remove existing oui list"; exit 22; }
 elif ! [ -e "${__oui_file}" ] && [ -e "${__oui_name}" ]; then
-    sudo cp "${__oui_name}" "${__oui_file}" || { echo "Error: Failed to copy local oui list"; exit 18; }
+    sudo cp "${__oui_name}" "${__oui_file}" || { echo "Error: Failed to copy local oui list"; exit 23; }
 fi
 
 if ! [ -e "${__oui_file}" ]; then
     echo "Fetching oui list"
     __fetch_oui
 fi
-
 
 if [ "${__another}" = '1' ]; then
     __set_mac "$(__get_new_mac)"  1> /dev/null
@@ -165,7 +188,7 @@ elif [ "${__list}" = '1' ]; then
     __list_interfaces
 else
     echo "Error: Something has gone very wrong indeed"
-    exit 19
+    exit 24
 fi
 
 exit
