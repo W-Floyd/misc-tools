@@ -47,8 +47,13 @@ ${1}"
 else
 
     echo "Error: No options passed"
-    exit
+    exit 1
 
+fi
+
+if [ -z "${__filelist}" ]; then
+    echo "Error: No files specified"
+    exit 2
 fi
 
 echo "${__filelist}" | sed '/^$/d' | sort | uniq | while read __file; do
