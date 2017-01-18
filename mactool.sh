@@ -138,16 +138,6 @@ elif [ "${__option_total}" -gt '1' ]; then
     exit 1
 fi
 
-if [ -z "${__interface}" ] && [ "${__list}" = '0' ] && [ "${__new}" = '0' ] && [ "${__update}" = '0' ]; then
-    echo "Error: No interface specified"
-    exit 1
-fi
-
-if [ "${__given}" = '1' ] && [ -z "${__custom_mac}" ]; then
-    echo "Error: No custom mac address specified"
-    exit 1
-fi
-
 __get_new_mac () {
 echo "$(cat "${__oui_file}" | cut -c 1-6 | sed -e 's/.*/\L&/' -e 's/.\{2\}/&:/g' | shuf | head -n 1)$(od -t x1 -An -N 3 /dev/random | sed 's/^ //' | tr ' ' ':')" || { echo "Error: Failed to fetch new mac address"; exit 1; }
 }
@@ -198,6 +188,18 @@ fi
 wget -O '/tmp/oui' "${__oui_source}" &> /dev/null || { echo "Error: Failed to fetch oui list"; exit 1; }
 sudo mv '/tmp/oui' "${__oui_file}" || { echo "Error: Failed to replace existing oui list"; exit 1; }
 }
+
+if [ -z "${__interface}" ] && [ "${__list}" = '0' ] && [ "${__new}" = '0' ] && [ "${__update}" = '0' ]; then
+    echo "Error: No interface specified"
+    echo "Must be one of:"
+    __list_interfaces
+    exit 1
+fi
+
+if [ "${__given}" = '1' ] && [ -z "${__custom_mac}" ]; then
+    echo "Error: No custom mac address specified"
+    exit 1
+fi
 
 if ! [ -d "${__store}" ]; then
     sudo mkdir -p "${__store}" || { echo "Error: Failed to make directory for oui list"; exit 1; }
