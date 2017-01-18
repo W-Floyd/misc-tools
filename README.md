@@ -1,12 +1,29 @@
 # misc-tools
-A general catchall of scripts/tools I make.
+## A general catchall of scripts/tools I make.
 
+I suggest a git clone and symlink, but I will leave that up to you.
 
-Briefly, run:
-``
-sudo wget -O /usr/bin/mactool https://github.com/W-Floyd/misc-tools/raw/master/mactool.sh && sudo chmod +x /usr/bin/mactool
-``
+***
 
-to download and install mactool.
+### fsize
 
-Better yet would be a git clone and symlink, but I will leave that up to you.
+#### File size tool
+
+Quite simply prints the file size of all given files, optionally in bytes, when option '-b' is passed.
+
+### livewrite
+
+#### Live USB writing tool
+
+Steps the user through selecting a file to write and a storage device to write it to, then completes the operation using dd, with a pv readout if available.
+
+### mactool
+
+#### A mac address tool (alternative to macchanger)
+
+Allows the user to easily:
+* print or set a random (valid) mac address
+* print or revert to the hardware default mac address
+* print the current mac address
+* attempt to set the mac address as given by the user
+* list valid interfaces to work on
