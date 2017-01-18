@@ -27,3 +27,9 @@ Allows the user to easily:
 * print the current mac address
 * attempt to set the mac address as given by the user
 * list valid interfaces to work on
+
+### roman
+
+#### A Roman Numeral to Base 10 converter
+
+Converts a Roman Numeral into base 10. Optional verbose output that provides the equation produced.

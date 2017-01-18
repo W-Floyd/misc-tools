@@ -51,8 +51,6 @@ while ! [ "${#}" = '0' ]; do
             fi
             ;;
 
-# Now, with the option to the last option out of the way, let's
-# look at regular options.
         *)
 
             case "${1}" in
