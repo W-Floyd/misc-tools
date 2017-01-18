@@ -108,20 +108,20 @@ if [ "${__number}" -gt "${__lastlarge}" ]; then
 fi
 
 if [ "${__numbefore}" -lt "${__number}" ]; then
-	__sign1="+"
+	__sign="+"
 elif [ "${__numbefore}" -eq "${__number}" ]; then
 	if [ "${__number}" -lt "${__lastlarge}" ]; then
-		__sign1="-"
+		__sign="-"
 	else
-		__sign1="+"
+		__sign="+"
 	fi
 else
-	__sign1="-"
+	__sign="-"
 fi
 
 __numbefore="${__number}"
 
-__equation="${__equation}${__sign1}${__number}"
+__equation="${__equation}${__sign}${__number}"
 
 done
 
