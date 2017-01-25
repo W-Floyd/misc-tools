@@ -1,10 +1,12 @@
 #!/bin/bash
 
 __another='0'
+__ranother='0'
 __reset='0'
 __current='0'
 __permanent='0'
 __new='0'
+__rnew='0'
 __list='0'
 __update='0'
 __given='0'
@@ -22,8 +24,10 @@ Changes or reads the specified interfaces mac address
 
 Options:
   -h  -? --help         This help message
-  -n  --new             Print a new mac address
-  -a  --another         Change to a new mac address
+  -n  --new             Print a similar mac address
+  -rn --rnew            Print a new random mac address
+  -a  --another         Change to a similar mac address
+  -ra --ranother        Change to a random mac address
   -p  --permanent       Print the permanent mac address
   -r  --reset           Reset to original mac address
   -c  --current         Print the current mac address
@@ -32,6 +36,15 @@ Options:
   -l  --list            List available interfaces
   -u  --update          Fetch fresh oui list\
 "
+}
+
+__warn () {
+echo "Error: ${@}"
+}
+
+__error () {
+__warn "${@}"
+exit 1
 }
 
 if ! [ "${#}" = 0 ]; then
@@ -43,11 +56,9 @@ while ! [ "${#}" = '0' ]; do
         "-g" | "--given")
             __custom_mac="${1}"
             if ! [ "$(echo "${__custom_mac}" | wc -c)" = 18 ]; then
-                echo "Error: Given mac address is an invalid length"
-                exit 1
+                __error "Given mac address is an invalid length"
             elif ! [ -z "$(echo "${__custom_mac}" | sed 's/^[0-9|a-z|A-Z]\{2\}[:|-][0-9|a-z|A-Z]\{2\}[:|-][0-9|a-z|A-Z]\{2\}[:|-][0-9|a-z|A-Z]\{2\}[:|-][0-9|a-z|A-Z]\{2\}[:|-][0-9|a-z|A-Z]\{2\}//')" ]; then
-                echo "Error: Given mac address is badly formed"
-                exit 1
+                __error "Given mac address is badly formed"
             fi
             ;;
 
@@ -61,6 +72,10 @@ while ! [ "${#}" = '0' ]; do
 
                 "-a" | "--another")
                     __another='1'
+                    ;;
+
+                "-ra" | "--ranother")
+                    __ranother='1'
                     ;;
 
                 "-r" | "--reset")
@@ -79,6 +94,10 @@ while ! [ "${#}" = '0' ]; do
                     __new='1'
                     ;;
 
+                "-rn" | "--rnew")
+                    __rnew='1'
+                    ;;
+
                 "-l" | "--list")
                     __list='1'
                     ;;
@@ -92,20 +111,17 @@ while ! [ "${#}" = '0' ]; do
                     ;;
 
                 "-"*)
-                    echo "Error: Invalid option '${1}' given"
-                    exit 1
+                    __error "Invalid option '${1}' given"
                     ;;
 
                 *)
                     if [ -z "${__interface}" ]; then
                         if ! ifconfig "${1}" &> /dev/null; then
-                            echo "Error: Network interface '${1}' does not exist"
-                            exit 1
+                            __error "Network interface '${1}' does not exist"
                         fi
                         __interface="${1}"
                     else
-                        echo "Error: Only one interface may be specified"
-                        exit 1
+                        __error "Only one interface may be specified"
                     fi
                     ;;
 
@@ -121,90 +137,98 @@ while ! [ "${#}" = '0' ]; do
 done
 
 else
-    echo "Error: No inputs given"
+    __warn "No inputs given"
     __usage
     exit 1
 fi
 
-__option_total="$(echo "${__another}+${__reset}+${__current}+${__permanent}+${__new}+${__list}+${__update}+${__given}" | bc)"
+__option_total="$(echo "${__another}+${__ranother}+${__reset}+${__current}+${__permanent}+${__new}+${__rnew}+${__list}+${__update}+${__given}" | bc)"
 
 if [ "${__option_total}" == '0' ]; then
-    echo "Error: No options passed"
-    exit 1
+    __error "No options passed"
 elif [ "${__option_total}" -gt '1' ]; then
-    echo "Error: More than one option given"
-    exit 1
+    __error "More than one option given"
 fi
 
-__get_new_mac () {
-echo "$(cat "${__oui_file}" | cut -c 1-6 | sed -e 's/.*/\L&/' -e 's/.\{2\}/&:/g' | shuf | head -n 1)$(od -t x1 -An -N 3 /dev/random | sed 's/^ //' | tr ' ' ':')" || { echo "Error: Failed to fetch new mac address"; exit 1; }
+__get_current_mac () {
+cat "/sys/class/net/${__interface}/address" || __error "Failed to fetch current mac address"
 }
 
-__get_current_mac () {
-cat "/sys/class/net/${__interface}/address" || { echo "Error: Failed to fetch current mac address"; exit 1; }
+__get_valid_oui () {
+cat "${__oui_file}" | cut -c 1-6 | sed -e 's/.*/\L&/' -e 's/.\{2\}/&:/g' | shuf | head -n 1
+}
+
+__get_current_oui () {
+__get_current_mac | cut -c 1-9
+}
+
+__get_mac_randomness () {
+echo "$(od -t x1 -An -N 3 /dev/random | sed 's/^ //' | tr ' ' ':')" || __error "Failed to fetch new mac address"
+}
+
+__get_another_mac () {
+echo "$(__get_current_oui)$(__get_mac_randomness)"
+}
+
+__get_ranother_mac () {
+echo "$(__get_valid_oui)$(__get_mac_randomness)"
 }
 
 __get_permanent_mac () {
 if ! sudo which ethtool &> /dev/null; then
-    echo "Error: Please ensure 'ethtool' is installed"
-    exit 1
+    __error "Please ensure 'ethtool' is installed"
 fi
 
-sudo ethtool -P "${__interface}" | sed 's/.* //' || { echo "Error: Failed to fetch permanent mac address"; exit 1; }
+sudo ethtool -P "${__interface}" | sed 's/.* //' || __error "Failed to fetch permanent mac address"
 }
 
 __set_mac () {
 
 if ! which ifconfig &> /dev/null; then
-    echo "Error: Please ensure 'ifconfig' is installed"
-    exit 1
+    __error "Please ensure 'ifconfig' is installed"
 elif ! sudo which ip &> /dev/null; then
-    echo "Error: Please ensure 'ip' is installed"
-    exit 1
+    __error "Please ensure 'ip' is installed"
 fi
 
-sudo ifconfig "${__interface}" down &> /dev/null || { echo "Error: Failed to take network interface '${__interface}' down"; exit 1; }
-sudo ip link set "${__interface}" address "${1}" || { echo "Error: Failed to change mac on network interface '${__interface}'"; { sudo ifconfig "${__interface}" up || { echo "Error: Failed to bring network interface '${__interface}' up"; exit 1; }; }; exit 1; }
-sudo ifconfig "${__interface}" up &> /dev/null || { echo "Error: Failed to bring network interface '${__interface}' up"; exit 1; }
+sudo ifconfig "${__interface}" down &> /dev/null || __error "Failed to take network interface '${__interface}' down"
+sudo ip link set "${__interface}" address "${1}" || { __warn "Failed to change mac on network interface '${__interface}'"; { sudo ifconfig "${__interface}" up || __error "Failed to bring network interface '${__interface}' up"; }; exit 1; }
+sudo ifconfig "${__interface}" up &> /dev/null || __error "Failed to bring network interface '${__interface}' up"
 }
 
 __list_interfaces () {
 if ! which ifconfig &> /dev/null; then
-    echo "Error: Please ensure 'ifconfig' is installed"
-    exit 1
+    __error "Please ensure 'ifconfig' is installed"
 fi
 
-ifconfig -l | tr ' ' '\n' || { echo "Error: Failed to fetch interface list"; exit 1; }
+ifconfig -l | tr ' ' '\n' || __error "Failed to fetch interface list"
 }
 
 __fetch_oui () {
 if ! which wget &> /dev/null; then
-    echo "Error: Please ensure 'wget' is installed"
-    exit 1
+    __error "Please ensure 'wget' is installed"
 fi
 
-wget -O '/tmp/oui' "${__oui_source}" &> /dev/null || { echo "Error: Failed to fetch oui list"; exit 1; }
-sudo mv '/tmp/oui' "${__oui_file}" || { echo "Error: Failed to replace existing oui list"; exit 1; }
+wget -O '/tmp/oui' "${__oui_source}" &> /dev/null || __error "Failed to fetch oui list"
+sudo mv '/tmp/oui' "${__oui_file}" || __error "Failed to replace existing oui list"
 }
 
 if [ -z "${__interface}" ] && [ "${__list}" = '0' ] && [ "${__new}" = '0' ] && [ "${__update}" = '0' ]; then
-    echo "Error: No interface specified"
+    __warn "No interface specified"
     echo "Must be one of:"
     __list_interfaces
     exit 1
 fi
 
 if [ "${__given}" = '1' ] && [ -z "${__custom_mac}" ]; then
-    echo "Error: No custom mac address specified"
-    exit 1
+    __error "No custom mac address specified"
 fi
 
 if ! [ -d "${__store}" ]; then
-    sudo mkdir -p "${__store}" || { echo "Error: Failed to make directory for oui list"; exit 1; }
+    sudo mkdir -p "${__store}" || __error "Failed to make directory for oui list"
 fi
 
 if ! [ -e "${__oui_file}" ] && [ -e "${__oui_name}" ]; then
-    sudo cp "${__oui_name}" "${__oui_file}" || { echo "Error: Failed to copy local oui list"; exit 1; }
+    sudo cp "${__oui_name}" "${__oui_file}" || __error "Failed to copy local oui list"
 fi
 
 if ! [ -e "${__oui_file}" ] || [ "${__update}" = '1' ]; then
@@ -213,7 +237,9 @@ if ! [ -e "${__oui_file}" ] || [ "${__update}" = '1' ]; then
 fi
 
 if [ "${__another}" = '1' ]; then
-    __set_mac "$(__get_new_mac)"  1> /dev/null
+    __set_mac "$(__get_another_mac)" 1> /dev/null
+elif [ "${__ranother}" = '1' ]; then
+    __set_mac "$(__get_ranother_mac)" 1> /dev/null
 elif [ "${__reset}" = '1' ]; then
     __set_mac "$(__get_permanent_mac)" 1> /dev/null
 elif [ "${__current}" = '1' ]; then
@@ -221,14 +247,15 @@ elif [ "${__current}" = '1' ]; then
 elif [ "${__permanent}" = '1' ]; then
     __get_permanent_mac
 elif [ "${__new}" = '1' ]; then
-    __get_new_mac
+    __get_another_mac
+elif [ "${__rnew}" = '1' ]; then
+    __get_ranother_mac
 elif [ "${__list}" = '1' ]; then
     __list_interfaces
 elif [ "${__given}" = '1' ]; then
     __set_mac "${__custom_mac}"
 else
-    echo "Error: Something has gone very wrong indeed"
-    exit 1
+    __error "Something has gone very wrong indeed"
 fi
 
 exit
