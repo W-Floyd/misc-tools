@@ -2,6 +2,8 @@
 
 __filelist=""
 
+__files_specified='0'
+
 __bytes="0"
 
 __usage () {
@@ -26,11 +28,12 @@ if ! [ "${#}" = 0 ]; then
                 exit 0
                 ;;
 
-            "-b")
+            "-b" | "--byte")
                 __bytes="1"
                 ;;
 
             *)
+                __files_specified='1'
                 if ! [ -e "${1}" ]; then
                     echo "File \"${1}\" does not exist"
                 else
@@ -47,11 +50,12 @@ ${1}"
 else
 
     echo "Error: No options passed"
+    __usage
     exit 1
 
 fi
 
-if [ -z "${__filelist}" ]; then
+if [ -z "${__filelist}" ] && [ "${__files_specified}" = '0' ]; then
     echo "Error: No files specified"
     exit 2
 fi
