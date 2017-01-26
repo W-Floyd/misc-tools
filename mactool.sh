@@ -1,16 +1,17 @@
 #!/bin/bash
 
 __another='0'
-__ranother='0'
+__sanother='0'
 __reset='0'
 __current='0'
 __permanent='0'
 __new='0'
-__rnew='0'
+__snew='0'
 __list='0'
 __update='0'
 __given='0'
 __interface=''
+__local_oui='0'
 
 __oui_source='http://linuxnet.ca/ieee/oui/nmap-mac-prefixes'
 __store='/usr/share/mactool'
@@ -24,17 +25,18 @@ Changes or reads the specified interfaces mac address
 
 Options:
   -h  -? --help         This help message
-  -n  --new             Print a similar mac address
-  -rn --rnew            Print a new random mac address
-  -a  --another         Change to a similar mac address
-  -ra --ranother        Change to a random mac address
+  -n  --new             Print a new random mac address
+  -sn --snew            Print a similar mac address
+  -a  --another         Change to a random mac address
+  -sa --sanother        Change to a similar mac address
   -p  --permanent       Print the permanent mac address
   -r  --reset           Reset to original mac address
   -c  --current         Print the current mac address
   -g  --given           Changes the mac address to
                         the next passed string.
   -l  --list            List available interfaces
-  -u  --update          Fetch fresh oui list\
+  -u  --update          Fetch fresh oui list
+  -lo --local           Use a local oui list\
 "
 }
 
@@ -74,8 +76,8 @@ while ! [ "${#}" = '0' ]; do
                     __another='1'
                     ;;
 
-                "-ra" | "--ranother")
-                    __ranother='1'
+                "-sa" | "--sanother")
+                    __sanother='1'
                     ;;
 
                 "-r" | "--reset")
@@ -94,8 +96,8 @@ while ! [ "${#}" = '0' ]; do
                     __new='1'
                     ;;
 
-                "-rn" | "--rnew")
-                    __rnew='1'
+                "-sn" | "--snew")
+                    __snew='1'
                     ;;
 
                 "-l" | "--list")
@@ -108,6 +110,10 @@ while ! [ "${#}" = '0' ]; do
 
                 "-g" | "--given")
                     __given='1'
+                    ;;
+
+                "-lo" | "--local")
+                    __local_oui='1'
                     ;;
 
                 "-"*)
@@ -142,10 +148,10 @@ else
     exit 1
 fi
 
-__option_total="$(echo "${__another}+${__ranother}+${__reset}+${__current}+${__permanent}+${__new}+${__rnew}+${__list}+${__update}+${__given}" | bc)"
+__option_total="$(echo "${__another}+${__sanother}+${__reset}+${__current}+${__permanent}+${__new}+${__snew}+${__list}+${__update}+${__given}" | bc)"
 
 if [ "${__option_total}" == '0' ]; then
-    __error "No options passed"
+    __error "No usable options passed"
 elif [ "${__option_total}" -gt '1' ]; then
     __error "More than one option given"
 fi
@@ -167,11 +173,11 @@ echo "$(od -t x1 -An -N 3 /dev/random | sed 's/^ //' | tr ' ' ':')" || __error "
 }
 
 __get_another_mac () {
-echo "$(__get_current_oui)$(__get_mac_randomness)"
+echo "$(__get_valid_oui)$(__get_mac_randomness)"
 }
 
-__get_ranother_mac () {
-echo "$(__get_valid_oui)$(__get_mac_randomness)"
+__get_sanother_mac () {
+echo "$(__get_current_oui)$(__get_mac_randomness)"
 }
 
 __get_permanent_mac () {
@@ -223,23 +229,35 @@ if [ "${__given}" = '1' ] && [ -z "${__custom_mac}" ]; then
     __error "No custom mac address specified"
 fi
 
-if ! [ -d "${__store}" ]; then
-    sudo mkdir -p "${__store}" || __error "Failed to make directory for oui list"
-fi
+if [ "${__new}" = '1' ] || [ "${__another}" = '1' ] || [ "${__update}" = '1' ]; then
 
-if ! [ -e "${__oui_file}" ] && [ -e "${__oui_name}" ]; then
-    sudo cp "${__oui_name}" "${__oui_file}" || __error "Failed to copy local oui list"
-fi
+    if [ "${__local_oui}" = '0' ]; then
 
-if ! [ -e "${__oui_file}" ] || [ "${__update}" = '1' ]; then
-    echo "Fetching oui list"
-    __fetch_oui
+        if ! [ -d "${__store}" ]; then
+            sudo mkdir -p "${__store}" || __warn "Failed to make directory for oui list"
+        fi
+
+        if ! [ -e "${__oui_file}" ] && [ -e "${__oui_name}" ]; then
+            sudo cp "${__oui_name}" "${__oui_file}" || { __warn "Failed to copy local oui list"; __oui_file="${__oui_name}"; }
+        fi
+
+    else
+
+        __oui_file="${__oui_name}"
+
+    fi
+
+    if ! [ -e "${__oui_file}" ] || [ "${__update}" = '1' ]; then
+        echo "Fetching oui list"
+        __fetch_oui
+    fi
+
 fi
 
 if [ "${__another}" = '1' ]; then
     __set_mac "$(__get_another_mac)" 1> /dev/null
-elif [ "${__ranother}" = '1' ]; then
-    __set_mac "$(__get_ranother_mac)" 1> /dev/null
+elif [ "${__sanother}" = '1' ]; then
+    __set_mac "$(__get_sanother_mac)" 1> /dev/null
 elif [ "${__reset}" = '1' ]; then
     __set_mac "$(__get_permanent_mac)" 1> /dev/null
 elif [ "${__current}" = '1' ]; then
@@ -248,8 +266,8 @@ elif [ "${__permanent}" = '1' ]; then
     __get_permanent_mac
 elif [ "${__new}" = '1' ]; then
     __get_another_mac
-elif [ "${__rnew}" = '1' ]; then
-    __get_ranother_mac
+elif [ "${__snew}" = '1' ]; then
+    __get_sanother_mac
 elif [ "${__list}" = '1' ]; then
     __list_interfaces
 elif [ "${__given}" = '1' ]; then
