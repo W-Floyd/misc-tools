@@ -33,3 +33,16 @@ Allows the user to easily:
 #### A Roman Numeral to Base 10 converter
 
 Converts a Roman Numeral into base 10. Optional verbose output that provides the equation produced.
+
+### mext, odir and oext
+
+#### Basename complements
+
+Take piped and/or option inputs and print one of the following:
+
+* mext - Minus Extension
+* odir - Only directory
+* oext - Only extension
+
+These are essensially shortcuts for sed functions, they're not
+especially smart. Just easier for scripted conversion work.
