@@ -36,7 +36,7 @@ if ! [ "${#}" = 0 ]; then
                 __files_specified='1'
                 if ! [ -e "${1}" ]; then
                     echo "File \"${1}\" does not exist"
-                else
+                elif ! [ -d "${1}" ]; then
                     __filelist="${__filelist}
 ${1}"
                 fi
