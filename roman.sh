@@ -49,7 +49,16 @@ if ! [ "${#}" = 0 ]; then
                     fi
                 else
                     if [ "${__verbose}" = '1' ]; then
-                        echo "Error: Invalid characters in specified number, ignoring '${1}'"
+                        echo "Error: Invalid character/s in specified number '${1}'
+Unrecognized character '$(echo "${1}" | sed 's/[i|I|v|V|x|X|l|L|c|C|d|D|m|M]*//g')' in number.
+Please use the following numerals
+I (1)
+V (5)
+X (10)
+L (50)
+C (100)
+D (500)
+M (1000)"
                     fi
                 fi
                 ;;
@@ -59,6 +68,11 @@ if ! [ "${#}" = 0 ]; then
         shift
 
     done
+
+    if [ -z "${__roman_number}" ]; then
+        echo "Error: No valid number specified"
+        exit 1
+    fi
 
 else
     echo "Error: No inputs given"
@@ -91,15 +105,7 @@ case "${__numeral}" in
 		__number='1000'
 		;;
 	*)
-		echo "Unrecognized character '${__numeral}'.
-Please use the following numerals
-I (1)
-V (5)
-X (10)
-L (50)
-C (100)
-D (500)
-M (1000)"
+		echo "This should never happen."
 		exit
 esac
 
