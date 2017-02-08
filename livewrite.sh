@@ -86,7 +86,12 @@ echo
 if which pv &> /dev/null; then
     dd status=none if="${__selected_file}" | pv -s $(stat -c %s "${__selected_file}") | sudo dd status=none of="/dev/${__real_device}"
 else
-    sudo dd status=none if="${__selected_file}" of="/dev/${__real_device}"
+    __check="$(echo "$(dd --version | head -n 1 | sed 's/.* //')>=8.25")"
+    if [ "$(echo "${__check}" | bc)" ='1' ]; then
+        sudo dd if="${__selected_file}" of="/dev/${__real_device}" status=progress
+    else
+        sudo dd if="${__selected_file}" of="/dev/${__real_device}" status=none
+    fi
 fi
 
 cleanup
