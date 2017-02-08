@@ -1,10 +1,9 @@
 #!/bin/sh
 b=0
-e=0
 l=0
 for u in $(sed 's/./& /g' <<< $1 | rev)
 do
-case "$u" in
+case $u in
 i)
 n=1
 ;;
@@ -48,5 +47,5 @@ fi
 b=$n
 e=$e$s$n
 done
-echo $e | bc
+echo $((e))
 exit
