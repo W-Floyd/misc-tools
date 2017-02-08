@@ -29,9 +29,9 @@ Options:
   -sn --snew            Print a similar mac address
   -a  --another         Change to a random mac address
   -sa --sanother        Change to a similar mac address
-  -p  --permanent       Print the permanent mac address
+  -p  --permanent       Print the permanent mac address/es
   -r  --reset           Reset to original mac address
-  -c  --current         Print the current mac address
+  -c  --current         Print the current mac address/es
   -g  --given           Changes the mac address to
                         the next passed string.
   -l  --list            List available interfaces
@@ -157,7 +157,7 @@ elif [ "${__option_total}" -gt '1' ]; then
 fi
 
 __get_current_mac () {
-cat "/sys/class/net/${__interface}/address" || __error "Failed to fetch current mac address"
+cat "/sys/class/net/${1}/address" || __error "Failed to fetch current mac address"
 }
 
 __get_valid_oui () {
@@ -165,7 +165,7 @@ cat "${__oui_file}" | cut -c 1-6 | sed -e 's/.*/\L&/' -e 's/.\{2\}/&:/g' | shuf 
 }
 
 __get_current_oui () {
-__get_current_mac | cut -c 1-9
+__get_current_mac "${1}" | cut -c 1-9
 }
 
 __get_mac_randomness () {
@@ -177,7 +177,7 @@ echo "$(__get_valid_oui)$(__get_mac_randomness)"
 }
 
 __get_sanother_mac () {
-echo "$(__get_current_oui)$(__get_mac_randomness)"
+echo "$(__get_current_oui "${1}")$(__get_mac_randomness)"
 }
 
 __get_permanent_mac () {
@@ -185,7 +185,7 @@ if ! sudo which ethtool &> /dev/null; then
     __error "Please ensure 'ethtool' is installed"
 fi
 
-sudo ethtool -P "${__interface}" | sed 's/.* //' || __error "Failed to fetch permanent mac address"
+sudo ethtool -P "${1}" | sed 's/.* //' || __error "Failed to fetch permanent mac address"
 }
 
 __set_mac () {
@@ -196,9 +196,9 @@ elif ! sudo which ip &> /dev/null; then
     __error "Please ensure 'ip' is installed"
 fi
 
-sudo ifconfig "${__interface}" down &> /dev/null || __error "Failed to take network interface '${__interface}' down"
-sudo ip link set "${__interface}" address "${1}" || { __warn "Failed to change mac on network interface '${__interface}'"; { sudo ifconfig "${__interface}" up || __error "Failed to bring network interface '${__interface}' up"; }; exit 1; }
-sudo ifconfig "${__interface}" up &> /dev/null || __error "Failed to bring network interface '${__interface}' up"
+sudo ifconfig "${1}" down &> /dev/null || __error "Failed to take network interface '${1}' down"
+sudo ip link set "${1}" address "${2}" || { __warn "Failed to change mac on network interface '${1}'"; { sudo ifconfig "${1}" up || __error "Failed to bring network interface '${1}' up"; }; exit 1; }
+sudo ifconfig "${1}" up &> /dev/null || __error "Failed to bring network interface '${1}' up"
 }
 
 __list_interfaces () {
@@ -218,7 +218,7 @@ wget -O '/tmp/oui' "${__oui_source}" &> /dev/null || __error "Failed to fetch ou
 sudo mv '/tmp/oui' "${__oui_file}" || __error "Failed to replace existing oui list"
 }
 
-if [ -z "${__interface}" ] && [ "${__list}" = '0' ] && [ "${__new}" = '0' ] && [ "${__update}" = '0' ]; then
+if [ -z "${__interface}" ] && [ "${__list}" = '0' ] && [ "${__new}" = '0' ] && [ "${__update}" = '0' ] && [ "${__current}" = '0' ] && [ "${__permanent}" = '0' ]; then
     __warn "No interface specified"
     echo "Must be one of:"
     __list_interfaces
@@ -254,24 +254,48 @@ if [ "${__new}" = '1' ] || [ "${__another}" = '1' ] || [ "${__update}" = '1' ]; 
 
 fi
 
+__get_interface_length () {
+__interface_length="$(__list_interfaces | while read -r __line; do echo "${__line}" | wc -m; done | sort -n | tail -n 1)"
+}
+
+__pad_space () {
+seq 1 "$(echo "${__interface_length}-$(echo "${__current_interface}" | wc -m)" | bc)" | while read -r __line; do
+    echo -n ' '
+done
+}
+
 if [ "${__another}" = '1' ]; then
-    __set_mac "$(__get_another_mac)" 1> /dev/null
+    __set_mac "${__interface}" "$(__get_another_mac)" 1> /dev/null
 elif [ "${__sanother}" = '1' ]; then
-    __set_mac "$(__get_sanother_mac)" 1> /dev/null
+    __set_mac "${__interface}" "$(__get_sanother_mac "${__interface}")" 1> /dev/null
 elif [ "${__reset}" = '1' ]; then
-    __set_mac "$(__get_permanent_mac)" 1> /dev/null
+    __set_mac "${__interface}" "$(__get_permanent_mac "${__interface}")" 1> /dev/null
 elif [ "${__current}" = '1' ]; then
-    __get_current_mac
+    if [ -z "${__interface}" ]; then
+        __get_interface_length
+        __list_interfaces | while read -r __current_interface; do
+            echo "${__current_interface}$(__pad_space) - $(__get_current_mac "${__current_interface}")"
+        done
+    else
+        __get_current_mac "${__interface}"
+    fi
 elif [ "${__permanent}" = '1' ]; then
-    __get_permanent_mac
+    if [ -z "${__interface}" ]; then
+        __get_interface_length
+        __list_interfaces | while read -r __current_interface; do
+            echo "${__current_interface}$(__pad_space) - $(__get_permanent_mac "${__current_interface}")"
+        done
+    else
+        __get_permanent_mac "${__interface}"
+    fi
 elif [ "${__new}" = '1' ]; then
     __get_another_mac
 elif [ "${__snew}" = '1' ]; then
-    __get_sanother_mac
+    __get_sanother_mac "${__interface}"
 elif [ "${__list}" = '1' ]; then
     __list_interfaces
 elif [ "${__given}" = '1' ]; then
-    __set_mac "${__custom_mac}"
+    __set_mac "${__interface}" "${__custom_mac}"
 else
     __error "Something has gone very wrong indeed"
 fi
