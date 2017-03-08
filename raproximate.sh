@@ -11,6 +11,39 @@ stripzero () {
 cat | sed 's/\(.\)0*$/\1/'
 }
 
+hcf () {
+#finding the highest value
+if [[ $1 -eq $2 ]];then
+   echo "${1}"
+   return 0
+elif [[ $1 -gt $2 ]];then
+   greater="${1}"
+   lower="${2}"
+else
+   greater="${2}"
+   lower="${1}"
+fi
+
+#finding hcf
+while [ $lower -ne 0 ];do
+    hcf=$lower
+    lower=$((greater%lower))
+    greater=$hcf
+done
+
+echo "${hcf}"
+}
+
+simplify () {
+# simplify a b
+local common="$(hcf "${1}" "${2}")"
+
+local __a="$(echo "${1}/${common}" | bc)"
+local __b="$(echo "${2}/${common}" | bc)"
+
+echo "${__a} ${__b}"
+}
+
 __goal="${1}"
 __ratios=''
 __tried=''
@@ -42,7 +75,7 @@ ${__diffs}"
 
     if ! [ "${2}" = '-c' ]; then
 
-    echo -n "${_a}:${_b} - $(echo "${__ratio}" | stripzero) - "
+    echo -n "$(simplify ${_a} ${_b} | tr ' ' ':') - $(echo "${__ratio}" | stripzero) - "
 
     if [ "${__sign}" = '-' ]; then
         echo -e "\e[31m-${__diff}\e[39m"
@@ -66,7 +99,7 @@ ${__diffs}"
 
     if [ "${2}" = '-c' -a "${__best}" = "${__diff}" ]; then
 
-    echo -n "Best so far: ${__best_ratio} - "
+    echo -n "Best so far: $(simplify "$(echo ${__best_ratio} | sed 's/:.*//')" "$(echo ${__best_ratio} | sed 's/.*://')" | tr ' ' ':') - "
 
     if [ "${__best_sign}" = '-' ]; then
         echo -e "\e[31m-${__best}\e[39m"
@@ -76,7 +109,7 @@ ${__diffs}"
 
     if [ "${__best}" = '0' ]; then
         echo "
-Exactly: ${__best_ratio}"
+Exactly: $(simplify "$(echo ${__best_ratio} | sed 's/:.*//')" "$(echo ${__best_ratio} | sed 's/.*://')" | tr ' ' ':')"
 
         exit
     fi
