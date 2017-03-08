@@ -2,9 +2,10 @@
 
 # Ratio Approximator
 #
-# raproximate <DECIMAL_NUMBER>
+# raproximate <DECIMAL_NUMBER> -c
 #
 # Press enter to keep trying to find closer approximations
+# or use -c to not break and only show best
 
 stripzero () {
 cat | sed 's/\(.\)0*$/\1/'
@@ -39,12 +40,16 @@ ${__tried}"
     __diffs="${__sign}${__diff}
 ${__diffs}"
 
+    if ! [ "${2}" = '-c' ]; then
+
     echo -n "${_a}:${_b} - $(echo "${__ratio}" | stripzero) - "
 
     if [ "${__sign}" = '-' ]; then
         echo -e "\e[31m-${__diff}\e[39m"
     else
         echo -e "\e[32m+${__diff}\e[39m"
+    fi
+
     fi
 
     __best="$(echo "${__diffs}" | grep -v '^$' | cut -c '2-' | sort -n | head -n 1)"
@@ -58,6 +63,8 @@ ${__diffs}"
     else
         __best_sign='-'
     fi
+
+    if [ "${2}" = '-c' -a "${__best}" = "${__diff}" ]; then
 
     echo -n "Best so far: ${__best_ratio} - "
 
@@ -74,10 +81,12 @@ Exactly: ${__best_ratio}"
         exit
     fi
 
-    if ! [ "${__best}" = "${__last_best}" ]; then
+    fi
+
+    if ! [ "${__best}" = "${__last_best}" ] && ! [ "${2}" = '-c' ]; then
         __last_best="${__best}"
         read -n 1
-    else
+    elif ! [ "${2}" = '-c' ]; then
         echo
     fi
 
