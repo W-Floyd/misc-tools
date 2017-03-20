@@ -7,8 +7,13 @@
 # Press enter to keep trying to find closer approximations
 # or use -c to not break and only show best
 
+if ! [ -z "$(echo "${1}" | sed -e 's/[0-9]*\.[0-9]*//' -e 's/[0-9]*//')" ]; then
+    echo "Not a number"
+    exit
+fi
+
 stripzero () {
-cat | sed 's/\(.\)0*$/\1/'
+cat | sed -e 's/\([^0]*\)0*$/\1/' -e 's/\.$//'
 }
 
 hcf () {
@@ -49,7 +54,7 @@ __ratios=''
 __tried=''
 __diffs=''
 __best=''
-_a='1'
+_a="$(echo "${__goal}/1" | bc)"
 _b='1'
 
 while true; do
