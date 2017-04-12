@@ -165,14 +165,6 @@ F4CFE2	Cisco
 404D8E	Huawei
 781DBA	Huawei
 001E10	Huawei
-B0ADAA	Avaya
-10CDAE	Avaya
-50CD22	Avaya
-FCA841	Avaya
-3CB15B	Avaya
-C8F406	Avaya
-2CF4C5	Avaya
-7038EE	Avaya
 88F031	Cisco
 508789	Cisco
 381C1A	Cisco
@@ -403,7 +395,6 @@ C4924C	Keisokuki Center
 E4F939	Minxon Hotel
 38C70A	WiFiSong
 60E6BC	Sino-Telecom
-1CA532	Shenzhen Gongjin
 486EFB	Davit System
 340A22	TOP-Access
 B008BF	Vital Connect
@@ -444,7 +435,6 @@ DC2F03	Step forward Group
 5CAAFD	Sonos
 8CDF9D	NEC
 F8E903	D-Link
-F0B052	Ruckus Wireless
 6828F6	Vubiq Networks
 44356F	Neterix
 742EFC	DirectPacket
@@ -489,7 +479,6 @@ BC9CC5	Beijing Huafei
 A4A4D3	Bluebank
 74F413	Maxwell Forest
 34F0CA	Shenzhen Linghangyuan Digital
-84183A	Ruckus Wireless
 30B5F1	Aitexin
 882950	Dalian Netmoon Develop
 08CD9B	samtec automotive
@@ -519,7 +508,6 @@ F86601	Suzhou Chi-tek Information
 FC4AE9	Castlenet
 34E42A	Automatic Bar Controls
 20A787	Bointec Taiwan
-6CAAB3	Ruckus Wireless
 A481EE	Nokia
 54C80F	TP-Link
 D42122	Sercomm
@@ -636,7 +624,6 @@ C0A0BB	D-Link
 F0F5AE	Adaptrum
 F42896	Specto Paineis Eletronicos
 1C7B21	Sony Mobile
-BC9680	Shenzhen Gongjin
 9C2840	Discovery
 F89FB8	YAZAKI Energy System
 F037A1	Huike
@@ -682,7 +669,6 @@ E8D4E0	Beijing BenyWave
 681D64	Sunwave
 F4CD90	Vispiron Rotec
 E438F2	Advantage Controls
-24C9A1	Ruckus Wireless
 C8F386	Shenzhen Xiaoniao
 E8CE06	SkyHawke
 B0808C	Laser Light Engines
@@ -744,7 +730,6 @@ C42628	Airo Wireless
 E08177	GreenBytes
 48F230	Ubizcore
 B0C95B	Beijing Symtech
-881544	Meraki
 DCA989	Macandc
 C05E6F	V. Stonkaus firma Kodinis Raktas
 6CD146	Smartek d.o.o
@@ -811,7 +796,6 @@ B01266	Futaba-Kikaku
 30F33A	+plugg srl
 58CF4B	Lufkin
 C4393A	SMC Networks
-C4017C	Ruckus Wireless
 D45C70	Wi-Fi Alliance
 08EBED	World Elite
 60BC4C	EWM Hightec Welding
@@ -885,7 +869,6 @@ E47185	Securifi
 881036	Panodic
 18F87A	i3
 142DF5	Amphitech
-C08ADE	Ruckus Wireless
 90F72F	Phillips Machine & Welding
 B45570	Borea
 5C5015	Cisco
@@ -1063,7 +1046,6 @@ D0C282	Cisco
 E0ED1A	vastriver
 685E6B	PowerRay
 4C32D9	M Rutty Holdings
-50A733	Ruckus Wireless
 603FC5	CoX
 182B05	8D
 54A9D4	Minibar Systems
@@ -1118,7 +1100,6 @@ D4D898	Korea CNO
 28EE2C	Frontline Equipment
 802275	Beijing Beny Wave
 BC8199	BASIC
-000726	Shenzhen Gongjin
 24470E	PentronicAB
 A4DB2E	Kingspan Environmental
 F44EFD	Actions Semiconductor
@@ -1676,7 +1657,6 @@ A8CE90	CVC
 001F80	Lucas Holding
 001F3E	RP-Technik e.K
 001F42	Etherstack
-001F41	Ruckus Wireless
 001F39	Construcciones y Auxiliar de Ferrocarriles
 001F2B	Orange Logic
 001F2C	Starbridge Networks
@@ -2011,7 +1991,6 @@ A8CE90	CVC
 001892	ads-tec
 001890	RadioCOM
 001884	Fon S.L
-00187D	Armorlink shanghai
 00187F	Zodianet
 0016D1	ZAT a.s
 0016C3	BA Systems
@@ -2041,7 +2020,6 @@ A8CE90	CVC
 001766	Accense
 00175F	XENOLINK
 001751	Online
-001753	nFore
 001758	ThruVision
 001745	INNOTZ
 00174C	Millipore
@@ -3035,7 +3013,6 @@ A8CE90	CVC
 00308B	Brix Networks
 00015A	Digital Video Broadcasting
 000166	TC Group
-00016D	CarrierComm
 00015F	DIGITAL DESIGN
 000214	Dtvro
 000210	Fenecom
@@ -3703,7 +3680,6 @@ A8CE90	CVC
 0000BE	THE NTI Group
 00004C	NEC
 00003B	i Controls
-0000FE	Annapolis Micro Systems
 080013	Exxon
 02BB01	Octothorpe
 0000A6	Network General
@@ -3732,9 +3708,6 @@ A8CE90	CVC
 94FEF4	Sagemcom Broadband SAS
 C8CD72	Sagemcom Broadband SAS
 E8BE81	Sagemcom Broadband SAS
-28FAA0	vivo Mobile
-3CA348	vivo Mobile
-F42981	vivo Mobile
 C4282D	Embedded Intellect
 002348	Sagemcom Broadband SAS
 B870F4	Compal Information
@@ -3787,7 +3760,6 @@ B4B676	Intel
 8C705A	Intel
 9C4E36	Intel
 541473	Wingtech Group
-14144B	Fujian Star-NET
 001C50	TCL Technoly
 00AA01	Intel
 5C36B8	TCL King Electrical Appliances
@@ -3885,10 +3857,6 @@ D087E2	Samsung
 382DD1	Samsung
 E0CBEE	Samsung
 64B853	Samsung
-988389	Samsung
-244B03	Samsung
-FC8F90	Samsung
-1816C9	Samsung
 F4428F	Samsung
 188331	Samsung
 8455A5	Samsung
@@ -3905,10 +3873,8 @@ C8A823	Samsung
 C44202	Samsung
 D059E4	Samsung
 64B310	Samsung
-78ABBB	Samsung
 000B3B	devolo
 001D20	Comtrend
-6C38A1	Ubee Interactive
 140C76	Freebox SAS
 0024D4	Freebox SAS
 A089E4	Skyworth Digital
@@ -3947,7 +3913,6 @@ F4F5A5	Nokia
 18A6F7	TP-Link
 246968	TP-Link
 8CA2FD	Starry
-14BB6E	Samsung
 AC61EA	Apple
 38B54D	Apple
 90A62F	Naver
@@ -3995,7 +3960,6 @@ A0043E	Parker Hannifin Manufacturing Germany
 5CC7D7	Azroad
 001706	Techfaithwireless
 30F6B9	Ecocentric Energy
-1C3ADE	Samsung
 004268	Cisco
 00BD82	Shenzhen YOUHUA
 603ECA	Cambridge Medical Robotics
@@ -4083,7 +4047,6 @@ C0C976	Shenzhen TINNO Mobile
 14C913	LG
 680715	Intel
 A09E1A	Polar
-3CB6B7	vivo Mobile
 D0B2C4	Technicolor CH USA
 FC94E3	Technicolor CH USA
 FC528D	Technicolor CH USA
@@ -4198,7 +4161,6 @@ C88D83	Huawei
 080087	Xyplex
 00B0B3	Xstreamis
 14825B	Hefei Radio
-00549F	Avaya
 00562B	Cisco
 24F57E	HWH
 943DC9	Asahi Net
@@ -4240,56 +4202,7 @@ C4F5A5	Kumalift
 98F058	Lynxspring
 24E43F	Wenzhou Kunmei
 A00460	Netgear
-946269	ARRIS Group
-D40598	ARRIS Group
-78719C	ARRIS Group
-E0B70A	ARRIS Group
-C83FB4	ARRIS Group
-207355	ARRIS Group
-900DCB	ARRIS Group
-14CFE2	ARRIS Group
-0015D0	ARRIS Group
-E86D52	ARRIS Group
-3C438E	ARRIS Group
-90B134	ARRIS Group
-20E564	ARRIS Group
-40B7F3	ARRIS Group
-94CCB9	ARRIS Group
-00ACE0	ARRIS Group
-3C36E4	ARRIS Group
-0000C5	ARRIS Group
-D039B3	ARRIS Group
-8C7F3B	ARRIS Group
-903EAB	ARRIS Group
-CCA462	ARRIS Group
-001DCD	ARRIS Group
-001DD4	ARRIS Group
-001DCE	ARRIS Group
-0050E3	ARRIS Group
-00080E	ARRIS Group
-00159A	ARRIS Group
-00192C	ARRIS Group
-D40AA9	ARRIS Group
-384C90	ARRIS Group
-44AAF5	ARRIS Group
-7085C6	ARRIS Group
-D0E54D	ARRIS Group
-B4F2E8	ARRIS Group
-FC8E7E	ARRIS Group
-005094	ARRIS Group
-002143	ARRIS Group
-0023EE	ARRIS Group
-64ED57	ARRIS Group
-0023A3	ARRIS Group
-F87B7A	ARRIS Group
-0025F1	ARRIS Group
-001A66	ARRIS Group
-0018C0	ARRIS Group
-001E46	ARRIS Group
-001ADE	ARRIS Group
-0023AF	ARRIS Group
 240AC4	Espressif
-5856E8	ARRIS Group
 E4C1F1	SHENZHEN SPOTMAU InfORMATION TECHNOLIGY
 240DC2	TCT mobile
 14DDE5	Mpmkvvcl
@@ -4436,7 +4349,6 @@ F4F524	Motorola Mobility
 B87CF2	Aerohive Networks
 C413E2	Aerohive Networks
 F09CE9	Aerohive Networks
-48D343	ARRIS Group
 CCC5EF	Co-Comm Servicios Telecomunicaciones S.L
 5C6B4F	Hello
 C09C04	Shaanxi GuoLian Digital TV
@@ -4458,7 +4370,6 @@ E4B005	Beijing IQIYI Science
 C83B45	JRI
 1CEEC9	Elo touch solutions
 4CB81C	SAM
-F83F51	Samsung
 2CDCAD	Wistron Neweb
 704D7B	ASUS
 7CF95C	U.I. Lapp
@@ -4471,7 +4382,6 @@ A4EE57	Seiko Epson
 BC8385	Microsoft
 A03D6F	Cisco
 40605A	Hawkeye
-5419C8	vivo Mobile
 C0210D	Shenzhen RF-Link
 000678	D&M Holdings
 886B44	Sunnovo
@@ -4482,7 +4392,6 @@ A408F5	Sagemcom Broadband SAS
 1077B0	Fiberhome Telecom
 F015B9	PlayFusion
 70700D	Apple
-E02202	ARRIS Group
 24A7DC	BSkyB
 2CD02D	Cisco
 3478D7	Gionee Equipment
@@ -4504,7 +4413,6 @@ E865D4	Tenda. LtdDongguan branch
 286F7F	Cisco
 089E08	Google
 00014F	Adtran
-D8E0E1	Samsung
 045D4B	Sony
 A80CCA	Shenzhen Sundray
 94652D	OnePlus
@@ -4522,18 +4430,17 @@ F483E1	Shanghai Clouder Semiconductor
 F8A5C5	Cisco
 A49B13	Digital Check
 542F8A	Tellescom E Comercio EM Telecomunicacao
-6049C1	Avaya
-A0A33B	Huawei
-6854C1	ColorTokens
 DCC64B	Huawei
 043389	Huawei
+A0A33B	Huawei
+6854C1	ColorTokens
 887873	Intel
 6C750D	WiFiSONG
-346E9D	Ericsson
-54E1AD	LCFC
 E45D51	SFR
+346E9D	Ericsson
 B816DB	Chant Sincere
 D461FE	Hangzhou H3C
+54E1AD	LCFC
 94F551	Cadi Scientific
 BC452E	Knowledge Development for POF S.L
 E8D11B	Askey
@@ -4541,35 +4448,33 @@ E8D11B	Askey
 14987D	Technicolor CH USA
 D4CF37	Symbolic IO
 283F69	Sony Mobile
-E048AF	Premietech
-2C3311	Cisco
-F0A225	Private
 F0D2F1	Amazon
 8871E5	Amazon
 7C5049	Apple
+F0A225	Private
+E048AF	Premietech
+2C3311	Cisco
 503A7D	AlphaTech Int'l
-BC024A	HMD Global
 9CFCD1	Aetheris
 949901	Shenzhen YITOA Digital Appliance
 E89E0C	Private
-10954B	Megabyte
 D8A105	Syslane
 C4B9CD	Cisco
-3C0518	Samsung
+10954B	Megabyte
 900628	Samsung
 C4700B	Guangzhou Chip
 D4AE05	Samsung
-2C1DB8	ARRIS Group
-98DDEA	Infinix mobility
+3C0518	Samsung
 04946B	Tecno Mobile
 A04C5B	Shenzhen TINNO Mobile
+98DDEA	Infinix mobility
+D4619D	Apple
+B0481A	Apple
 989E63	Apple
 DCA904	Apple
 48A195	Apple
 6CAB31	Apple
 503237	Apple
-D4619D	Apple
-B0481A	Apple
 000889	Echostar
 2C029F	3ALogics
 58D9D5	Tenda. LtdDongguan branch
@@ -4590,17 +4495,172 @@ D8C06A	Hunantv.com Interactive Media
 601466	zte
 30D386	zte
 900E83	Monico Monitoring
+E8BBA8	Guangdong Oppo Mobile Telecom
 BC3AEA	Guangdong Oppo Mobile Telecom
 8C0EE3	Guangdong Oppo Mobile Telecom
 6C5C14	Guangdong Oppo Mobile Telecom
-E8BBA8	Guangdong Oppo Mobile Telecom
 F894C2	Intel
 7CB960	Shanghai X-Cheng telecom
 A8D579	Beijing Chushang Science and
 28C63F	Intel
 600837	ivvi ScientificCo
-3C9509	Liteon
 D860B3	Guangdong Global
+3C9509	Liteon
+44B412	Sius
+3CA308	Texas Instruments
+60D7E3	IEEE Registration Authority
+00F82C	Cisco
+00C1B1	Cisco
+D0F88C	Motorola Mobility
+2CB115	Integrated Device Sdn. Bhd
+78ABBB	Samsung
+1816C9	Samsung
+FC8F90	Samsung
+244B03	Samsung
+988389	Samsung
+14BB6E	Samsung
+1C3ADE	Samsung
+F83F51	Samsung
+D8E0E1	Samsung
+50FF20	Keenetic
+ECF342	Guangdong Oppo Mobile Telecom
+D4C1C8	zte
+EC237B	zte
+881544	Cisco Meraki
+F44156	Arrikto
+D4258B	Intel
+B4F2E8	ARRIS Group
+D0E54D	ARRIS Group
+7085C6	ARRIS Group
+44AAF5	ARRIS Group
+005094	ARRIS Group
+FC8E7E	ARRIS Group
+00E18C	Intel
+903EAB	ARRIS Group
+14CFE2	ARRIS Group
+900DCB	ARRIS Group
+207355	ARRIS Group
+C83FB4	ARRIS Group
+E0B70A	ARRIS Group
+78719C	ARRIS Group
+D40598	ARRIS Group
+946269	ARRIS Group
+8C7F3B	ARRIS Group
+40B7F3	ARRIS Group
+20E564	ARRIS Group
+90B134	ARRIS Group
+3C438E	ARRIS Group
+E86D52	ARRIS Group
+0015D0	ARRIS Group
+001DCE	ARRIS Group
+001DD4	ARRIS Group
+001DCD	ARRIS Group
+CCA462	ARRIS Group
+D039B3	ARRIS Group
+0000C5	ARRIS Group
+3C36E4	ARRIS Group
+00ACE0	ARRIS Group
+384C90	ARRIS Group
+D40AA9	ARRIS Group
+48D343	ARRIS Group
+E02202	ARRIS Group
+2C1DB8	ARRIS Group
+E45740	ARRIS Group
+0023A3	ARRIS Group
+64ED57	ARRIS Group
+0023EE	ARRIS Group
+002143	ARRIS Group
+0023AF	ARRIS Group
+001ADE	ARRIS Group
+00159A	ARRIS Group
+00080E	ARRIS Group
+0050E3	ARRIS Group
+94CCB9	ARRIS Group
+001E46	ARRIS Group
+0018C0	ARRIS Group
+001A66	ARRIS Group
+00192C	ARRIS Group
+0025F1	ARRIS Group
+F87B7A	ARRIS Group
+5856E8	ARRIS Group
+145E45	Kaleao
+88D7F6	ASUS
+1C1FD4	LifeBEAM
+88BD78	Flaircomm Microelectronics
+5092B9	Samsung
+B4BFF6	Samsung
+C8D7B0	Samsung
+60720B	BLU
+F4A997	Canon
+3C4CD0	Ceragon Networks
+B04E26	TP-Link
+FC06ED	M2Motive
+54C9DF	FN-Link
+30C3D9	Alps Electric
+FC4D8C	Shenzhen Pante
+B01F29	Helvetia
+8C147D	IEEE Registration Authority
+CC0677	Fiberhome Telecom
+28070D	Guangzhou Winsound Information
+7038EE	Avaya
+2CF4C5	Avaya
+C8F406	Avaya
+3CB15B	Avaya
+FCA841	Avaya
+50CD22	Avaya
+10CDAE	Avaya
+B0ADAA	Avaya
+00549F	Avaya
+6049C1	Avaya
+E0D848	Dell
+145BE1	nyantec UG
+00187D	Armorlink
+F42981	vivo Mobile
+3CA348	vivo Mobile
+A40E2B	Facebook
+28FAA0	vivo Mobile
+3CB6B7	vivo Mobile
+5419C8	vivo Mobile
+F4B7B3	vivo Mobile
+A0C5F2	IEEE Registration Authority
+1C4D70	Intel
+E43A6E	Shenzhen Zeroone
+60DA83	Hangzhou H3C
+2C5731	Wingtech Group
+F46BEF	Sagemcom Broadband SAS
+085114	Qingdao Topscomm
+D05A00	Technicolor CH USA
+70F11C	Shenzhen Ogemray
+14144B	Ruijie Networks
+70DF2F	Cisco
+6447E0	Feitian
+001753	nFore
+6C38A1	Ubee Interactive
+F88A3C	IEEE Registration Authority
+58C583	Itel Mobile
+E86D65	AUDIO MOBIL Elektronik
+E86FF2	Actiontec
+00016D	CarrierComm
+F0B052	Ruckus Wireless
+84183A	Ruckus Wireless
+6CAAB3	Ruckus Wireless
+C4017C	Ruckus Wireless
+70DEF9	FAI WAH
+001F41	Ruckus Wireless
+C08ADE	Ruckus Wireless
+50A733	Ruckus Wireless
+24C9A1	Ruckus Wireless
+245880	Vizeo
+7CBACC	IEEE Registration Authority
+000726	Shenzhen Gongjin
+BC9680	Shenzhen Gongjin
+1CA532	Shenzhen Gongjin
+0000FE	Annapolis Micro Systems
+188090	Cisco
+BC024A	HMD Global
+90A365	HMD Global
+C444A0	Cisco
+F83441	Intel
 0C6F9C	Shaw
 1801E3	Bittium Wireless
 C0AC54	Sagemcom Broadband SAS
@@ -4688,11 +4748,6 @@ C87B5B	zte
 001E73	zte
 0019C6	zte
 0015EB	zte
-A051C6	Avaya
-24D921	Avaya
-848371	Avaya
-7052C5	Avaya
-001B4F	Avaya
 F0EBD0	Shanghai Feixun
 D8490B	Huawei
 888603	Huawei
@@ -4738,9 +4793,6 @@ B0487A	TP-Link
 4C5499	Huawei
 00259E	Huawei
 001882	Huawei
-D4EA0E	Avaya
-B4475E	Avaya
-90FB5B	Avaya
 00906F	Cisco
 0090A6	Cisco
 0090AB	Cisco
@@ -4892,7 +4944,6 @@ D8D1CB	Apple
 C4BBEA	Pakedge Device and
 84100D	Motorola Mobility
 D88B4C	KingTing
-E81363	Comstock RD
 6C9354	Yaojin
 4054E4	Wearsafe
 8CE2DA	Circle Media
@@ -4920,7 +4971,6 @@ D888CE	RF
 D4F4BE	Palo Alto Networks
 B88687	Liteon
 68F956	Objetivos y Servicio de Valor A?adido
-58B633	Ruckus Wireless
 F4E926	Tianjin Zanpu
 04C23E	HTC
 2CFCE4	CTEK Sweden
@@ -4987,7 +5037,6 @@ EC5A86	Yulong Telecom Scientific
 F87AEF	Rosonix
 C43ABE	Sony Mobile
 18B169	Sonicwall
-D4684D	Ruckus Wireless
 1CC72D	Shenzhen Huapu Digital
 38D82F	zte
 C8D779	Qingdao Haier Telecom
@@ -5059,7 +5108,6 @@ CCF538	3isysnetworks
 04DEDB	Rockport Networks
 68F06D	Along
 54F876	ABB
-4857DD	Facebook
 84930C	Incoax Networks
 D47B35	NEO Monitors
 D8FB11	Axacore
@@ -5273,7 +5321,6 @@ F42012	Cuciniale
 18104E	Cedint-UPM
 2C7B84	OOO Petr Telegin
 540536	Vivago
-2CE6CC	Ruckus Wireless
 E0FAEC	Platan sp. z o.o. sp. k
 F08EDB	VeloCloud Networks
 B8DC87	IAI
@@ -5410,7 +5457,6 @@ F4472A	Nanjing Rousing Sci. and
 FCA9B0	Miartech
 80D733	QSR Automations
 8C3330	EmFirst
-8C0C90	Ruckus Wireless
 08E5DA	Nanjing Fujitsu
 5884E4	IP500 Alliance e.V
 04E9E5	Pjrc.com
@@ -5439,7 +5485,6 @@ C4EBE3	Rrcn SAS
 C04A00	TP-Link
 9C3178	Foshan Huadian Intelligent Teachnologies
 48BE2D	Symanitron
-38E595	Shenzhen Gongjin
 B86091	Onnet and Innovations
 201A06	Compal Information
 D4CA6E	u-blox
@@ -5470,7 +5515,6 @@ BCC23A	Thomson Video Networks
 7C160D	Saia-Burgess Controls
 A4D18F	Shenzhen Skyee Optical Fiber
 0C565C	HyBroad Vision
-647C34	Ubee Interactive
 649FF7	Kone Oyj
 4C068A	Basler Electric
 E0A30F	Pevco
@@ -5480,7 +5524,6 @@ C4BA99	I+ME Actia Informatik und Mikro-Elektronik
 0C2A69	electric imp
 BC811F	Ingate Systems
 34E0CF	zte
-801DAA	Avaya
 6C40C6	Nimbus Data Systems
 503F56	Syncmold
 D04CC1	SINTRONES
@@ -5604,7 +5647,6 @@ F8FE5C	Reciprocal
 6C9CED	Cisco
 94E0D0	HealthStream Taiwan
 DCF858	Lorent Networks
-589396	Ruckus Wireless
 A05E6B	MELPER
 30B3A2	Shenzhen Heguang Measurement & Control
 F0007F	Janz - Contadores de Energia
@@ -5861,7 +5903,6 @@ C8EE08	Tangtop
 5CD998	D-Link
 D46CDA	CSM
 C4F464	Spica
-74911A	Ruckus Wireless
 544A05	wenglor sensoric
 5CCA32	Theben
 84C7A9	C3PO S.A
@@ -6120,7 +6161,6 @@ D0D286	Beckman Coulter K.K
 002699	Cisco
 002489	Vodafone Omnitel N.V
 00248E	Infoware ZRt
-002482	Ruckus Wireless
 002476	TAP.tv
 00246F	Onda
 00246A	Solid Year
@@ -6189,7 +6229,6 @@ D0D286	Beckman Coulter K.K
 002297	XMOS Semiconductor
 00228B	Kensington Group
 002284	Desay A&V Science AND
-00227F	Ruckus Wireless
 002277	NEC Australia
 00226D	Shenzhen GIEC
 002263	Koos Technical
@@ -6508,7 +6547,6 @@ D0D286	Beckman Coulter K.K
 001B23	SimpleComTools
 001B1E	HART Foundation
 001B12	Apprion
-001B17	Palo Alto Networks
 001B0B	Phidgets
 001B10	ShenZhen Kang Hui
 001B04	Affinity S.p.a
@@ -7748,7 +7786,6 @@ D0D286	Beckman Coulter K.K
 00305F	Hasselblad
 00302D	Quantum Bridge
 003025	Checkout Systems
-00D01F	Senetas Security
 003012	Digital
 003077	Onprem Networks
 0030D4	AAE Systems
@@ -8344,7 +8381,6 @@ C05627	Belkin
 4065A3	Sagemcom Broadband SAS
 00789E	Sagemcom Broadband SAS
 44E9DD	Sagemcom Broadband SAS
-10F681	vivo Mobile
 B888E3	Compal Information
 002622	Compal Information
 001EEC	Compal Information
@@ -8480,7 +8516,6 @@ FCC734	Samsung
 E4B021	Samsung
 B0EC71	Samsung
 3CBBFD	Samsung
-24F5AA	Samsung
 2CAE2B	Samsung
 C488E5	Samsung
 7C9122	Samsung
@@ -8491,7 +8526,6 @@ E09971	Samsung
 6077E2	Samsung
 680571	Samsung
 6C2F2C	Samsung
-5056BF	Samsung
 000136	CyberTAN
 F88E85	Comtrend
 300D43	Microsoft Mobile
@@ -8546,7 +8580,6 @@ A0C589	Intel
 E45D75	Samsung
 3CBEE1	Nikon
 047E4A	moobox
-F01B6C	vivo Mobile
 E0C767	Apple
 2C09CB	Cobs
 60ACC8	KunTeng
@@ -8562,7 +8595,6 @@ A85EE4	12Sided
 000CC1	Eaton
 0090F9	Imagine
 04C103	Clover Network
-F877B8	Samsung
 1C553A	QianGua
 E4A7A0	Intel
 E4FAED	Samsung
@@ -8589,7 +8621,6 @@ F4EF9E	Sgsg Science
 DC9C9F	Shenzhen YOUHUA
 0CBF3F	Shenzhen Lencotion
 84FEDC	Borqs Beijing
-F03E90	Ruckus Wireless
 D8D723	IDS
 703A0E	Aruba Networks
 7054D2	Pegatron
@@ -8684,7 +8715,6 @@ A06090	Samsung
 D0577B	Intel
 B824F0	SOYO Development
 B456B9	Teraspek
-A009ED	Avaya
 68B35E	Shenzhen Neostra
 24E271	Qingdao Hisense
 BC6010	Qingdao Hisense
@@ -8694,7 +8724,6 @@ AC3743	HTC
 FCF528	ZyXEL
 588BF3	ZyXEL
 D8B02E	Guangzhou Zonerich Business Machine
-DC1AC5	vivo Mobile
 849D64	SMC
 A020A6	Espressif
 88F7C7	Technicolor CH USA
@@ -8766,63 +8795,10 @@ B0F893	Shanghai MXCHIP Information
 00C017	NetScout Systems
 D49B5C	Chongqing Miedu
 C0D391	IEEE Registration Authority
-EC8CA2	Ruckus Wireless
 C411E0	Bull Group
 90842B	LEGO System
 84C7EA	Sony Mobile
 8C6102	Beijing Baofengmojing
-1005B1	ARRIS Group
-10868C	ARRIS Group
-1C1B68	ARRIS Group
-44E137	ARRIS Group
-E83381	ARRIS Group
-8461A0	ARRIS Group
-0CF893	ARRIS Group
-14ABF0	ARRIS Group
-ACB313	ARRIS Group
-0026D9	ARRIS Group
-28C87A	ARRIS Group
-54E2E0	ARRIS Group
-A055DE	ARRIS Group
-A0C562	ARRIS Group
-FC6FB7	ARRIS Group
-001A1B	ARRIS Group
-00149A	ARRIS Group
-001371	ARRIS Group
-001DBE	ARRIS Group
-001E5A	ARRIS Group
-001D6B	ARRIS Group
-001CC1	ARRIS Group
-001C11	ARRIS Group
-001F7E	ARRIS Group
-002495	ARRIS Group
-2C9E5F	ARRIS Group
-C8AA21	ARRIS Group
-341FE4	ARRIS Group
-400D10	ARRIS Group
-001596	ARRIS Group
-0015A2	ARRIS Group
-001311	ARRIS Group
-0015CE	ARRIS Group
-002040	ARRIS Group
-0011AE	ARRIS Group
-000F9F	ARRIS Group
-306023	ARRIS Group
-001DD6	ARRIS Group
-001DD1	ARRIS Group
-601971	ARRIS Group
-0000CA	ARRIS Group
-001ADB	ARRIS Group
-002375	ARRIS Group
-0024A1	ARRIS Group
-A4ED4E	ARRIS Group
-002642	ARRIS Group
-000B06	ARRIS Group
-00152F	ARRIS Group
-00111A	ARRIS Group
-001626	ARRIS Group
-0018A4	ARRIS Group
-00D037	ARRIS Group
 FC9114	Technicolor CH USA
 1C25E1	China Mobile IOT
 C0F636	Hangzhou Kuaiyue
@@ -8873,9 +8849,7 @@ D46E0E	TP-Link
 049790	Lartech telecom
 8CEA1B	Edgecore Networks
 001650	Kratos EPD
-9CFBD5	vivo Mobile
 583112	Drust
-7C2634	ARRIS Group
 58696C	Ruijie Networks
 A0B8F8	Amgen U.S.A
 14A51A	Huawei
@@ -9032,7 +9006,6 @@ D42C44	Cisco
 D842E2	Canary Connect
 500959	Technicolor CH USA
 143365	TEM Mobile
-205D47	vivo Mobile
 C0F945	Toshiba Toko Meter Systems
 ACAB2E	Beijing LasNubes
 10E878	Nokia
@@ -9046,7 +9019,6 @@ D8380D	SHENZHEN IP-CoM Network
 A4C64F	Huawei
 C83DD4	CyberTAN
 487B6B	Huawei
-3087D9	Ruckus Wireless
 A8E705	Fiberhome Telecom
 9C62AB	Sumavision
 487A55	ALE
@@ -9120,7 +9092,6 @@ EC43F6	ZyXEL
 D4B169	Le Shi Zhi Xin
 0C3CCD	Universal Global Scientific
 B04089	Senient Systems
-682737	Samsung
 002445	Adtran
 689FF0	zte
 7CC6C4	Kolff Supplies b.v
@@ -9141,57 +9112,56 @@ AC60B6	Ericsson
 7C5A1C	Sophos
 00E400	Sichuan Changhong Electric
 00117E	Midmark
-105AF7	ADB Italia
 703ACB	Google
-D481D7	Dell
+105AF7	ADB Italia
 2C55D3	Huawei
 F44C7F	Huawei
 143004	Huawei
+D481D7	Dell
 7C4685	Motorola Mobility
 E05163	Arcadyan
 00A06F	Color Sentinel Systems
 0C5F35	Niagara Video
-B85001	Extreme Networks
-000496	Extreme Networks
 7C3866	Texas Instruments
 50F14A	Texas Instruments
 9C1D58	Texas Instruments
+B85001	Extreme Networks
+000496	Extreme Networks
 500FF5	Tenda. LtdDongguan branch
 1C1EE3	Hui Zhou Gaoshengda
 F0272D	Amazon
 74C246	Amazon
-F4C4D6	Shenzhen Xinfa
 08B258	Juniper Networks
+F4C4D6	Shenzhen Xinfa
 C03D46	Shanghai Sango Network
 E89FEC	Chengdu KT
-BCA042	Shanghai Flyco Electrical Appliance
 D47DFC	Tecno Mobile
-443708	MRV Comunications
+BCA042	Shanghai Flyco Electrical Appliance
 14568E	Samsung
 6837E9	Amazon
 8058F8	Motorola Mobility
+443708	MRV Comunications
 F0D7AA	Motorola Mobility
 28FF3E	zte
+70F087	Apple
 886B6E	Apple
 4C74BF	Apple
-70F087	Apple
 285767	Echostar
 0024AF	Echostar
 04C9D9	Echostar
-D0498B	Zoom Server
 C49DED	Microsoft
 98A40E	Snap
-2C5A0F	Cisco
+D0498B	Zoom Server
 AC7409	Hangzhou H3C
-0080E7	DRS UK
-E037BF	Wistron Neweb
+2C5A0F	Cisco
 4C8120	Taicang T&W
 E8E732	Alcatel-Lucent
 00118B	Alcatel-Lucent
 00E0B1	Alcatel-Lucent
+E037BF	Wistron Neweb
 6854ED	Alcatel-Lucent
-B42A0E	Technicolor CH USA
 E8DE8E	Integrated Device Sdn. Bhd
+B42A0E	Technicolor CH USA
 40C8CB	AM Telecom
 14A0F8	Huawei
 28B448	Huawei
@@ -9200,15 +9170,156 @@ E442A6	Intel
 74C9A3	Fiberhome Telecom
 84AFEC	Buffalo.Inc
 AC202E	Hitron
-48A74E	zte
 3C5282	HP
+48A74E	zte
+004066	APRESIA Systems
 B0AA36	Guangdong Oppo Mobile Telecom
 2C5BB8	Guangdong Oppo Mobile Telecom
 1C48CE	Guangdong Oppo Mobile Telecom
-004066	APRESIA Systems
 9CAC6D	Universal
 B03D96	Vision Valley FZ
 B02628	Broadcom
+0080E7	Leonardo Tactical Systems
+44AA50	Juniper Networks
+E81363	Comstock RD
+688DB6	Aetek
+481063	NTT Innovation Institute
+24F5AA	Samsung
+F877B8	Samsung
+5056BF	Samsung
+682737	Samsung
+D428D5	TCT mobile
+405CFD	Dell
+041B6D	LG
+FC6FB7	ARRIS Group
+A0C562	ARRIS Group
+A055DE	ARRIS Group
+54E2E0	ARRIS Group
+28C87A	ARRIS Group
+0026D9	ARRIS Group
+C8AA21	ARRIS Group
+2C9E5F	ARRIS Group
+002495	ARRIS Group
+002642	ARRIS Group
+A4ED4E	ARRIS Group
+0024A1	ARRIS Group
+001D6B	ARRIS Group
+001E5A	ARRIS Group
+001DBE	ARRIS Group
+001371	ARRIS Group
+00149A	ARRIS Group
+001A1B	ARRIS Group
+0018A4	ARRIS Group
+002375	ARRIS Group
+001ADB	ARRIS Group
+001F7E	ARRIS Group
+001C11	ARRIS Group
+001CC1	ARRIS Group
+400D10	ARRIS Group
+341FE4	ARRIS Group
+00D037	ARRIS Group
+001DD6	ARRIS Group
+306023	ARRIS Group
+ACB313	ARRIS Group
+14ABF0	ARRIS Group
+0CF893	ARRIS Group
+8461A0	ARRIS Group
+E83381	ARRIS Group
+44E137	ARRIS Group
+0015CE	ARRIS Group
+001311	ARRIS Group
+0015A2	ARRIS Group
+001596	ARRIS Group
+0000CA	ARRIS Group
+601971	ARRIS Group
+001DD1	ARRIS Group
+001626	ARRIS Group
+00111A	ARRIS Group
+00152F	ARRIS Group
+000B06	ARRIS Group
+000F9F	ARRIS Group
+0011AE	ARRIS Group
+002040	ARRIS Group
+1C1B68	ARRIS Group
+10868C	ARRIS Group
+1005B1	ARRIS Group
+7C2634	ARRIS Group
+A0094C	CenturyLink
+00A38E	Cisco
+DCC8F5	Shanghai UMEinfo
+64DFE9	Ateme
+9097F3	Samsung
+58C5CB	Samsung
+ACAFB9	Samsung
+308976	Dalian Lamba
+447BBB	Shenzhen YOUHUA
+A4F4C2	Vnpt
+C0A5DD	Shenzhen Mercury
+1835D1	ARRIS Group
+4C38D8	ARRIS Group
+DCBE7A	Zhejiang Nurotron Biotechnology
+206BE7	TP-Link
+4857DD	Facebook
+30074D	Samsung
+681DEF	Shenzhen CYX
+AC203E	Wuhan Tianyu Information
+00A3D1	Cisco
+801DAA	Avaya
+001B4F	Avaya
+7052C5	Avaya
+848371	Avaya
+24D921	Avaya
+A051C6	Avaya
+90EC50	C.O.B.O
+B4475E	Avaya
+D4EA0E	Avaya
+A009ED	Avaya
+90FB5B	Avaya
+3C0CDB	Unionman
+C81FEA	Avaya
+B03956	Netgear
+10F681	vivo Mobile
+F01B6C	vivo Mobile
+DC1AC5	vivo Mobile
+205D47	vivo Mobile
+9CFBD5	vivo Mobile
+886AE3	Alpha Networks
+9061AE	Intel
+A4F3E7	Integrated Device Sdn. Bhd
+A0239F	Cisco
+D8DF7A	Quest
+30B62D	Mojo Networks
+001B17	Palo Alto Networks
+9828A6	Compal Information
+B0EABC	Askey
+94C691	EliteGroup Systems
+9C6F52	zte
+A09D86	Alcatel-Lucent Shanghai Bell
+E0CBBC	Cisco Meraki
+00D01F	Senetas
+A40450	nFore
+647C34	Ubee Interactive
+4CB008	Shenzhen Gwelltimes
+58B633	Ruckus Wireless
+D4684D	Ruckus Wireless
+2CE6CC	Ruckus Wireless
+8C0C90	Ruckus Wireless
+842096	Shenzhen RF-Link
+3087D9	Ruckus Wireless
+24792A	Ruckus Wireless
+589396	Ruckus Wireless
+74911A	Ruckus Wireless
+00227F	Ruckus Wireless
+002482	Ruckus Wireless
+F03E90	Ruckus Wireless
+EC8CA2	Ruckus Wireless
+30F77F	S Mobile Devices
+38E595	Shenzhen Gongjin
+5C5181	Samsung
+389AF6	Samsung
+E0AA96	Samsung
+507705	Samsung
+C4CB6B	Airista Flow
 5846E1	Baxter
 00D0BD	Lattice Semiconductor
 F08261	Sagemcom Broadband SAS
@@ -9316,10 +9427,6 @@ F02765	Murata Manufacturing
 20A783	miControl
 005053	Cisco
 00500F	Cisco
-048A15	Avaya
-44322A	Avaya
-FC8399	Avaya
-00040D	Avaya
 D842AC	Shanghai Feixun
 34CDBE	Huawei
 D46AA8	Huawei
@@ -9355,12 +9462,6 @@ C8D15E	Huawei
 F83DFF	Huawei
 308730	Huawei
 002568	Huawei
-D47856	Avaya
-C057BC	Avaya
-38BB3C	Avaya
-E45D52	Avaya
-A4251B	Avaya
-6CA849	Avaya
 30D17E	Huawei
 9C28EF	Huawei
 7C6097	Huawei
@@ -9562,7 +9663,6 @@ DCDB70	Tonfunk Systementwicklung und
 C47D46	Fujitsu
 68EDA4	Shenzhen Seavo
 B899B0	Cohere
-2CC5D3	Ruckus Wireless
 80C5E6	Microsoft
 D85DEF	Busch-Jaeger Elektro
 10DF8B	Shenzhen CareDear
@@ -9781,7 +9881,6 @@ BCF61C	Geomodeling Wuxi
 A43A69	Vers
 387B47	AKELA
 7CCD11	MS-Magnet
-94FBB2	Shenzhen Gongjin
 4CE1BB	Zhuhai HiFocus
 8CDE99	Comlab
 B46698	Zealabs srl
@@ -9984,7 +10083,6 @@ ECB541	SHINANO E and E
 D40057	MC
 48B8DE	Homewins
 1065CF	Iqsim
-B877C3	Decagon Devices
 849DC5	Centera Photonics
 580943	Private
 547FA8	TELCO Systems
@@ -10302,7 +10400,6 @@ CCF67A	Ayecka Systems
 00BB8E	HME
 C0A26D	Abbott Point Of Care
 205B2A	Private
-18B430	Nest
 F8769B	Neopis
 08E672	Jebsee
 58E476	Centron Fujian
@@ -10371,7 +10468,6 @@ E441E6	Ottec
 7CDA84	Dongnian Networks
 A036FA	Ettus
 EC836C	RM
-C0C520	Ruckus Wireless
 6083B2	GkWare e.K
 80D019	Embed
 D41296	Anobit
@@ -10858,7 +10954,6 @@ A893E6	Jiangxi Jinggangshan Cking
 001DE6	Cisco
 001DDA	Mikroelektronika spol. s r. o
 001DDF	Sunitec
-001DCC	Hetra Secure Solutions
 001DC7	L-3 Geneva Aerospace
 001DC0	Enphase Energy
 001ED8	Digital United
@@ -10940,7 +11035,6 @@ A893E6	Jiangxi Jinggangshan Cking
 001D14	Speradtone Information
 001D07	Shenzhen Sang Fei Consumer
 001D01	Neptune Digital
-001CFA	Alarm.com
 001CEE	Sharp
 001CF5	Wiseblue
 001CB9	Kwang Sung
@@ -11107,7 +11201,6 @@ A893E6	Jiangxi Jinggangshan Cking
 001893	Shenzhen Photon Broadband
 001898	Kingstate
 001891	Zhongshan General K-mate
-001885	Avigilon
 00188C	Mobile Action
 0019C8	AnyDATA
 0019C3	Qualitrol
@@ -12839,14 +12932,11 @@ AA0001	Digital Equipment
 080056	Stanford Linear Accel. Center
 080053	Middle East. University
 08004F	Cygnet Systems
-F8E71E	Ruckus Wireless
 00194B	Sagemcom Broadband SAS
 001F95	Sagemcom Broadband SAS
 000E59	Sagemcom Broadband SAS
 A01B29	Sagemcom Broadband SAS
 90013B	Sagemcom Broadband SAS
-ECDF3A	vivo Mobile
-E45AA2	vivo Mobile
 00235A	Compal Information
 001B38	Compal Information
 E46F13	D-Link
@@ -12983,11 +13073,6 @@ FC2F40	Calxeda
 389496	Samsung
 0CB319	Samsung
 08EE8B	Samsung
-84A466	Samsung
-981DFA	Samsung
-FCF136	Samsung
-0C8910	Samsung
-54FA3E	Samsung
 A89FBA	Samsung
 FC1910	Samsung
 083D88	Samsung
@@ -13012,7 +13097,6 @@ E458E7	Samsung
 50F520	Samsung
 A4EBD3	Samsung
 28987B	Samsung
-1867B0	Samsung
 F40E22	Samsung
 9C3AAF	Samsung
 BCF2AF	devolo
@@ -13107,7 +13191,6 @@ E8FD72	Shanghai Linguo
 EC438B	Yaptv
 1866DA	Dell
 981FB1	Shenzhen Lemon Network
-CCB11A	Samsung
 40476A	AG Acquisition. d.b.a. ASTRO Gaming
 A4BF01	Intel
 509EA7	Samsung
@@ -13202,8 +13285,6 @@ ECADB8	Apple
 2CF0A2	Apple
 C09727	Samsung
 2C5A8D	SysTRONIK Elektronik u. Systemtechnik
-B8BBAF	Samsung
-60C5AD	Samsung
 8C897A	Augtek
 54EDA3	Navdy
 046565	Testop
@@ -13212,7 +13293,6 @@ B8BBAF	Samsung
 74CC39	Fiberhome Telecom
 6038E0	Belkin
 F0FDA0	Acurix Networks
-1CB9C4	Ruckus Wireless
 3876D1	Euronda
 C48F07	Shenzhen Yihao Hulian Science and
 009E1E	Cisco
@@ -13389,50 +13469,6 @@ D8E72B	NetScout Systems
 A8BD27	Hewlett Packard
 981E0F	Jeelan (Shanghai Jeelan Information
 548CA0	Liteon
-001AAD	ARRIS Group
-00195E	ARRIS Group
-001404	ARRIS Group
-001BDD	ARRIS Group
-0023A2	ARRIS Group
-001E8D	ARRIS Group
-0003E0	ARRIS Group
-707E43	ARRIS Group
-1C1448	ARRIS Group
-A47AA4	ARRIS Group
-E83EFC	ARRIS Group
-E8892C	ARRIS Group
-001DD3	ARRIS Group
-0015D1	ARRIS Group
-203D66	ARRIS Group
-6455B1	ARRIS Group
-C005C2	ARRIS Group
-3CDFA9	ARRIS Group
-8C09F4	ARRIS Group
-083E0C	ARRIS Group
-001225	ARRIS Group
-00128A	ARRIS Group
-D404CD	ARRIS Group
-002493	ARRIS Group
-E46449	ARRIS Group
-745612	ARRIS Group
-74EAE8	ARRIS Group
-A811FC	ARRIS Group
-044E5A	ARRIS Group
-94E8C5	ARRIS Group
-F8A097	ARRIS Group
-00230B	ARRIS Group
-001B52	ARRIS Group
-0023ED	ARRIS Group
-002395	ARRIS Group
-0022B4	ARRIS Group
-002136	ARRIS Group
-0024C1	ARRIS Group
-3C754A	ARRIS Group
-40FC89	ARRIS Group
-BC644B	ARRIS Group
-347A60	ARRIS Group
-84E058	ARRIS Group
-003676	ARRIS Group
 001CA8	AirTies Wireless Networks
 0017D5	Samsung
 001247	Samsung
@@ -13566,7 +13602,6 @@ B83A9D	Alarm.com
 2CC260	Oracle
 407183	Juniper Networks
 0059DC	Cisco
-14612F	Avaya
 ACF85C	Private
 1CC0E1	IEEE Registration Authority
 00749C	Ruijie Networks
@@ -13575,14 +13610,12 @@ E0D9E3	Eltex
 5098F3	Rheem Australia
 701CE7	Intel
 CC9470	Kinestral
-446AB7	ARRIS Group
 F0219D	Cal-Comp
 000B2E	Cal-Comp
 885BDD	Aerohive Networks
 08EA44	Aerohive Networks
 506B8D	Nutanix
 0038DF	Cisco
-2C9924	ARRIS Group
 006BF1	Cisco
 CC81DA	Shanghai Phicomm
 20D25F	SmartCap
@@ -13610,7 +13643,6 @@ B0E235	Xiaomi
 F48B32	Xiaomi
 0060BD	Enginuity
 AC83F3	AMPAK
-707C69	Avaya
 18DBF2	Dell
 000048	Seiko Epson
 C0BFC0	Huawei
@@ -13669,27 +13701,24 @@ CC2D21	Tenda. LtdDongguan branch
 A4A1C2	Ericsson
 B0F1EC	AMPAK
 B0C46C	Senseit
-105611	ARRIS Group
 148951	LCFC
 F87588	Huawei
 BC3F8F	Huawei
-E4A749	Palo Alto Networks
 04DEF2	Shenzhen ECOM
 00D071	Echelon
-504061	Nokia
 0030C5	Cadence Design Systems
-54E3F6	Alcatel-Lucent
+504061	Nokia
 7467F7	Extreme Networks
-B0C205	Bionime
-0C61CF	Texas Instruments
 B4C799	Extreme Networks
+54E3F6	Alcatel-Lucent
 5C0E8B	Extreme Networks
 00E02B	Extreme Networks
-28395E	Samsung
+B0C205	Bionime
+0C61CF	Texas Instruments
 7C2664	Sagemcom Broadband SAS
+E47DEB	Shanghai Notion Information
 A002DC	Amazon
 0C47C9	Amazon
-E47DEB	Shanghai Notion Information
 28EF01	Private
 747548	Amazon
 AC63BE	Amazon
@@ -13708,7 +13737,6 @@ F85971	Intel
 B49CDF	Apple
 4C82CF	Echostar
 F49634	Intel
-F470AB	vivo Mobile
 341A35	Fiberhome Telecom
 144FD7	IEEE Registration Authority
 6C4B90	LiteON
@@ -13718,9 +13746,9 @@ F8FF0B	Electronic
 90F305	HUMAX
 00093A	Molex
 98AAFC	IEEE Registration Authority
-C8F86D	Alcatel-Lucent Shanghai Bell
 B8D50B	Sunitec
 28A6DB	Huawei
+C8F86D	Alcatel-Lucent Shanghai Bell
 D45F25	Shenzhen YOUHUA
 9CE951	Shenzhen Sang Fei Consumer
 DC0856	Alcatel-Lucent
@@ -13728,23 +13756,167 @@ E8FDE8	CeLa Link
 181212	Cepton
 08ED02	IEEE Registration Authority
 B4417A	Shenzhen Gongjin
-C4AE12	Samsung
 F4DE0C	ESPOD
 BC8AE8	Qing DAO Haier Telecom
-A81B5A	Guangdong Oppo Mobile Telecom
-DC6DCD	Guangdong Oppo Mobile Telecom
 440444	Guangdong Oppo Mobile Telecom
 C09F05	Guangdong Oppo Mobile Telecom
 CC2D83	Guangdong Oppo Mobile Telecom
 38295A	Guangdong Oppo Mobile Telecom
 4C1A3D	Guangdong Oppo Mobile Telecom
-185207	Sichuan Tianyi Comheart Telecomco
+A81B5A	Guangdong Oppo Mobile Telecom
+DC6DCD	Guangdong Oppo Mobile Telecom
 70D379	Cisco
 7C4F7D	Sawwave
+185207	Sichuan Tianyi Comheart Telecomco
 9874DA	Infinix mobility
 143F27	Noccela
 64351C	e-CoN SysTEMS IndIA
 5C6A80	ZyXEL
+A8B86E	LG
+0CB912	JM-DATA
+1893D7	Texas Instruments
+EC363F	Markov
+54FA3E	Samsung
+0C8910	Samsung
+FCF136	Samsung
+981DFA	Samsung
+84A466	Samsung
+1867B0	Samsung
+CCB11A	Samsung
+B8BBAF	Samsung
+60C5AD	Samsung
+28395E	Samsung
+C4AE12	Samsung
+10D07A	AMPAK
+80B234	Technicolor CH USA
+B877C3	METER Group
+003676	ARRIS Group
+84E058	ARRIS Group
+F07485	NGD Systems
+347A60	ARRIS Group
+BC644B	ARRIS Group
+F8A097	ARRIS Group
+94E8C5	ARRIS Group
+044E5A	ARRIS Group
+74EAE8	ARRIS Group
+A811FC	ARRIS Group
+745612	ARRIS Group
+E46449	ARRIS Group
+C005C2	ARRIS Group
+6455B1	ARRIS Group
+203D66	ARRIS Group
+D404CD	ARRIS Group
+446AB7	ARRIS Group
+2C9924	ARRIS Group
+001BDD	ARRIS Group
+001404	ARRIS Group
+00195E	ARRIS Group
+001AAD	ARRIS Group
+A47AA4	ARRIS Group
+1C1448	ARRIS Group
+002493	ARRIS Group
+40FC89	ARRIS Group
+3C754A	ARRIS Group
+0024C1	ARRIS Group
+002136	ARRIS Group
+0022B4	ARRIS Group
+002395	ARRIS Group
+0023ED	ARRIS Group
+001B52	ARRIS Group
+00230B	ARRIS Group
+001E8D	ARRIS Group
+0023A2	ARRIS Group
+0015D1	ARRIS Group
+001DD3	ARRIS Group
+E8892C	ARRIS Group
+E83EFC	ARRIS Group
+707E43	ARRIS Group
+0003E0	ARRIS Group
+00128A	ARRIS Group
+001225	ARRIS Group
+083E0C	ARRIS Group
+8C09F4	ARRIS Group
+3CDFA9	ARRIS Group
+105611	ARRIS Group
+2C3AE8	Espressif
+DC74A8	Samsung
+C087EB	Samsung
+E8B6C2	Juniper Networks
+B0DAF9	ARRIS Group
+74F61C	HTC
+3438B7	HUMAX
+5C1A6F	Cambridge
+B089C2	Zyptonite
+F0D4F6	Lars Thrane
+487D2E	TP-Link
+0403D6	Nintendo
+A0AFBD	Intel
+34D954	WiBotic
+6C60EB	ZHI Yuan
+AC4E2E	Shenzhen JingHanDa
+B40016	Ingenico Terminals SAS
+0027E3	Cisco
+A0341B	TrackR
+FCA667	Amazon
+784501	Biamp Systems
+488D36	Arcadyan
+986F60	Guangdong Oppo Mobile Telecom
+4C189A	Guangdong Oppo Mobile Telecom
+E45D52	Avaya
+38BB3C	Avaya
+C057BC	Avaya
+D47856	Avaya
+14612F	Avaya
+707C69	Avaya
+A47886	Avaya
+44322A	Avaya
+048A15	Avaya
+6CA849	Avaya
+A4251B	Avaya
+00040D	Avaya
+FC8399	Avaya
+60313B	Sunnovo
+001CFA	Alarm.com
+B4E62A	LG Innotek
+E45AA2	vivo Mobile
+ECDF3A	vivo Mobile
+F470AB	vivo Mobile
+50184C	Platina Systems
+CC4639	WAAV
+E4A749	Palo Alto Networks
+786D94	Palo Alto Networks
+30B164	Power
+18B430	Nest
+3CF591	Guangdong Oppo Mobile Telecom
+602101	Guangdong Oppo Mobile Telecom
+604762	Beijing Sensoro
+7CE2CA	Juniper Networks
+B0DFC1	Tenda. LtdDongguan branch
+70788B	vivo Mobile
+7065A3	Kandao lightforge
+706E6D	Cisco
+001DCC	Ayon Cyber Security
+18D225	Fiberhome Telecom
+FC2F6B	Everspin
+2CC5D3	Ruckus Wireless
+F8E71E	Ruckus Wireless
+1CB9C4	Ruckus Wireless
+C0C520	Ruckus Wireless
+B4C170	Yi chip Microelectronics
+540237	Teltronic
+A89675	Motorola Mobility
+94F128	Hewlett Packard
+A47B9D	Espressif
+608E08	Samsung
+7C2EDD	Samsung
+3CF7A4	Samsung
+342D0D	Samsung
+94FBB2	Shenzhen Gongjin
+EC3DFD	Shenzhen Bilian
+18742E	Amazon
+001885	Avigilon
+8886C2	STABILO
+04FA3F	Opticore
 D86CE9	Sagemcom Broadband SAS
 3C81D8	Sagemcom Broadband SAS
 2CE412	Sagemcom Broadband SAS
@@ -13867,12 +14039,6 @@ CC96A0	Huawei
 54A51B	Huawei
 F4C714	Huawei
 286ED4	Huawei
-A01290	Avaya
-F81547	Avaya
-506184	Avaya
-BCADAB	Avaya
-B4A95A	Avaya
-3C3A73	Avaya
 04F938	Huawei
 FC48EF	Huawei
 80FB06	Huawei
@@ -14051,7 +14217,6 @@ BC9C31	Huawei
 6858C5	ZF TRW Automotive
 044169	GoPro
 ACC51B	Zhuhai Pantum
-4473D6	Logitech
 E80734	Champion Optical Network
 6CEBB2	Dongguan Sen DongLv
 A03299	Lenovo
@@ -14061,7 +14226,6 @@ D0C193	Skybell
 F0B0E7	Apple
 CC20E8	Apple
 E435C8	Huawei
-38FF36	Ruckus Wireless
 D47208	Bragi
 489A42	Technomate
 B49D0B	BQ
@@ -14347,7 +14511,6 @@ E0E631	SNB
 78AE0C	Far South Networks
 38CA97	Contour Design
 84A783	Alcatel Lucent
-2C5D93	Ruckus Wireless
 1CC11A	Wavetronix
 4CF02E	Vifa Denmark
 3051F8	BYK-Gardner
@@ -14488,7 +14651,6 @@ FC58FA	Shen Zhen Shi Xin Zhong Xin
 60601F	SZ DJI
 E0C6B3	MilDef
 FCDB96	Enervalley
-FC8B97	Shenzhen Gongjin
 882E5A	storONE
 D429EA	Zimory
 C80E95	OmniLync
@@ -14502,12 +14664,10 @@ E894F6	TP-Link
 94ACCA	trivum
 7CD844	Enmotus
 F4C6D7	blackned
-68A40E	BSH Bosch and Siemens Home Appliances
 4CCA53	Skyera
 081DFB	Shanghai Mexon
 D0CDE1	Scientech
 94756E	QinetiQ
-543D37	Ruckus Wireless
 0C5521	Axiros
 A4D856	Gimbal
 10A743	SK Mtek
@@ -14533,7 +14693,6 @@ ACA22C	Baycity
 949BFD	Trans New
 E4EEFD	MR&D Manufacturing
 105CBF	DuroByte
-88A3CC	Amatis Controls
 EC89F5	Lenovo Mobile
 083AB8	Shinoda Plasma
 A0DD97	PolarLink
@@ -14624,8 +14783,6 @@ A497BB	Hitachi Equipment Systems
 FC52CE	Control iD
 E804F3	Throughtek
 B85810	Numera
-2CAB25	Shenzhen Gongjin
-AC6E1A	Shenzhen Gongjin
 9886B1	Flyaudio
 28B3AB	Genmark Automation
 44E8A5	Myreka Sdn. Bhd
@@ -14878,10 +15035,8 @@ E83EB6	RIM
 94FD1D	WhereWhen
 0CE82F	Bonfiglioli Vectron
 C0626B	Cisco
-74D0DC	Ericsson
 B4B88D	Thuh
 60F59C	CRU-Dataport
-C4108A	Ruckus Wireless
 4C73A5	Kove
 F86971	Seibu Electric
 44AA27	udworks
@@ -15049,7 +15204,6 @@ EC66D1	B&W Group
 9803A0	ABB n.v. Power Quality
 DCFAD5	STRONG Ges.m.b.H
 D84606	Silicon Valley Global Marketing
-689234	Ruckus Wireless
 D0E347	Yoga
 84A991	Cyber Trans Japan
 D81C14	Compacta
@@ -15158,7 +15312,6 @@ A09805	OpenVox
 A09A5A	Time Domain
 64A837	Juni Korea
 B4B5AF	Minsung
-044FAA	Ruckus Wireless
 44568D	PNC
 ACD180	Crexendo Business Solutions
 AC8317	Shenzhen Furtunetel
@@ -15193,7 +15346,6 @@ C87248	Aplicom
 74D850	Evrisko Systems
 6CAC60	Venetex
 DC0265	Meditech Kft
-986DC8	Toshiba Mitsubishi-Electric Systems
 68A1B7	Honghao Mingchuan
 7CCFCF	Shanghai SEARI Intelligent System
 EC3091	Cisco
@@ -15215,7 +15367,6 @@ EC3091	Cisco
 0025D2	InpegVision
 0025D1	Eastern Asia
 0025CB	Reiner SCT
-0025C4	Ruckus Wireless
 0025BF	Wireless Cables
 0025B1	Maya-Creation
 0025B8	Agile
@@ -15534,7 +15685,6 @@ EC3091	Cisco
 001EF7	Cisco
 001EF1	Servimat
 001F9E	Cisco
-001F92	VideoIQ
 001F97	BERTANA srl
 001F8B	Cache IQ
 001F84	Gigle Semiconductor
@@ -15593,7 +15743,6 @@ EC3091	Cisco
 001D7C	ABE Elettronica S.p.A
 001D64	Adam Systems Int
 001D5D	Control Dynamics
-001D2E	Ruckus Wireless
 001D21	Alcad SL
 001D1C	Gennet s.a
 001D17	Digital Sky
@@ -15702,7 +15851,6 @@ EC3091	Cisco
 0018F6	Thomson Telecom Belgium
 0018FB	Compro
 0019EE	CARLO GAVAZZI CoNTROLS-Controls Division
-0019F0	Unionman
 0019F5	Imagination
 0019E9	S-Information Technolgy
 0019DB	Micro-Star
@@ -17200,7 +17348,6 @@ EC3091	Cisco
 00A064	KVB/Analect
 00A07F	GSM-Syntel
 00A03E	ATM Forum
-00A050	Cypress Semiconductor
 00A098	NetApp
 00A021	General Dynamics
 00A0A8	Renex
@@ -17271,7 +17418,6 @@ EC3091	Cisco
 00008C	Alloy
 004000	PCI Componentes DA Amzonia
 0040C5	Micom
-0040AA	Metso Automation
 004023	Logic
 0040A4	Rose
 004048	SMD Informatica S.A
@@ -17486,8 +17632,6 @@ CC33BB	Sagemcom Broadband SAS
 681590	Sagemcom Broadband SAS
 5464D9	Sagemcom Broadband SAS
 00023F	Compal
-0080C2	IEEE 802.1
-C46699	vivo Mobile
 383BC8	2Wire
 DC7FA4	2Wire
 001288	2Wire
@@ -17656,9 +17800,6 @@ B4EF39	Samsung
 0C1420	Samsung
 A80600	Samsung
 6CF373	Samsung
-90F1AA	Samsung
-C4576E	Samsung
-78BDBC	Samsung
 3872C0	Comtrend
 F4068D	devolo
 000BCA	Datavan TC
@@ -17707,7 +17848,6 @@ DC415F	Apple
 30636B	Apple
 84683E	Intel
 C88722	Lumenpulse
-FC1A11	vivo Mobile
 30A9DE	LG Innotek
 E0CDFD	Beijing E3Control
 208B37	Skyworth Digital
@@ -17863,7 +18003,6 @@ C42795	Technicolor CH USA
 A854B2	Wistron Neweb
 38BC1A	MEIZU
 0004A3	Microchip
-E0DDC0	vivo Mobile
 982F3C	Sichuan Changhong Electric
 380DD4	Primax
 98FDB4	Primax
@@ -17928,52 +18067,7 @@ EC8EAE	Nagravision
 345760	MitraStar
 343DC4	Buffalo.Inc
 6CEFC6	Shenzhen Twowing
-986B3D	ARRIS Group
-CC65AD	ARRIS Group
-789684	ARRIS Group
-90C792	ARRIS Group
-0015CF	ARRIS Group
-386BBB	ARRIS Group
-00E06F	ARRIS Group
-0004BD	ARRIS Group
-5C571A	ARRIS Group
-001DD0	ARRIS Group
-001DD5	ARRIS Group
-001DCF	ARRIS Group
-E8ED05	ARRIS Group
-901ACA	ARRIS Group
 002A10	Cisco
-74E7C6	ARRIS Group
-74F612	ARRIS Group
-DC4517	ARRIS Group
-F80BBE	ARRIS Group
-6CC1D2	ARRIS Group
-145BD1	ARRIS Group
-B077AC	ARRIS Group
-B81619	ARRIS Group
-A41588	ARRIS Group
-38700C	ARRIS Group
-FC51A4	ARRIS Group
-287AEE	ARRIS Group
-641269	ARRIS Group
-001CC3	ARRIS Group
-14D4FE	ARRIS Group
-70B14E	ARRIS Group
-D82522	ARRIS Group
-707630	ARRIS Group
-000CE5	ARRIS Group
-000E5C	ARRIS Group
-0015A8	ARRIS Group
-001700	ARRIS Group
-0019A6	ARRIS Group
-0014E8	ARRIS Group
-002180	ARRIS Group
-0026BA	ARRIS Group
-002641	ARRIS Group
-002374	ARRIS Group
-0025F2	ARRIS Group
-0019C0	ARRIS Group
-886AB1	vivo Mobile
 44D6E1	Snuza
 0015B9	Samsung
 001DF6	Samsung
@@ -18028,7 +18122,6 @@ CCA260	Sichuan Tianyi Comheart Telecomco
 748D08	Apple
 00D78F	Cisco
 A03BE3	Apple
-18E29F	vivo Mobile
 886B0F	Bluegiga
 98541B	Intel
 CC61E5	Motorola Mobility
@@ -18201,8 +18294,6 @@ C81B5C	BCTech
 20719E	SF
 7C95B1	Aerohive Networks
 206C8A	Aerohive Networks
-5CE30E	ARRIS Group
-7823AE	ARRIS Group
 E49E12	Freebox SAS
 D854A2	Aerohive Networks
 E01C41	Aerohive Networks
@@ -18262,7 +18353,6 @@ F0C850	Huawei
 C4836F	Ciena
 C87324	Sow Cheng
 3CF862	Intel
-0823B2	vivo Mobile
 88C3B3	Sovico
 54C415	Hangzhou Hikvision Digital
 E05124	NXP Semiconductors
@@ -18272,11 +18362,9 @@ A084CB	SonicSensory
 7802F8	Xiaomi
 00238A	Ciena
 34E70B	HAN Networks
-D47AE2	Samsung
 903809	Ericsson
 542B57	Night Owl SP
 00111B	Targa Systems L-3
-2C7E81	ARRIS Group
 B8224F	Sichuan Tianyi Comheart Telecomco
 702084	Hon Hai Precision
 F42B48	Ubiqam
@@ -18293,7 +18381,6 @@ CCCE1E	AVM Audiovisuelles Marketing und Computersysteme
 FC0A81	Extreme Networks
 C8B5AD	Hewlett Packard
 88E628	Shenzhen Kezhonglong Optoelectronic
-6091F3	vivo Mobile
 9CDA3E	Intel
 3CA067	Liteon
 D8325A	Shenzhen YOUHUA
@@ -18305,7 +18392,6 @@ F04F7C	Private
 40B4CD	Amazon
 2C86D2	Cisco
 802689	D-Link
-BC2F3D	vivo Mobile
 409F38	Azurewave
 C4D197	Ventia Utility
 58821D	H. Schom?cker
@@ -18350,7 +18436,143 @@ B83765	Guangdong Oppo Mobile Telecom
 FC539E	Shanghai Wind
 105887	Fiberhome Telecom
 9CAF6F	Itel Mobile
+907065	Texas Instruments
 9C061B	Hangzhou H3C
+A08E78	Sagemcom Broadband SAS
+B8FFB3	MitraStar
+E0D55E	Giga-Byte
+C4576E	Samsung
+90F1AA	Samsung
+78BDBC	Samsung
+D47AE2	Samsung
+20F452	Shanghai IUV Development
+88D274	zte
+986DC8	Toshiba Mitsubishi-Electric Systems
+0040AA	Valmet Automation
+982DBA	Fibergate
+0080C2	IEEE 802.1 Working Group
+68A40E	BSH Hausger?te
+847933	profichip
+A0C9A0	Murata Manufacturing
+001CC3	ARRIS Group
+641269	ARRIS Group
+287AEE	ARRIS Group
+FC51A4	ARRIS Group
+38700C	ARRIS Group
+A41588	ARRIS Group
+B81619	ARRIS Group
+B077AC	ARRIS Group
+145BD1	ARRIS Group
+6CC1D2	ARRIS Group
+D82522	ARRIS Group
+70B14E	ARRIS Group
+14D4FE	ARRIS Group
+707630	ARRIS Group
+90C792	ARRIS Group
+789684	ARRIS Group
+CC65AD	ARRIS Group
+986B3D	ARRIS Group
+5CE30E	ARRIS Group
+7823AE	ARRIS Group
+F80BBE	ARRIS Group
+DC4517	ARRIS Group
+74F612	ARRIS Group
+74E7C6	ARRIS Group
+0025F2	ARRIS Group
+0015A8	ARRIS Group
+000E5C	ARRIS Group
+000CE5	ARRIS Group
+0004BD	ARRIS Group
+00E06F	ARRIS Group
+386BBB	ARRIS Group
+0015CF	ARRIS Group
+001DCF	ARRIS Group
+001DD5	ARRIS Group
+001DD0	ARRIS Group
+5C571A	ARRIS Group
+002374	ARRIS Group
+002641	ARRIS Group
+0026BA	ARRIS Group
+002180	ARRIS Group
+0019C0	ARRIS Group
+0014E8	ARRIS Group
+0019A6	ARRIS Group
+001700	ARRIS Group
+901ACA	ARRIS Group
+E8ED05	ARRIS Group
+2C7E81	ARRIS Group
+84C0EF	Samsung
+447F77	Connected Home
+009AD2	Cisco
+7C1C68	Samsung
+745427	Shenzhen Fast
+F40E83	ARRIS Group
+7C8BCA	TP-Link
+F023B9	IEEE Registration Authority
+88B111	Intel
+D8F1F0	Pepxim
+0019F0	Unionman
+54D751	Proximus
+506E92	Innocent
+CC4B73	AMPAK
+900A1A	Taicang T&W
+CC03D9	Cisco Meraki
+BCADAB	Avaya
+506184	Avaya
+F81547	Avaya
+A01290	Avaya
+3C3A73	Avaya
+B4A95A	Avaya
+6CB227	Sony Video & Sound
+60271C	VIDEOR E. Hartig
+C46699	vivo Mobile
+FC1A11	vivo Mobile
+E0DDC0	vivo Mobile
+886AB1	vivo Mobile
+18E29F	vivo Mobile
+F81D90	Solidwintech
+0823B2	vivo Mobile
+6091F3	vivo Mobile
+BC2F3D	vivo Mobile
+C4ABB2	vivo Mobile
+C8DB26	Logitech
+4473D6	Logitech
+70F35A	Cisco
+EC42B4	ADC
+10CDB6	Essential
+08306B	Palo Alto Networks
+4C65A8	IEEE Registration Authority
+6CF9D2	Chengdu Goods for the Road
+641666	Nest
+3817E1	Technicolor CH USA
+94147A	vivo Mobile
+74D0DC	Ericsson
+88A3CC	Amatis Controls
+8C9F3B	Qingdao Hisense
+404229	Layer3TV
+B090D4	Shenzhen Hoin Internet
+348F27	Ruckus Wireless
+001D2E	Ruckus Wireless
+689234	Ruckus Wireless
+044FAA	Ruckus Wireless
+0025C4	Ruckus Wireless
+38FF36	Ruckus Wireless
+2C5D93	Ruckus Wireless
+543D37	Ruckus Wireless
+C4108A	Ruckus Wireless
+D463C6	Motorola Mobility
+00A050	Cypress Semiconductor
+54666C	Shenzhen YOUHUA
+A44CC8	Dell
+0840F3	Tenda. LtdDongguan branch
+103034	Cara Systems
+FC8B97	Shenzhen Gongjin
+2CAB25	Shenzhen Gongjin
+AC6E1A	Shenzhen Gongjin
+24A534	SynTrust
+F844E3	Taicang T&W
+001F92	Avigilon
+44EA4B	actlas
 2C3996	Sagemcom Broadband SAS
 0054BD	Swelaser
 0057D2	Cisco
@@ -18435,7 +18657,6 @@ B0F1A3	Fengfan
 4CD08A	HUMAX
 20906F	Shenzhen Tencent System
 1C7839	Shenzhen Tencent System
-D837BE	Shanghai Gongjing Telecom
 A4516F	Microsoft Mobile
 246081	razberi
 8CAB8E	Shanghai Feixun
@@ -18460,8 +18681,6 @@ B4B362	zte
 B075D5	zte
 08181A	zte
 002512	zte
-CCF954	Avaya
-703018	Avaya
 B0A37E	Qingdao Haier Telecom
 70A8E3	Huawei
 F84ABF	Huawei
@@ -18483,14 +18702,6 @@ A49947	Huawei
 1C1D67	Huawei
 84A8E4	Huawei
 202BC1	Huawei
-3475C7	Avaya
-6CFA58	Avaya
-64A7DD	Avaya
-646A52	Avaya
-F873A2	Avaya
-64C354	Avaya
-B4B017	Avaya
-581626	Avaya
 741BB2	Apple
 002586	TP-Link
 F8D111	TP-Link
@@ -18741,7 +18952,6 @@ A408EA	Murata Manufacturing
 D4F9A1	Huawei
 9CB6D0	Rivet Networks
 D0C0BF	Actions Microelectronics
-94F665	Ruckus Wireless
 E04B45	Hi-P
 6C4598	Antex
 94A7B7	zte
@@ -18801,7 +19011,6 @@ A0ADA1	JMR
 601970	Huizhou Qiaoxing
 887033	Hangzhou Silan Microelectronic
 8C7967	zte
-D083D4	XTel ApS
 78F944	Private
 CCA4AF	Shenzhen Sowell
 84F129	Metrascale
@@ -18823,7 +19032,6 @@ D855A3	zte
 70DA9C	Tecsen
 6CF5E8	Mooredoll
 70FF5C	Cheerzing CommunicationTechnology
-E0107F	Ruckus Wireless
 08115E	Bitel
 44CE7D	SFR
 0881BC	HongKong Ipro
@@ -18933,7 +19141,6 @@ D42F23	Akenori
 0092FA	Shenzhen Wisky
 4CF45B	Blue Clover Devices
 B06971	DEI Sales
-58493B	Palo Alto Networks
 580528	Labris Networks
 28656B	Keystone Microtech
 EC2E4E	Hitachi-LG Data Storage
@@ -19225,7 +19432,6 @@ E0F5CA	Cheng UEI Precision
 1C5C60	Shenzhen Belzon
 2CEDEB	Alpheus Digital
 381C4A	SIMCom Wireless Solutions
-C8DE51	Integra Networks
 901EDD	Great
 2C6289	Regenersis
 F093C5	Garland
@@ -19623,7 +19829,6 @@ E42771	Smartlabs
 4037AD	Macro Image
 64E8E6	global moisture management System
 34A183	AWare
-740ABC	JSJS Designs
 588D09	Cisco
 342109	Jensen Scandinavia
 08FAE0	Fohhn Audio
@@ -19714,7 +19919,6 @@ D87157	Lenovo Mobile
 70D880	Upos System sp. z o.o
 0CC9C6	Samwin Hong Kong
 B45861	CRemote
-AC6706	Ruckus Wireless
 B8653B	Bolymin
 B0973A	E-Fuel
 A05DC1	TMCT
@@ -20433,7 +20637,6 @@ DC3350	TechSAT
 001816	Ubixon
 00181D	Asia
 001811	Neuros
-00180A	Meraki
 001801	Actiontec
 0017F5	LIG Neoptek
 0017FA	Microsoft
@@ -20646,7 +20849,6 @@ DC3350	TechSAT
 0013A4	KeyEye
 00139F	Electronics Design
 001398	TrafficSim
-001392	Ruckus Wireless
 00138C	Kumyoung.Co
 001391	Ouen
 00137C	Kaicom
@@ -20907,9 +21109,7 @@ DC3350	TechSAT
 000BF7	Nidek
 000BFC	Cisco
 000BFE	CASTEL Broadband
-000C03	HDMI Licensing
 000CA4	Prompttec Product Management
-000CAB	CoMMEND
 000C98	LETEK
 000C9D	UbeeAirWalk
 000C9F	NKE
@@ -22286,12 +22486,7 @@ D8C4E9	Samsung
 30C7AE	Samsung
 18227E	Samsung
 00F46F	Samsung
-BC1485	Samsung
 9CE6E7	Samsung
-380195	Samsung
-5CF6DC	Samsung
-1077B1	Samsung
-508569	Samsung
 0090A2	CyberTAN
 0030DA	Comtrend
 64680C	Comtrend
@@ -22355,7 +22550,6 @@ C4E510	Mechatro
 009050	Teleste
 BC44B0	Elastifile
 7864E6	Green Motive
-743E2B	Ruckus Wireless
 C0CCF8	Apple
 80ED2C	Apple
 E8B2AC	Apple
@@ -22372,7 +22566,6 @@ DC4D23	MRV Comunications
 085BDA	CliniCare
 0C5A9E	Wi-SUN Alliance
 00C164	Cisco
-C4BED4	Avaya
 98E7F5	Huawei
 24BCF8	Huawei
 10D0AB	zte
@@ -22392,7 +22585,6 @@ D4883F	Hdpro
 001BF3	TRANSRADIO SenderSysteme Berlin
 E0071B	Hewlett Packard
 A86AC1	HanbitEDS
-40163B	Samsung
 88B1E1	Mojo Networks
 74DFBF	Liteon
 FC3F7C	Huawei
@@ -22557,49 +22749,7 @@ E0E7BB	Nureva
 7CA97D	Objenious
 BC8AA3	NHN
 70A84C	MONAD
-00D088	ARRIS Group
-001675	ARRIS Group
-0016B5	ARRIS Group
-001784	ARRIS Group
-0017E2	ARRIS Group
-CC7D37	ARRIS Group
-001A77	ARRIS Group
-984B4A	ARRIS Group
-0015A4	ARRIS Group
-0015A3	ARRIS Group
-7CBFB1	ARRIS Group
-8096B1	ARRIS Group
-00909C	ARRIS Group
-001180	ARRIS Group
-0017EE	ARRIS Group
-407009	ARRIS Group
-94877C	ARRIS Group
-001DD2	ARRIS Group
-9C3426	ARRIS Group
-5C8FE0	ARRIS Group
-6CCA08	ARRIS Group
-5465DE	ARRIS Group
-F8EDA5	ARRIS Group
 00A289	Cisco
-ACEC80	ARRIS Group
-3C7A8A	ARRIS Group
-000FCC	ARRIS Group
-BCCAB5	ARRIS Group
-80F503	ARRIS Group
-8496D8	ARRIS Group
-D42C0F	ARRIS Group
-E0B7B1	ARRIS Group
-0024A0	ARRIS Group
-C0C522	ARRIS Group
-5CB066	ARRIS Group
-002210	ARRIS Group
-00211E	ARRIS Group
-E48399	ARRIS Group
-002636	ARRIS Group
-0012C9	ARRIS Group
-001CFB	ARRIS Group
-001C12	ARRIS Group
-001FC4	ARRIS Group
 6C1E90	Hansol Technics
 486DBB	Vestel Elektronik San ve Tic. A.?
 E09DFA	Wanan Hongsheng
@@ -22718,7 +22868,6 @@ D8197A	Nuheara
 64136C	zte
 0005CD	D&M Holdings
 8C9351	Jigowatts
-D838FC	Ruckus Wireless
 00248D	Sony Interactive
 54276C	Jiangsu Houge
 00CB00	Private
@@ -22758,7 +22907,6 @@ C49A02	LG
 A091C8	zte
 002597	Kalki
 882BD7	ADD?Nergie
-9CA5C0	vivo Mobile
 B4A5EF	Sercomm
 3044A1	Shanghai Nanchao Information
 C4F1D1	Beijing Sogou Development
@@ -22813,7 +22961,6 @@ D84FB8	LG
 00164D	Alcatel-Lucent IPD
 FCFAF7	Shanghai Baud Data
 C8E776	PTCOM
-5C497D	Samsung
 70F8E7	IEEE Registration Authority
 949AA9	Microsoft
 C4084A	Nokia
@@ -22859,7 +23006,6 @@ C0854C	Ragentek Group
 883C1C	Mercury
 9C5D12	Aerohive Networks
 001F82	Cal-Comp
-E47DBD	Samsung
 0C0227	Technicolor CH USA
 C0288D	Logitech
 9C1E95	Actiontec
@@ -22907,16 +23053,15 @@ B81DAA	LG
 407D0F	Huawei
 3805AC	Piller Group
 F8BBBF	eero
-0CF4D5	Ruckus Wireless
 000130	Extreme Networks
 706DEC	Wifi-soft
 AC6B0F	Cadence Design Systems
 1CA0D3	IEEE Registration Authority
-34D270	Amazon
-CC82EB	Kyocera
 00BB3A	Private
 E0CB1D	Private
 84D6D0	Amazon
+34D270	Amazon
+CC82EB	Kyocera
 5082D5	Apple
 9C84BF	Apple
 7894B4	Sercomm
@@ -22928,12 +23073,10 @@ A41163	IEEE Registration Authority
 70AF24	TP Vision Belgium
 7CE97C	Itel Mobile
 285F2F	RNware
+E0C0D1	CK Telecom
 948BC1	Samsung
 4827EA	Samsung
-E0C0D1	CK Telecom
-2CA17D	ARRIS Group
 049573	zte
-503DA1	Samsung
 001D44	Krohne
 48BF6B	Apple
 245BA7	Apple
@@ -22948,7 +23091,6 @@ B47C9C	Amazon
 E81367	AIRSOUND
 64D154	Routerboard.com
 0020DA	Alcatel-Lucent
-1CDA27	vivo Mobile
 345BBB	GD Midea Air-Conditioning Equipment
 34CE00	XIAOMI
 F82F08	Molex
@@ -22961,25 +23103,159 @@ A0C4A5	Sygn House
 506787	Planet Networks
 C83A6B	Roku
 B4C6F8	Axilspot
-70D923	vivo Mobile
 B83A08	Tenda. LtdDongguan branch
 388C50	LG
 50D37F	Yu Fly Mikly Way Science and
 D8D866	Shenzhen Tozed
 F43E61	Shenzhen Gongjin
 001FA4	Shenzhen Gongjin
+1C5A0B	Tegile Systems
 38AC3D	Nephos
 A09347	Guangdong Oppo Mobile Telecom
 C8F230	Guangdong Oppo Mobile Telecom
 1C77F6	Guangdong Oppo Mobile Telecom
 E44790	Guangdong Oppo Mobile Telecom
-1C5A0B	Tegile Systems
 D4503F	Guangdong Oppo Mobile Telecom
-CC90E8	Shenzhen YOUHUA
-D8C8E9	Phicomm
 8425A4	Tariox
+D8C8E9	Phicomm
+CC90E8	Shenzhen YOUHUA
 88CC45	Skyworth Digital
 605317	Sandstone
+50338B	Texas Instruments
+986C5C	Jiangxi Gosun Guard Security
+F4FCB1	JJ
+543B30	duagon
+60BA18	nextLAP
+704CA5	Fortinet
+40163B	Samsung
+5C497D	Samsung
+E47DBD	Samsung
+503DA1	Samsung
+A040A0	Netgear
+508569	Samsung
+1077B1	Samsung
+5CF6DC	Samsung
+380195	Samsung
+BC1485	Samsung
+88D50C	Guangdong Oppo Mobile Telecom
+509A4C	Dell
+00180A	Cisco Meraki
+AC2205	Compal Broadband Networks
+80A036	Shanghai MXCHIP Information
+0012C9	ARRIS Group
+984B4A	ARRIS Group
+001A77	ARRIS Group
+CC7D37	ARRIS Group
+0017E2	ARRIS Group
+001784	ARRIS Group
+0016B5	ARRIS Group
+001675	ARRIS Group
+00D088	ARRIS Group
+0017EE	ARRIS Group
+001180	ARRIS Group
+00909C	ARRIS Group
+8096B1	ARRIS Group
+7CBFB1	ARRIS Group
+0015A3	ARRIS Group
+0015A4	ARRIS Group
+9C3426	ARRIS Group
+001DD2	ARRIS Group
+00211E	ARRIS Group
+002210	ARRIS Group
+001FC4	ARRIS Group
+001C12	ARRIS Group
+001CFB	ARRIS Group
+D42C0F	ARRIS Group
+8496D8	ARRIS Group
+80F503	ARRIS Group
+5CB066	ARRIS Group
+C0C522	ARRIS Group
+0024A0	ARRIS Group
+002636	ARRIS Group
+E48399	ARRIS Group
+E0B7B1	ARRIS Group
+94877C	ARRIS Group
+407009	ARRIS Group
+F8EDA5	ARRIS Group
+5465DE	ARRIS Group
+6CCA08	ARRIS Group
+5C8FE0	ARRIS Group
+8C395C	Bit4id Srl
+BCCAB5	ARRIS Group
+000FCC	ARRIS Group
+3C7A8A	ARRIS Group
+ACEC80	ARRIS Group
+2CA17D	ARRIS Group
+04714B	IEEE Registration Authority
+309C23	Micro-Star INTL
+947BE7	Samsung
+2C2617	Oculus VR
+98F7D7	ARRIS Group
+2C41A1	Bose
+C8DE51	IntegraOptics
+182CB4	Nectarsoft
+14780B	PerkinElmer
+74DADA	D-Link
+4C910C	Corporativo Lanix S.A. de C.V
+BCD713	Owl
+E8E1E1	Gemtek
+98F2B3	Hewlett Packard
+BC1C81	Sichuan iLink
+CCF954	Avaya
+581626	Avaya
+B4B017	Avaya
+64C354	Avaya
+F873A2	Avaya
+646A52	Avaya
+64A7DD	Avaya
+6CFA58	Avaya
+3475C7	Avaya
+C4BED4	Avaya
+30FE31	Nokia
+703018	Avaya
+78B28D	Beijing Tengling
+000CAB	Commend
+00EC0A	Xiaomi
+A86B7C	Shenzhen Fenglian
+9CA5C0	vivo Mobile
+1CDA27	vivo Mobile
+70D923	vivo Mobile
+F430B9	HP
+2C9EEC	Jabil Circuit Penang
+943FC2	Hewlett Packard
+A06A44	Vizio
+B44F96	Zhejiang Xinzailing
+D822F4	Avnet Silica
+58493B	Palo Alto Networks
+D083D4	Xtel Wireless ApS
+7CEB7F	Dmet
+8C8580	Smart Innovation
+C4571F	June Life
+FC5A1D	Hitron
+287B09	zte
+4859A4	zte
+3894E0	Syrotech Networks
+34F64B	Intel
+ACED5C	Intel
+18204C	Kummler+Matter
+740ABC	LightwaveRF
+54BD79	Samsung
+D86C63	Google
+743E2B	Ruckus Wireless
+D838FC	Ruckus Wireless
+0CF4D5	Ruckus Wireless
+AC6706	Ruckus Wireless
+94F665	Ruckus Wireless
+E0107F	Ruckus Wireless
+001392	Ruckus Wireless
+7811DC	XIAOMI
+D837BE	Shenzhen Gongjin
+DC44B6	Samsung
+1007B6	Samsung
+F4939F	Hon Hai Precision
+000C03	HDMI Licensing
+CC2F71	Intel
+F82819	Liteon
 525400	QEMU Virtual NIC
 B0C420	Bochs Virtual NIC
 DEADCA	PearPC Virtual NIC
