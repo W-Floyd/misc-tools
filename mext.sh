@@ -3,7 +3,7 @@
 # <LIST_OF_FILES> | mext <FILE_1> <FILE_2> <FILE_3> ...
 #
 # Trims all text after the last '.' in any given strings,
-# either piped lines, and/or as inputs
+# from piped lines, and/or as inputs
 #
 
 __mext () {
