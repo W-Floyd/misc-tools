@@ -56,7 +56,7 @@ __curr_device="$(df "${PWD}" | tail -n 1 | sed 's/ .*//' | sed 's/\/dev\///' | s
 if [ ! -z "$(mount | grep "/dev/${__real_device}")" ]; then
     echo "Selected device is mounted, aborting."
     cleanup
-    return 1
+    exit 1
 fi
 
 echo "
