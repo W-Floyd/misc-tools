@@ -296,7 +296,7 @@ elif [ "${__list}" = '1' ]; then
     __list_interfaces
 elif [ "${__given}" = '1' ]; then
     __set_mac "${__interface}" "${__custom_mac}"
-else
+elif ! [ "${__update}" = '1' ]; then
     __error "Something has gone very wrong indeed"
 fi
 
