@@ -1,10 +1,14 @@
 #!/bin/bash
 
-__filelist=""
+__filelist=''
 
 __files_specified='0'
 
-__bytes="0"
+__bytes='0'
+
+__sort='0'
+
+__reverse='0'
 
 __usage () {
 echo "${0} <OPTIONS> <FILE(s)>
@@ -12,8 +16,10 @@ echo "${0} <OPTIONS> <FILE(s)>
 Prints the file size of all given files
 
 Options:
-  -h  -? --help         This help message
-  -b  --byte            Print the file size in bytes\
+  -h   -? --help         This help message
+  -b   --byte            Print the file size in bytes
+  -n   --name            Sort the files in order of name
+  -r   --reverse         Reverse the order of the listed files\
 "
 }
 
@@ -32,9 +38,17 @@ if ! [ "${#}" = 0 ]; then
                 __bytes="1"
                 ;;
 
+            "-n" | "--name")
+                __sort='1'
+                ;;
+
+            "-r" | "--reverse")
+                __reverse='1'
+                ;;
+
             *)
                 __files_specified='1'
-                if ! [ -r "${1}" ]; then
+                if ! [ -e "${1}" ]; then
                     echo "File \"${1}\" does not exist"
                 elif ! [ -r "${1}" ]; then
                     echo "File \"${1}\" is not readable"
@@ -51,18 +65,33 @@ ${1}"
 
 else
 
-    echo "Error: No options passed"
-    __usage
-    exit 1
+    ls -1 | while read -r __file; do
+
+    if [ -r "${1}" ]; then
+        __filelist="${__filelist}
+${__file}"
+    fi
+
+    done
 
 fi
 
 if [ -z "${__filelist}" ] && [ "${__files_specified}" = '0' ]; then
-    echo "Error: No files specified"
-    exit 2
+    echo "Error: No readable files found"
+    exit 1
 fi
 
-echo "${__filelist}" | sed '/^$/d' | sort | uniq | while read __file; do
+__filelist="$(sed '/^$/d' <<< "${__filelist}")"
+
+echo "${__filelist}" | sed '/^$/d' | (
+
+if [ "${__sort}" = '1' ]; then
+    cat | sort | uniq
+else
+    cat
+fi
+
+) | while read __file; do
 
     if [ "${__bytes}" = '1' ]; then
 
@@ -74,6 +103,14 @@ echo "${__filelist}" | sed '/^$/d' | sort | uniq | while read __file; do
 
     fi
 
-done
+done (
+
+if [ "${__reverse}" = '1' ]; then
+    tac
+else
+    cat
+fi
+
+)
 
 exit
