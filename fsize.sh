@@ -6,7 +6,9 @@ __files_specified='0'
 
 __bytes='0'
 
-__sort='0'
+__sort_name='0'
+
+__sort_size='0'
 
 __reverse='0'
 
@@ -19,8 +21,13 @@ Options:
   -h   -? --help         This help message
   -b   --byte            Print the file size in bytes
   -n   --name            Sort the files in order of name
+  -s   --size            Sort the files in order of size
   -r   --reverse         Reverse the order of the listed files\
 "
+}
+
+__size () {
+stat "${1}" -c %s
 }
 
 if ! [ "${#}" = 0 ]; then
@@ -39,7 +46,13 @@ if ! [ "${#}" = 0 ]; then
                 ;;
 
             "-n" | "--name")
-                __sort='1'
+                __sort_size='0'
+                __sort_name='1'
+                ;;
+
+            "-s" | "--size")
+                __sort_size='1'
+                __sort_name='0'
                 ;;
 
             "-r" | "--reverse")
@@ -85,7 +98,7 @@ __filelist="$(sed '/^$/d' <<< "${__filelist}")"
 
 echo "${__filelist}" | sed '/^$/d' | (
 
-if [ "${__sort}" = '1' ]; then
+if [ "${__sort_name}" = '1' ]; then
     cat | sort | uniq
 else
     cat
@@ -95,15 +108,31 @@ fi
 
     if [ "${__bytes}" = '1' ]; then
 
-        echo "${__file} - $(stat "${__file}" -c %s) bytes"
+        echo "$(__size "${__file}") bytes - ${__file}"
 
     else
 
-        echo "${__file} - $(stat "${__file}" -c %s | numfmt --to=iec-i)"
+        echo "$(__size "${__file}" | numfmt --to=iec-i) - ${__file}"
 
     fi
 
-done (
+done | (
+
+if [ "${__sort_size}" = '1' ]; then
+    cat | (
+
+    if [ "${__bytes}" = '1' ]; then
+        cat | sort
+    else
+        cat | sort -h
+    fi
+
+    ) | tac
+else
+    cat
+fi
+
+) | (
 
 if [ "${__reverse}" = '1' ]; then
     tac
