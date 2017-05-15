@@ -17,7 +17,7 @@ cat | sed -e 's/\([^0]*\)0*$/\1/' -e 's/\.$//'
 }
 
 hcf () {
-#finding the highest value
+# finding the highest value
 if [[ $1 -eq $2 ]];then
    echo "${1}"
    return 0
