@@ -162,7 +162,7 @@ if [ "${__sort_size}" = '1' ]; then
     cat | (
 
     if [ "${__bytes}" = '1' ]; then
-        cat | sort
+        cat | sort -g
     else
         cat | sort -h
     fi
