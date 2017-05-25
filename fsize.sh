@@ -15,7 +15,7 @@ __reverse='0'
 __total='0'
 
 __usage () {
-echo "${0} <OPTIONS> <FILE(s)>
+echo "<FILE(s)> | ${0} <OPTIONS> <FILE(s)>
 
 Prints the file size of all given files
 
@@ -123,6 +123,11 @@ ${__file}"
 
     done
 
+fi
+
+if read -t 0; then
+    __filelist+="
+$(cat)"
 fi
 
 if [ -z "${__filelist}" ]; then
