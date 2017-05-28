@@ -14,10 +14,13 @@ __reverse='0'
 
 __total='0'
 
+__stop_options='0'
+
 __usage () {
 echo "<FILE(s)> | ${0} <OPTIONS> <FILE(s)>
 
-Prints the file size of all given files
+Prints the file size of all given files (including piped).
+Use -- to stop processing options.
 
 Options:
   -h   -? --help         This help message
@@ -37,31 +40,35 @@ __check_input () {
 
 case "${1}" in
 
-    "h" | "--help" | "?")
+    "-h" | "--help" | "?")
         __usage
         exit 0
         ;;
 
-    "b" | "--byte")
+    "-b" | "--byte")
         __bytes="1"
         ;;
 
-    "n" | "--name")
+    "-n" | "--name")
         __sort_size='0'
         __sort_name='1'
         ;;
 
-    "s" | "--size")
+    "-s" | "--size")
         __sort_size='1'
         __sort_name='0'
         ;;
 
-    "r" | "--reverse")
+    "-r" | "--reverse")
         __reverse='1'
         ;;
 
-    "t" | "--total")
+    "-t" | "--total")
         __total='1'
+        ;;
+
+    "--")
+        __stop_options='1'
         ;;
 
     *)
@@ -74,17 +81,17 @@ esac
 
 __process_option () {
 
-if grep '^--.*' <<< "${1}" &> /dev/null; then
+if grep '^--.*' <<< "${1}" &> /dev/null && [ "${__stop_options}" = '0' ]; then
 
     __check_input "${1}"
 
-elif grep '^-.*' <<< "${1}" &> /dev/null; then
+elif grep '^-.*' <<< "${1}" &> /dev/null && [ "${__stop_options}" = '0' ]; then
 
     __letters="$(echo "${1}" | cut -c 2- | sed 's/./& /g')"
 
     for __letter in ${__letters}; do
 
-        __check_input "${__letter}"
+        __check_input "-${__letter}"
 
     done
 
