@@ -2,7 +2,7 @@
 
 set -e
 
-declare -A __time __time_description __time_start __script_option
+declare -Ax __time __time_description __time_start __script_option
 
 stripzero () {
 #cat | sed -e 's/\(\.[0-9]*[^0]\)0*$/\1/' -e 's/\.$//' -e 's/\(.*[^0]\)[0*|\.0*]$/\1/'
@@ -59,7 +59,11 @@ Options:
   -e  --exact               Use an alternative method to find the exact ratio.
 
   -b  --benchmark           Time some operations and give an iteration reading.
-                            Comes with significant performance issues."
+                            Comes with performance issues of its own."
+}
+
+__usage_pointer () {
+echo 'Use -h, --help or -? for help'
 }
 
 # __set_option <NAME> <VAL>
@@ -103,6 +107,7 @@ until [ "${#}" = '0' ]; do
 
     '-'*)
         echo 'Not an option'
+        __usage_pointer
         exit
         ;;
 
@@ -118,9 +123,11 @@ done
 
 if [ -z "${__goal}" ]; then
     echo 'No goal specified'
+    __usage_pointer
     exit
 elif ! [ -z "$(sed -e 's/[0-9]\+\.[0-9]\+//' -e 's/\.[0-9]\+//' -e 's/[0-9]*//' <<< "${__goal}")" ]; then
     echo "Not a number"
+    __usage_pointer
     exit
 fi
 
