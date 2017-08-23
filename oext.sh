@@ -7,7 +7,11 @@
 #
 
 __oext () {
-echo "${1/*.}"
+if grep -q ' ' <<< "${1}"; then
+    sed 's#.*\.##' <<< "${1}"
+else
+    echo "${1/*.}"
+fi
 }
 
 while ! [ "${#}" = '0' ]; do
