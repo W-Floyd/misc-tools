@@ -87,7 +87,7 @@ if grep '^--.*' <<< "${1}" &> /dev/null && [ "${__stop_options}" = '0' ]; then
 
 elif grep '^-.*' <<< "${1}" &> /dev/null && [ "${__stop_options}" = '0' ]; then
 
-    __letters="$(echo "${1}" | cut -c 2- | sed 's/./& /g')"
+    __letters="$(cut -c 2- <<< "${1}" | sed 's/./& /g')"
 
     for __letter in ${__letters}; do
 
