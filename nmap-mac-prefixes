@@ -27,7 +27,6 @@ CC46D6	Cisco
 00E0FC	Huawei
 24DF6A	Huawei
 009ACD	Huawei
-00CDFE	Apple
 38F23E	Microsoft Mobile
 58AC78	Cisco
 907F61	Chicony
@@ -38,7 +37,6 @@ CC46D6	Cisco
 001A11	Google
 D83C69	Shenzhen TINNO Mobile
 74AC5F	Qiku Internet Network Scientific
-18AF61	Apple
 BC83A7	Shenzhen Chuangwei-RGB
 000347	Intel
 001175	Intel
@@ -96,8 +94,6 @@ BC4699	TP-Link
 0C45BA	Huawei
 847778	Cochlear
 0453D5	Sysorex Global Holdings
-CC4463	Apple
-6C72E7	Apple
 CCA223	Huawei
 E8088B	Huawei
 60E701	Huawei
@@ -191,87 +187,14 @@ C07BBC	Cisco
 00E014	Cisco
 00E01E	Cisco
 ACF2C5	Cisco
-CCC760	Apple
-087402	Apple
-285AEB	Apple
-28F076	Apple
 84285A	Saffron Solutions
 80A1AB	Intellisis
-44D884	Apple
-EC852F	Apple
-286ABA	Apple
-705681	Apple
-7CD1C3	Apple
-F0DCE2	Apple
-B065BD	Apple
-A82066	Apple
-BC6778	Apple
-68967B	Apple
-848506	Apple
-B4F0AB	Apple
-10DDB1	Apple
-04F7E4	Apple
-34C059	Apple
-F0D1A9	Apple
-F82793	Apple
-ACFDEC	Apple
-D0E140	Apple
 F832E4	ASUS
-8C7C92	Apple
-7831C1	Apple
-F437B7	Apple
-54AE27	Apple
-6476BA	Apple
-84B153	Apple
-783A84	Apple
-2CBE08	Apple
-24E314	Apple
 0010FF	Cisco
 34BDC8	Cisco
 54A274	Cisco
 5897BD	Cisco
 046C9D	Cisco
-60FEC5	Apple
-00A040	Apple
-BC3BAF	Apple
-786C1C	Apple
-041552	Apple
-38484C	Apple
-701124	Apple
-C86F1D	Apple
-685B35	Apple
-380F4A	Apple
-3010E4	Apple
-04DB56	Apple
-881FA1	Apple
-04E536	Apple
-109ADD	Apple
-40A6D9	Apple
-7CF05F	Apple
-A4B197	Apple
-0C74C2	Apple
-403004	Apple
-4860BC	Apple
-50EAD6	Apple
-28E02C	Apple
-60C547	Apple
-7C11BE	Apple
-003EE1	Apple
-68D93C	Apple
-2CF0EE	Apple
-84788B	Apple
-6C94F8	Apple
-703EAC	Apple
-C01ADA	Apple
-34363B	Apple
-C81EE7	Apple
-9CFC01	Apple
-000D93	Apple
-001CB3	Apple
-64B9E8	Apple
-34159E	Apple
-58B035	Apple
-F0B479	Apple
 141357	ATP
 F44B2A	Cisco SPVTG
 3C8CF8	TRENDnet
@@ -309,7 +232,6 @@ FC335F	Polyera
 A8C87F	Roqos
 C025A2	NEC Platforms
 7853F2	ROXTON
-ACBC32	Apple
 94BBAE	Husqvarna
 AC8995	Azurewave
 F898B9	Huawei
@@ -402,7 +324,6 @@ F88479	Yaojin TechnologyCo
 3428F0	ATN
 EC3C5A	Shen Zhen Heng Sheng HUI Digital
 8C0551	Koubachi
-D88466	Extreme Networks
 E887A3	Loxley Public
 10FACE	Reacheng
 D8CB8A	Micro-Star INTL
@@ -746,7 +667,6 @@ A0E25A	Amicus SK
 F87B62	FASTWEL. Taiwan Branch
 B49842	zte
 9C9C1D	Starkey
-90CC24	Synaptics
 AC1702	Fibar Group sp. z o.o
 7898FD	Q9 Networks
 3C57D5	FiveCo
@@ -1221,7 +1141,6 @@ C89383	Embedded Automation
 D49E6D	Wuhan Zhongyuan Huadian Science
 94F720	Tianjin Deviser
 EC2368	IntelliVoice
-B45253	Seagate
 04DD4C	Velocytech
 B4C810	UMPI Elettronica
 38580C	Panaccess Systems
@@ -1948,7 +1867,6 @@ A8CE90	CVC
 001878	Mackware
 001867	Datalogic ADC
 00185B	Network Chemistry
-001862	Seagate
 00184F	8 Ways
 001854	Argard
 001856	EyeFi
@@ -3880,8 +3798,6 @@ F4F5A5	Nokia
 18A6F7	TP-Link
 246968	TP-Link
 8CA2FD	Starry
-AC61EA	Apple
-38B54D	Apple
 90A62F	Naver
 F4ED5F	Shenzhen KTC Group
 9476B7	Samsung
@@ -3890,7 +3806,6 @@ B47443	Samsung
 000BA2	Sumitomo Electric
 30CBF8	Samsung
 40D357	Ison
-A4F1E8	Apple
 00351A	Cisco
 00A0B8	NetApp
 9CD48B	Innolux
@@ -3980,10 +3895,6 @@ A8D0E5	Juniper Networks
 3CCB7C	TCT mobile
 F03404	TCT mobile
 D8E56D	TCT mobile
-90C1C6	Apple
-70A2B3	Apple
-4C57CA	Apple
-68FB7E	Apple
 442C05	AMPAK
 10BEF5	D-Link
 7C6AF3	Integrated Device Sdn. Bhd
@@ -4001,10 +3912,6 @@ C0A1A2	MarqMetrix
 00F663	Cisco
 341290	Treeview
 F40A4A	IndUSNET
-E8377A	ZyXEL
-04BF6D	ZyXEL
-00A0C5	ZyXEL
-107BEF	ZyXEL
 C0C976	Shenzhen TINNO Mobile
 14C913	LG
 680715	Intel
@@ -4260,8 +4167,6 @@ F09838	Huawei
 EC107B	Samsung
 A01081	Samsung
 001EAE	Continental Automotive Systems
-9CF48E	Apple
-FCD848	Apple
 8048A5	Sichuan Tianyi Comheart Telecomco
 645D92	Sichuan Tianyi Comheart Telecomco
 D44165	Sichuan Tianyi Comheart Telecomco
@@ -4331,7 +4236,6 @@ A408F5	Sagemcom Broadband SAS
 1840A4	Shenzhen Trylong Smart Science and
 9C50EE	Cambridge
 F015B9	PlayFusion
-70700D	Apple
 24A7DC	BSkyB
 2CD02D	Cisco
 3478D7	Gionee Equipment
@@ -4369,17 +4273,17 @@ F483E1	Shanghai Clouder Semiconductor
 F8A5C5	Cisco
 A49B13	Digital Check
 542F8A	Tellescom E Comercio EM Telecomunicacao
-A0A33B	Huawei
-6854C1	ColorTokens
 DCC64B	Huawei
 043389	Huawei
+A0A33B	Huawei
+6854C1	ColorTokens
 887873	Intel
 6C750D	WiFiSONG
-346E9D	Ericsson
-54E1AD	LCFC
 E45D51	SFR
+346E9D	Ericsson
 B816DB	Chant Sincere
 D461FE	Hangzhou H3C
+54E1AD	LCFC
 94F551	Cadi Scientific
 BC452E	Knowledge Development for POF S.L
 E8D11B	Askey
@@ -4387,34 +4291,25 @@ E8D11B	Askey
 14987D	Technicolor CH USA
 D4CF37	Symbolic IO
 283F69	Sony Mobile
-E048AF	Premietech
-2C3311	Cisco
-F0A225	Private
 F0D2F1	Amazon
 8871E5	Amazon
-7C5049	Apple
+F0A225	Private
+E048AF	Premietech
+2C3311	Cisco
 503A7D	AlphaTech Int'l
 9CFCD1	Aetheris
 949901	Shenzhen YITOA Digital Appliance
 E89E0C	Private
-10954B	Megabyte
 D8A105	Syslane
 C4B9CD	Cisco
-3C0518	Samsung
+10954B	Megabyte
 900628	Samsung
 C4700B	Guangzhou Chip
 D4AE05	Samsung
-98DDEA	Infinix mobility
+3C0518	Samsung
 04946B	Tecno Mobile
 A04C5B	Shenzhen TINNO Mobile
-989E63	Apple
-DCA904	Apple
-48A195	Apple
-6CAB31	Apple
-503237	Apple
-D4619D	Apple
-B0481A	Apple
-000889	Echostar
+98DDEA	Infinix mobility
 2C029F	3ALogics
 58D9D5	Tenda. LtdDongguan branch
 60E78A	Unisem
@@ -4434,10 +4329,10 @@ D8C06A	Hunantv.com Interactive Media
 601466	zte
 30D386	zte
 900E83	Monico Monitoring
+E8BBA8	Guangdong Oppo Mobile Telecom
 BC3AEA	Guangdong Oppo Mobile Telecom
 8C0EE3	Guangdong Oppo Mobile Telecom
 6C5C14	Guangdong Oppo Mobile Telecom
-E8BBA8	Guangdong Oppo Mobile Telecom
 F894C2	Intel
 7CB960	Shanghai X-Cheng telecom
 A8D579	Beijing Chushang Science and
@@ -4445,8 +4340,8 @@ A8D579	Beijing Chushang Science and
 600837	ivvi ScientificCo
 D860B3	Guangdong Global
 3C9509	Liteon
-3CA308	Texas Instruments
 44B412	Sius
+3CA308	Texas Instruments
 60D7E3	IEEE Registration Authority
 00F82C	Cisco
 00C1B1	Cisco
@@ -4472,11 +4367,9 @@ B4F2E8	ARRIS Group
 D0E54D	ARRIS Group
 7085C6	ARRIS Group
 44AAF5	ARRIS Group
-00E18C	Intel
 005094	ARRIS Group
 FC8E7E	ARRIS Group
-5856E8	ARRIS Group
-CCA462	ARRIS Group
+00E18C	Intel
 903EAB	ARRIS Group
 14CFE2	ARRIS Group
 900DCB	ARRIS Group
@@ -4486,11 +4379,7 @@ E0B70A	ARRIS Group
 78719C	ARRIS Group
 D40598	ARRIS Group
 946269	ARRIS Group
-48D343	ARRIS Group
-E02202	ARRIS Group
-2C1DB8	ARRIS Group
-E45740	ARRIS Group
-94CCB9	ARRIS Group
+8C7F3B	ARRIS Group
 40B7F3	ARRIS Group
 20E564	ARRIS Group
 90B134	ARRIS Group
@@ -4500,30 +4389,36 @@ E86D52	ARRIS Group
 001DCE	ARRIS Group
 001DD4	ARRIS Group
 001DCD	ARRIS Group
-8C7F3B	ARRIS Group
+CCA462	ARRIS Group
 D039B3	ARRIS Group
 0000C5	ARRIS Group
 3C36E4	ARRIS Group
 00ACE0	ARRIS Group
 384C90	ARRIS Group
 D40AA9	ARRIS Group
+48D343	ARRIS Group
+E02202	ARRIS Group
+2C1DB8	ARRIS Group
+E45740	ARRIS Group
 0023A3	ARRIS Group
 64ED57	ARRIS Group
 0023EE	ARRIS Group
 002143	ARRIS Group
 0023AF	ARRIS Group
 001ADE	ARRIS Group
+00159A	ARRIS Group
+00080E	ARRIS Group
+0050E3	ARRIS Group
+94CCB9	ARRIS Group
 001E46	ARRIS Group
 0018C0	ARRIS Group
 001A66	ARRIS Group
 00192C	ARRIS Group
-00159A	ARRIS Group
-00080E	ARRIS Group
-0050E3	ARRIS Group
 0025F1	ARRIS Group
 F87B7A	ARRIS Group
-88D7F6	ASUS
+5856E8	ARRIS Group
 145E45	Kaleao
+88D7F6	ASUS
 1C1FD4	LifeBEAM
 88BD78	Flaircomm Microelectronics
 5092B9	Samsung
@@ -4551,17 +4446,16 @@ B0ADAA	Avaya
 00549F	Avaya
 6049C1	Avaya
 E0D848	Dell
-145BE1	nyantec UG
 00187D	Armorlink
 F42981	vivo Mobile
 3CA348	vivo Mobile
+A40E2B	Facebook
 28FAA0	vivo Mobile
 3CB6B7	vivo Mobile
-A40E2B	Facebook
 5419C8	vivo Mobile
-1C4D70	Intel
-A0C5F2	IEEE Registration Authority
 F4B7B3	vivo Mobile
+A0C5F2	IEEE Registration Authority
+1C4D70	Intel
 E43A6E	Shenzhen Zeroone
 60DA83	Hangzhou H3C
 2C5731	Wingtech Group
@@ -4571,22 +4465,22 @@ D05A00	Technicolor CH USA
 70F11C	Shenzhen Ogemray
 14144B	Ruijie Networks
 70DF2F	Cisco
-001753	nFore
-58C583	Itel Mobile
 6447E0	Feitian
+001753	nFore
 F88A3C	IEEE Registration Authority
+58C583	Itel Mobile
 E86D65	AUDIO MOBIL Elektronik
 E86FF2	Actiontec
 00016D	CarrierComm
-70DEF9	FAI WAH
-24C9A1	Ruckus Wireless
 F0B052	Ruckus Wireless
 84183A	Ruckus Wireless
 6CAAB3	Ruckus Wireless
+C4017C	Ruckus Wireless
+70DEF9	FAI WAH
 001F41	Ruckus Wireless
 C08ADE	Ruckus Wireless
 50A733	Ruckus Wireless
-C4017C	Ruckus Wireless
+24C9A1	Ruckus Wireless
 245880	Vizeo
 7CBACC	IEEE Registration Authority
 000726	Shenzhen Gongjin
@@ -4610,105 +4504,93 @@ DCEB53	Wuhan QianXiao Elecronic
 B40F3B	Tenda. LtdDongguan branch
 1062D0	Technicolor CH USA
 7802B1	Cisco
-94D9B3	TP-Link
 309935	zte
+94D9B3	TP-Link
 409BCD	D-Link
 005C86	Shenzhen Fast
 1CAB34	New H3C
 5C0979	Huawei
 002EC7	Huawei
 488EEF	Huawei
-2C3033	Netgear
 002438	Brocade Systems
 001BED	Brocade Systems
 0012F2	Brocade Systems
-28C68E	Netgear
 04A151	Netgear
 A42B8C	Netgear
 A00460	Netgear
 9C3DCF	Netgear
-00146C	Netgear
 2CB05D	Netgear
 504A6E	Netgear
-2C4D79	Weifang GoerTek
-841766	Weifang GoerTek
+28C68E	Netgear
+2C3033	Netgear
+00146C	Netgear
 ACFD93	Weifang GoerTek
 A45385	Weifang GoerTek
+2C4D79	Weifang GoerTek
+841766	Weifang GoerTek
 741C27	Itel Mobile
 111111	Private
 FCC233	Private
 2830AC	Frontiir
 9050CA	Hitron
 0004BF	VersaLogic
-64B5C6	Nintendo
 D8B12A	Panasonic Mobile
+64B5C6	Nintendo
+A41115	Robert Bosch
 EC0441	ShenZhen TIGO Semiconductor
 BC88C3	Ningbo Dooya Mechanic
-A41115	Robert Bosch
-A8BE27	Apple
-B8634D	Apple
-6C96CF	Apple
-3035AD	Apple
-2CD2E7	Nokia
 681F40	Blu Wireless
 48C58D	Lear
 90ADF7	vivo Mobile
 982D68	Samsung
-5CEA1D	Hon Hai Precision
-ECD09F	Xiaomi
+2CD2E7	Nokia
 00152A	Nokia
+5CEA1D	Hon Hai Precision
 A43412	Thales Alenia Space
+ECD09F	Xiaomi
 9C65EE	DASAN Network Solutions
-0017C8	KYOCERA Display
-002294	Kyocera
 80739F	Kyocera
 3889DC	Opticon Sensors B.V
 38E2DD	zte
 74E5F9	Intel
-080070	Mitsubishi Precision
+0017C8	KYOCERA Display
+002294	Kyocera
 3C11B2	Fraunhofer FIT
+080070	Mitsubishi Precision
 DCF090	Nubia
 DC6AEA	Infinix mobility
-8CE38E	Toshiba Memory
-D8A01D	Espressif
 0025DF	Private
+D8A01D	Espressif
+8CE38E	Toshiba Memory
 74EAC8	New H3C
 A434F1	Texas Instruments
 C4F312	Texas Instruments
 44EAD8	Texas Instruments
+8C5F48	Continental Intelligent Transportation Systems
 A0D86F	Private
 3890A5	Cisco
-8C5F48	Continental Intelligent Transportation Systems
 4C1365	Emplus
-104400	Huawei
 2054FA	Huawei
 989C57	Huawei
 E4A7C5	Huawei
+104400	Huawei
 88DA1A	Redpine Signals
 14CF8D	Ohsung
 8CE748	Private
 48D35D	Private
-F4F5DB	Xiaomi
-38A6CE	BSkyB
-1077B0	Fiberhome Telecom
-1C398A	Fiberhome Telecom
-CC0677	Fiberhome Telecom
-C84029	Fiberhome Telecom
-28BF89	Fiberhome Telecom
-F4573E	Fiberhome Telecom
-88947E	Fiberhome Telecom
-B0E2E5	Fiberhome Telecom
 E446DA	Xiaomi
 500F80	Cisco
-B430C0	York Instruments
-F0BD2E	H+S Polatis
+F4F5DB	Xiaomi
+38A6CE	BSkyB
 F0AB54	Mitsumi Electric
 C449BB	Mitsumi Electric
+B430C0	York Instruments
 C468D0	VTech Telecom
 48D6D5	Google
+F0BD2E	H+S Polatis
 842C80	Sichuan Changhong Electric
-0C1C20	Kakao
 182D98	Jinwoo System
+0C1C20	Kakao
 40498A	Synapticon
 D80831	Samsung
 24F27F	Hewlett Packard
@@ -4718,21 +4600,15 @@ F449EF	Emstone
 2856C1	Harman
 68A682	Shenzhen YOUHUA
 406A8E	Hangzhou Puwell OE
-001F1F	Edimax
 DC5583	Guangdong Oppo Mobile Telecom
-9CE33F	Apple
-F0989D	Apple
-ACE4B5	Apple
-E42B34	Apple
-1C36BB	Apple
-3C2EFF	Apple
-547A52	CTE srl
+001F1F	Edimax
 248BE0	Sichuan Tianyi Comheart Telecomco
 ECB5FA	Philips Lighting
+547A52	CTE srl
+649A08	Shenzhen SuperElectron
 ACA667	Electronic Systems Protection
 006048	Dell EMC
 7CC95A	Dell EMC
-649A08	Shenzhen SuperElectron
 CC2DE0	Routerboard.com
 ECFABC	Espressif
 B0FC36	CyberTAN
@@ -4742,34 +4618,221 @@ B0FC36	CyberTAN
 0C5203	AGM Group
 3C18A0	Luxshare Precision
 BCF292	Plantronics
+2C54CF	LG
+001FE3	LG
+0026E2	LG
+001E75	LG
+6CD68A	LG
+2021A5	LG
+0C4885	LG
+DC0B34	LG
+AC0D1B	LG
+60E3AC	LG
 F895C7	LG
 C4438F	LG
 A816B2	LG
 E892A4	LG
 700514	LG
-6CD68A	LG
-2021A5	LG
-0C4885	LG
-DC0B34	LG
-2C598A	LG
 88C9D0	LG
-2C54CF	LG
-001FE3	LG
-0026E2	LG
-001E75	LG
-AC0D1B	LG
-60E3AC	LG
+2C598A	LG
 547DCD	Texas Instruments
 1CDF52	Texas Instruments
 18F0E4	Xiaomi
 803BF6	Look Easy
-4C5262	Fujitsu Solutions
-3873EA	IEEE Registration Authority
-EC7097	ARRIS Group
-C0A00D	ARRIS Group
 F417B8	AirTies Wireless Networks
 5CAD76	Shenzhen TCL New
+4C5262	Fujitsu Solutions
+EC7097	ARRIS Group
+C0A00D	ARRIS Group
 EC8350	Microsoft
+3873EA	IEEE Registration Authority
+0CCEF6	Guizhou Fortuneship
+549A4C	Guangdong Homecare
+00A0C5	ZyXEL
+04BF6D	ZyXEL
+E8377A	ZyXEL
+107BEF	ZyXEL
+D07FC4	Ou Wei. Of Shenzhen City
+6CB2AE	Cisco
+6C4E86	Third Millennium Systems
+30C507	ECI Telecom
+145BE1	nyantec
+B8CA04	Holtek Semiconductor
+B8C8EB	Itel Mobile
+001862	Seagate
+B45253	Seagate
+7047E9	vivo Mobile
+88D171	Beghelli S.P.A
+74EACB	New H3C
+D8B122	Juniper Networks
+F045DA	Texas Instruments
+A43E51	Anov France
+D88466	Extreme Networks
+588D64	Xi'an Clevbee
+34415D	Intel
+8CEC4B	Dell
+3C9A77	Technicolor CH USA
+6C2ACB	Paxton Access
+002790	Cisco
+FCA183	Amazon
+B89F09	Wistron Neweb
+94290C	Shenyang wisdom Foundation Development
+4064A4	THE Furukawa Electric
+DCA266	Hon Hai Precision
+D89C67	Hon Hai Precision
+802BF9	Hon Hai Precision
+4CDD31	Samsung
+28BF89	Fiberhome Telecom
+C84029	Fiberhome Telecom
+CC0677	Fiberhome Telecom
+B0E2E5	Fiberhome Telecom
+88947E	Fiberhome Telecom
+F4573E	Fiberhome Telecom
+1C398A	Fiberhome Telecom
+1077B0	Fiberhome Telecom
+E43022	Hanwha Techwin Security Vietnam
+B4E62D	Espressif
+F0B5B7	Disruptive
+703EAC	Apple
+6C94F8	Apple
+84788B	Apple
+2CF0EE	Apple
+68D93C	Apple
+24E314	Apple
+28F076	Apple
+285AEB	Apple
+087402	Apple
+CCC760	Apple
+000889	Dish
+6CC4D5	HMD Global
+E8C1B8	Nanjing Bangzhong
+B4DE31	Cisco
+68967B	Apple
+BC6778	Apple
+A82066	Apple
+B065BD	Apple
+F0DCE2	Apple
+7CD1C3	Apple
+705681	Apple
+2CBE08	Apple
+783A84	Apple
+84B153	Apple
+6476BA	Apple
+54AE27	Apple
+F437B7	Apple
+F0D1A9	Apple
+34C059	Apple
+04F7E4	Apple
+10DDB1	Apple
+B4F0AB	Apple
+848506	Apple
+7831C1	Apple
+8C7C92	Apple
+D0E140	Apple
+ACFDEC	Apple
+F82793	Apple
+40A6D9	Apple
+109ADD	Apple
+F0B479	Apple
+58B035	Apple
+34159E	Apple
+286ABA	Apple
+EC852F	Apple
+44D884	Apple
+003EE1	Apple
+7C11BE	Apple
+04E536	Apple
+881FA1	Apple
+04DB56	Apple
+9CFC01	Apple
+C81EE7	Apple
+34363B	Apple
+C01ADA	Apple
+ACBC32	Apple
+70700D	Apple
+7C5049	Apple
+503237	Apple
+D4619D	Apple
+B0481A	Apple
+989E63	Apple
+DCA904	Apple
+48A195	Apple
+6CAB31	Apple
+6C96CF	Apple
+3035AD	Apple
+A8BE27	Apple
+B8634D	Apple
+9CE33F	Apple
+F0989D	Apple
+ACE4B5	Apple
+E42B34	Apple
+1C36BB	Apple
+3C2EFF	Apple
+F0766F	Apple
+40CBC0	Apple
+4098AD	Apple
+6C4D73	Apple
+C48466	Apple
+D02B20	Apple
+3010E4	Apple
+380F4A	Apple
+685B35	Apple
+C86F1D	Apple
+701124	Apple
+38484C	Apple
+041552	Apple
+786C1C	Apple
+BC3BAF	Apple
+00A040	Apple
+60FEC5	Apple
+CC4463	Apple
+6C72E7	Apple
+18AF61	Apple
+00CDFE	Apple
+AC61EA	Apple
+38B54D	Apple
+60C547	Apple
+28E02C	Apple
+50EAD6	Apple
+4860BC	Apple
+403004	Apple
+0C74C2	Apple
+A4B197	Apple
+7CF05F	Apple
+A4F1E8	Apple
+70A2B3	Apple
+4C57CA	Apple
+68FB7E	Apple
+90C1C6	Apple
+9CF48E	Apple
+FCD848	Apple
+64B9E8	Apple
+001CB3	Apple
+000D93	Apple
+70169F	EtherCAT Group
+649829	Integrated Device Sdn. Bhd
+081DC4	Thermo Fisher Scientific Messtechnik
+90CC24	Synaptics
+689861	Beacon
+88B362	Nokia Shanghai Bell.)
+1CA0B8	Hon Hai Precision
+3C479B	Theissen Training Systems
+8CF773	Nokia
+80CE62	HP
+801F12	Microchip
+506CBE	InnosiliconTechnology
+04C241	Nokia
+307BAC	New H3C
+804126	Huawei
+0CC6CC	Huawei
+3C0461	ARRIS Group
+705AAC	Samsung
+FC643A	Samsung
+D4E6B7	Samsung
+2802D8	Samsung
+C464E3	Texas Instruments
+F4844C	Texas Instruments
+10A4B9	Baidu Online Network
 0C6F9C	Shaw
 1801E3	Bittium Wireless
 C0AC54	Sagemcom Broadband SAS
@@ -4788,8 +4851,6 @@ D0B33F	Shenzhen TINNO Mobile
 00738D	Shenzhen TINNO Mobile
 A8CA7B	Huawei
 ACCF85	Huawei
-0CD746	Apple
-440010	Apple
 2435CC	Zhongshan Scinan Internet Of Things
 2C27D7	HP
 000F3D	D-Link
@@ -4804,8 +4865,6 @@ FC7516	D-Link
 7C18CD	E-TRON
 3897D6	Hangzhou H3C
 C8478C	Beken
-E498D6	Apple
-606944	Apple
 8896B6	Global Fire Equipment S.A
 188796	HTC
 AC2A0C	CSR Zhuzhou Institute
@@ -4845,9 +4904,6 @@ EC4D47	Huawei
 88CF98	Huawei
 6CE3B6	Nera Telecom
 942CB3	HUMAX
-0452F3	Apple
-241EEB	Apple
-F431C3	Apple
 C87B5B	zte
 98F537	zte
 001E73	zte
@@ -4881,7 +4937,6 @@ C85195	Huawei
 00F81C	Huawei
 F4559C	Huawei
 283CE4	Huawei
-64A5C3	Apple
 001D0F	TP-Link
 5C63BF	TP-Link
 B0487A	TP-Link
@@ -4933,20 +4988,6 @@ F46D04	ASUS
 006083	Cisco
 00067C	Cisco
 C8D719	Cisco-Linksys
-CC08E0	Apple
-5855CA	Apple
-8C7B9D	Apple
-88C663	Apple
-C82A14	Apple
-9803D8	Apple
-8C5877	Apple
-3451C9	Apple
-E0B9BA	Apple
-D023DB	Apple
-B88D12	Apple
-B817C2	Apple
-68A86D	Apple
-78A3E4	Apple
 54781A	Cisco
 58971E	Cisco
 CCD539	Cisco
@@ -4974,75 +5015,9 @@ F45FD4	Cisco SPVTG
 002306	Alps Electric
 001E3D	Alps Electric
 0019C1	Alps Electric
-BC926B	Apple
-0050E4	Apple
-003065	Apple
-000A27	Apple
-001451	Apple
-0019E3	Apple
-002312	Apple
-002332	Apple
-002436	Apple
-00254B	Apple
-0026BB	Apple
-E80688	Apple
-985AEB	Apple
-2078F0	Apple
-78D75F	Apple
-E0ACCB	Apple
-98E0D9	Apple
-C0CECD	Apple
-70E72C	Apple
-D03311	Apple
 847D50	Holley Metering
 6C4A39	Bita
-C8B5B7	Apple
-A8BBCF	Apple
-90B21F	Apple
-B8E856	Apple
-1499E2	Apple
 04214C	Insight Energy Ventures
-B418D1	Apple
-80006E	Apple
-60D9C7	Apple
-C8F650	Apple
-1C1AC0	Apple
-E06678	Apple
-5C8D4E	Apple
-64A3CB	Apple
-44FB42	Apple
-F41BA1	Apple
-3CE072	Apple
-E88D28	Apple
-CC785F	Apple
-AC3C0B	Apple
-88CB87	Apple
-EC3586	Apple
-F0C1F1	Apple
-F4F951	Apple
-18AF8F	Apple
-C0F2FB	Apple
-00F76F	Apple
-AC87A3	Apple
-48437C	Apple
-34A395	Apple
-9CF387	Apple
-A85B78	Apple
-908D6C	Apple
-0C1539	Apple
-BC4CC4	Apple
-0CBC9F	Apple
-A45E60	Apple
-680927	Apple
-60FACD	Apple
-1CABA7	Apple
-8CFABA	Apple
-5C95AE	Apple
-E0C97A	Apple
-BC52B7	Apple
-14109F	Apple
-542696	Apple
-D8D1CB	Apple
 4C8ECC	Silkan
 98F428	zte
 7C5A67	JNC Systems
@@ -5065,11 +5040,8 @@ ECB870	Beijing Heweinet
 A01E0B	MINIX
 D48304	Shenzhen Fast
 385F66	Cisco SPVTG
-544E90	Apple
 58FC73	Arria Live Media
 2C1BC8	Hunan Topview Network System
-5CADCF	Apple
-006D52	Apple
 D888CE	RF
 D4F4BE	Palo Alto Networks
 B88687	Liteon
@@ -6616,7 +6588,6 @@ D0D286	Beckman Coulter K.K
 001BEB	DMP
 001BE6	VR
 001BDF	Iskra Sistemi d.d
-001BD8	DVTel
 001BCC	Kingtek Cctv Alliance
 001AC8	ISL
 001ACF	C.T. Elettronica
@@ -6899,7 +6870,6 @@ D0D286	Beckman Coulter K.K
 0014DC	Communication System Design & Manufacturing
 0014CF	INVISIO
 0014CA	Key Radio Systems
-0014C3	Seagate
 0014BC	Synectic Telecom Exports
 0014B7	AR Infotek
 0014AD	Gassner Wiege- und Messtechnik
@@ -7625,7 +7595,6 @@ D0D286	Beckman Coulter K.K
 0004DB	Tellus Group
 0004E2	SMC Networks
 0004D5	Hitachi Information
-0004CF	Seagate
 0004C9	Micro
 000487	Cogency Semiconductor
 000482	Medialogic
@@ -7935,7 +7904,6 @@ D0D286	Beckman Coulter K.K
 00505B	Kawasaki LSI U.S.A
 0050F8	Entrega
 00506F	G-Connect
-0050CC	Xyratex
 0050D5	AD Systems
 0050AA	Konica Minolta Holdings
 00509C	Beta
@@ -8184,7 +8152,6 @@ D0D286	Beckman Coulter K.K
 0020DF	Kyosan Electric
 002010	Jeol System
 002020	Megatron
-002037	Seagate
 0020A0	OA Laboratory
 00C0A3	Dual
 0070B0	M/A-CoM. Companies
@@ -8644,7 +8611,6 @@ A87E33	Nokia
 006CFD	Sichuan Changhong Electric
 1C234F	EDMI
 A444D1	Wingtech Group
-1C9E46	Apple
 005058	Sangoma
 3482DE	Kiio
 0008F6	Sumitomo Electric
@@ -8656,7 +8622,6 @@ A0C589	Intel
 E45D75	Samsung
 3CBEE1	Nikon
 047E4A	moobox
-E0C767	Apple
 2C09CB	Cobs
 60ACC8	KunTeng
 0404EA	Valens Semiconductor
@@ -8756,12 +8721,6 @@ B8E779	9Solutions
 C84544	Asia Pacific CIS
 E8A7F2	sTraffic
 D8209F	Cubro Acronet GesmbH
-A860B6	Apple
-24F094	Apple
-90B0ED	Apple
-C4B301	Apple
-E05F45	Apple
-483B38	Apple
 E47B3F	Beijing-Cloud
 A0415E	Opsens Solution
 1C6E76	Quarion
@@ -8789,10 +8748,6 @@ B456B9	Teraspek
 24E271	Qingdao Hisense
 BC6010	Qingdao Hisense
 AC3743	HTC
-603197	ZyXEL
-0019CB	ZyXEL
-FCF528	ZyXEL
-588BF3	ZyXEL
 D8B02E	Guangzhou Zonerich Business Machine
 849D64	SMC
 A020A6	Espressif
@@ -8811,7 +8766,6 @@ C4BB4C	Zebra Information
 02E6D3	Nixdorf
 0016B9	HP ProCurve
 0024A8	HP ProCurve
-CC3ADF	Private
 141F78	Samsung
 006F64	Samsung
 DC6672	Samsung
@@ -8942,14 +8896,8 @@ F48C50	Intel
 E8E875	iS5
 000422	Studio
 ACC662	MitraStar
-B8ECA3	ZyXEL
 F01DBC	Microsoft
-404D7F	Apple
-7C04D0	Apple
-BC9FEF	Apple
-8866A5	Apple
 ACDCE5	Procter & Gamble
-784F43	Apple
 98D293	Google
 5CCCA0	Gridwiz
 104FA8	Sony
@@ -9084,11 +9032,8 @@ C83DD4	CyberTAN
 487A55	ALE
 000435	InfiNet
 BC39D9	Z-TEC
-88E87F	Apple
-B853AC	Apple
 B04BBF	PT HAN Sung Electoronics Indonesia
 0060D6	NovAtel
-2C3361	Apple
 78B84B	Sichuan Tianyi Comheart Telecomco
 40F420	Sichuan Tianyi Comheart Telecomco
 9C6121	Sichuan Tianyi Comheart Telecomco
@@ -9148,7 +9093,6 @@ C0D9F7	ShanDong Domor Intelligent S&T
 4C4E03	TCT mobile
 50E666	Shenzhen Techtion
 6831FE	Teladin
-EC43F6	ZyXEL
 D4B169	Le Shi Zhi Xin
 0C3CCD	Universal Global Scientific
 B04089	Senient Systems
@@ -9182,8 +9126,6 @@ F44C7F	Huawei
 E05163	Arcadyan
 00A06F	Color Sentinel Systems
 0C5F35	Niagara Video
-B85001	Extreme Networks
-000496	Extreme Networks
 7C3866	Texas Instruments
 50F14A	Texas Instruments
 9C1D58	Texas Instruments
@@ -9203,12 +9145,6 @@ D47DFC	Tecno Mobile
 8058F8	Motorola Mobility
 F0D7AA	Motorola Mobility
 28FF3E	zte
-886B6E	Apple
-4C74BF	Apple
-70F087	Apple
-285767	Echostar
-0024AF	Echostar
-04C9D9	Echostar
 D0498B	Zoom Server
 C49DED	Microsoft
 98A40E	Snap
@@ -9385,7 +9321,6 @@ D09466	Dell
 F0EFD2	TF Payment
 30C01B	Shenzhen Jingxun Telecom
 647C34	Ubee Interactive
-747D24	Phicomm
 E817FC	Fujitsu Cloud
 001009	Horanet
 6432A8	Intel
@@ -9427,8 +9362,6 @@ F4F3AA	JBL
 38CD07	Beijing FaceCam
 B009DA	Ring Solutions
 444AB0	Zhejiang Moorgen Intelligence
-844167	Apple
-B4F61C	Apple
 ECFA03	FCA
 90324B	Hon Hai Precision
 78E103	Amazon
@@ -9464,14 +9397,6 @@ F46E24	NEC Personal
 78321B	D-Link
 EC51BC	Guangdong Oppo Mobile Telecom
 F079E8	Guangdong Oppo Mobile Telecom
-A013CB	Fiberhome Telecom
-20896F	Fiberhome Telecom
-741E93	Fiberhome Telecom
-18A3E8	Fiberhome Telecom
-60B617	Fiberhome Telecom
-CC500A	Fiberhome Telecom
-A8E705	Fiberhome Telecom
-74C9A3	Fiberhome Telecom
 D8A534	Spectronix
 583879	Ricoh
 94282E	New H3C
@@ -9504,9 +9429,6 @@ F06D78	Guangdong Oppo Mobile Telecom
 7844FD	TP-Link
 503EAA	TP-Link
 AC84C6	TP-Link
-E49ADC	Apple
-B8C111	Apple
-3408BC	Apple
 34D0B8	IEEE Registration Authority
 B0C19E	zte
 0C3747	zte
@@ -9534,9 +9456,221 @@ F86CE1	Taicang T&W
 1C7328	Connected Home
 40A93F	Private
 5C7776	TCT mobile
-38F73D	Amazon
 EC1D8B	Cisco
 0CEAC9	ARRIS Group
+38F73D	Amazon
+30B4B8	LG
+2CFDAB	Motorola Mobility
+F41E5E	RtBrick
+1806FF	Acer
+B8ECA3	ZyXEL
+EC43F6	ZyXEL
+588BF3	ZyXEL
+FCF528	ZyXEL
+0019CB	ZyXEL
+603197	ZyXEL
+34FA9F	Ruckus Wireless
+506F98	Sehaj Synergy
+04F128	HMD Global
+F065C2	Yanfeng Visteon
+70B7E2	Jiangsu Miter
+503CEA	Guangdong Oppo Mobile Telecom
+0004CF	Seagate
+0014C3	Seagate
+002037	Seagate
+0050CC	Seagate Cloud Systems
+1C27DD	Datang GohighsecInformation
+007263	Netcore
+48555C	Wu Qi
+70EEA3	Eoptolink
+5C5819	Jingsheng
+747D24	Phicomm
+5C81A7	Network Devices
+808DB7	Hewlett Packard
+10CEA9	Texas Instruments
+F8B568	IEEE Registration Authority
+14444A	Apollo Seiko
+5C0C0E	Guizhou Huaxintong Semiconductor
+2CFDA1	ASUS
+3807D4	Zeppelin Systems
+64209F	Tilgin
+04E0B0	Shenzhen YOUHUA
+0C9838	Xiaomi
+000496	Extreme Networks
+B85001	Extreme Networks
+7C7630	Shenzhen YOUHUA
+9822EF	Liteon
+580454	Icomm HK
+A0BDCD	BSkyB
+803A59	AT&T
+606D3C	Luxshare Precision
+CC4D38	Carnegie
+54FCF0	Samsung
+08AED6	Samsung
+B0672F	Bowers & Wilkins
+A816D0	Samsung
+88BD45	Samsung
+74C9A3	Fiberhome Telecom
+A8E705	Fiberhome Telecom
+CC500A	Fiberhome Telecom
+60B617	Fiberhome Telecom
+18A3E8	Fiberhome Telecom
+741E93	Fiberhome Telecom
+20896F	Fiberhome Telecom
+A013CB	Fiberhome Telecom
+3CFB5C	Fiberhome Telecom
+CC3ADF	Neptune Group
+28EDE0	AMPAK
+544E90	Apple
+D03311	Apple
+70E72C	Apple
+C0CECD	Apple
+98E0D9	Apple
+E0ACCB	Apple
+78D75F	Apple
+2078F0	Apple
+985AEB	Apple
+A45E60	Apple
+006D52	Apple
+5CADCF	Apple
+B8E856	Apple
+90B21F	Apple
+A8BBCF	Apple
+C8B5B7	Apple
+18AF8F	Apple
+F4F951	Apple
+F0C1F1	Apple
+EC3586	Apple
+88CB87	Apple
+AC3C0B	Apple
+CC785F	Apple
+E88D28	Apple
+3CE072	Apple
+F41BA1	Apple
+A85B78	Apple
+9CF387	Apple
+34A395	Apple
+48437C	Apple
+AC87A3	Apple
+00F76F	Apple
+C0F2FB	Apple
+1CABA7	Apple
+60FACD	Apple
+680927	Apple
+78A3E4	Apple
+68A86D	Apple
+B817C2	Apple
+B88D12	Apple
+5C8D4E	Apple
+E06678	Apple
+1C1AC0	Apple
+C8F650	Apple
+60D9C7	Apple
+44FB42	Apple
+64A3CB	Apple
+D8D1CB	Apple
+542696	Apple
+14109F	Apple
+BC52B7	Apple
+E0C97A	Apple
+5C95AE	Apple
+8CFABA	Apple
+0CBC9F	Apple
+BC4CC4	Apple
+0C1539	Apple
+908D6C	Apple
+80006E	Apple
+B418D1	Apple
+1499E2	Apple
+E0C767	Apple
+A860B6	Apple
+24F094	Apple
+90B0ED	Apple
+C4B301	Apple
+E05F45	Apple
+483B38	Apple
+88E87F	Apple
+B853AC	Apple
+2C3361	Apple
+784F43	Apple
+404D7F	Apple
+BC926B	Apple
+0452F3	Apple
+241EEB	Apple
+F431C3	Apple
+64A5C3	Apple
+606944	Apple
+E498D6	Apple
+0CD746	Apple
+440010	Apple
+1C9E46	Apple
+7C04D0	Apple
+BC9FEF	Apple
+8866A5	Apple
+70F087	Apple
+886B6E	Apple
+4C74BF	Apple
+844167	Apple
+B4F61C	Apple
+E49ADC	Apple
+B8C111	Apple
+3408BC	Apple
+D0817A	Apple
+C4618B	Apple
+68AB1E	Apple
+2C61F6	Apple
+0026BB	Apple
+00254B	Apple
+002436	Apple
+002332	Apple
+002312	Apple
+0019E3	Apple
+001451	Apple
+000A27	Apple
+003065	Apple
+0050E4	Apple
+D023DB	Apple
+E0B9BA	Apple
+3451C9	Apple
+8C5877	Apple
+9803D8	Apple
+C82A14	Apple
+88C663	Apple
+8C7B9D	Apple
+5855CA	Apple
+CC08E0	Apple
+E80688	Apple
+040973	Hewlett Packard
+70F220	Actiontec
+4CC206	Somfy
+50DCE7	Amazon
+04C9D9	Dish
+0024AF	Dish
+285767	Dish
+7055F8	Cerebras Systems
+9C431E	IEEE Registration Authority
+6C54CD	Lampex
+80C548	Shenzhen Zowee
+883D24	Google
+90848B	HDR10+
+0C2369	Honeywell SPS
+E8DEFB	Mesotic SAS
+8C1645	LCFC
+B4E9A3	port
+6CB6CA	DivUS
+B8DE5E	Longcheer Telecom
+DCDD24	Energica
+641CB0	Samsung
+946372	vivo Mobile
+449EF9	vivo Mobile
+8CF957	RuiXingHengFang Network
+001BD8	FLIR Systems
+20365B	Megafone
+E8DE00	ChongQing GuanFang
+3CDCBC	Samsung
+F47190	Samsung
+4C776D	Cisco
+FCA6CD	Fiberhome Telecom
 5846E1	Baxter
 00D0BD	Lattice Semiconductor
 F08261	Sagemcom Broadband SAS
@@ -9550,9 +9684,6 @@ EC2280	D-Link
 DCC0EB	Assa Abloy C?TE Picarde
 001735	Intel Wireless Network Group
 9CDFB1	Shenzhen Crave
-5CF938	Apple
-3871DE	Apple
-BC5436	Apple
 0CC731	Currant
 00142F	Savvius
 2CDDA3	Point Grey
@@ -9679,23 +9810,6 @@ F83DFF	Huawei
 60DE44	Huawei
 3400A3	Huawei
 643E8C	Huawei
-00C610	Apple
-70DEE2	Apple
-182032	Apple
-6CC26B	Apple
-1040F3	Apple
-FC253F	Apple
-183451	Apple
-C0847A	Apple
-64200C	Apple
-74E1B6	Apple
-0C771A	Apple
-00F4B9	Apple
-C8334B	Apple
-B8F6B1	Apple
-C09F42	Apple
-189EFC	Apple
-6C3E6D	Apple
 0016FE	Alps Electric
 0498F3	Alps Electric
 38C096	Alps Electric
@@ -9729,17 +9843,6 @@ B4E9B0	Cisco
 B0FAEB	Cisco
 500604	Cisco
 70105C	Cisco
-7CFADF	Apple
-101C0C	Apple
-001124	Apple
-001D4F	Apple
-001E52	Apple
-001F5B	Apple
-001FF3	Apple
-0021E9	Apple
-00236C	Apple
-002500	Apple
-60FB42	Apple
 14DAE9	ASUS
 3C08F6	Cisco
 D072DC	Cisco
@@ -9748,15 +9851,6 @@ D072DC	Cisco
 58F39C	Cisco
 346288	Cisco
 881DFC	Cisco
-F81EDF	Apple
-90840D	Apple
-D8A25E	Apple
-C8BCC8	Apple
-28E7CF	Apple
-D89E3F	Apple
-040CCE	Apple
-A4D1D2	Apple
-406C8F	Apple
 C067AF	Cisco
 64E950	Cisco
 189C5D	Cisco
@@ -9771,48 +9865,7 @@ C067AF	Cisco
 00100B	Cisco
 00100D	Cisco
 001014	Cisco
-649ABE	Apple
-94E96A	Apple
-AC293A	Apple
-10417F	Apple
-7014A6	Apple
-A8667F	Apple
-D02598	Apple
-CC29F5	Apple
-6C709F	Apple
-0C3E9F	Apple
-34E2FD	Apple
-609217	Apple
-8863DF	Apple
-80E650	Apple
-006171	Apple
-90FD61	Apple
-5C97F3	Apple
-6C4008	Apple
-24A074	Apple
-F02475	Apple
-20A2E4	Apple
-5CF5DA	Apple
 D4B8FF	Home Control Singapore
-28E14C	Apple
-54E43A	Apple
-C8E0EB	Apple
-A88808	Apple
-907240	Apple
-0C4DE9	Apple
-D89695	Apple
-0C3021	Apple
-F0F61C	Apple
-B03495	Apple
-848E0C	Apple
-8C2DAA	Apple
-444C0C	Apple
-84FCFE	Apple
-E48B7F	Apple
-5C969D	Apple
-A8FAD8	Apple
-949426	Apple
-E0F5C6	Apple
 AC6462	zte
 C08488	Finis
 68E8EB	Linktel
@@ -9834,8 +9887,6 @@ B8B2EB	Googol
 C40049	Kamama
 50A9DE	Smartcom - Bulgaria AD
 E8DED6	Intrising Networks
-B844D9	Apple
-DC2B2A	Apple
 8C10D4	Sagemcom Broadband SAS
 089B4B	iKuai Networks
 3C7873	Airsonics
@@ -10292,7 +10343,6 @@ AC5D10	Pace Americas
 88F490	Jetmobile
 E8A364	Signal Path / Peachtree Audio
 D0D6CC	Wintop
-101D51	ON-Q dba ON-Q Mesh Networks
 34C99D	Eidolon
 8C4AEE	Giga TMS
 F46DE2	zte
@@ -11204,7 +11254,6 @@ A893E6	Jiangxi Jinggangshan Cking
 001D45	Cisco
 001D3E	Saka Techno Science
 001D37	Thales-Panda Transportation System
-001D38	Seagate
 001D32	Longkay
 001D2B	Wuhan Pont
 001D1F	Siauliu Tauro Televizoriai
@@ -12376,7 +12425,6 @@ A06A00	Verilink
 000269	Nadatel
 000265	Virditech
 00025E	High
-000261	Tilgin
 000259	Tsann Kuen China. IT Group
 000255	IBM
 000249	Aviv Infocom
@@ -12494,7 +12542,6 @@ A06A00	Verilink
 000147	Zhone
 00012B	TELENET
 00011C	Universal Talkware
-000123	Digital
 00011F	RC Networks
 003045	Village Networks
 0030BB	CacheFlow
@@ -12951,7 +12998,6 @@ A06A00	Verilink
 004059	Yoshida Kogyo K. K
 004021	Raster Graphics
 004081	Mannesmann Scangraphic
-00806C	Cegelec Projects
 00404A	West Australian Department
 00400A	Pivotal
 004032	Digital
@@ -13330,8 +13376,6 @@ B83241	Wuhan Tianyu Information
 9897D1	MitraStar
 94C960	Zhongshan B&T.Co
 001479	NEC Magnus
-9C4FDA	Apple
-1C5CF2	Apple
 0821EF	Samsung
 A0CBFD	Samsung
 34145F	Samsung
@@ -13342,11 +13386,7 @@ B462AD	Elysia Germany
 686E23	Wi3
 B8A175	Roku
 0080E5	NetApp
-E49A79	Apple
-28A02B	Apple
-B44BD2	Apple
 002340	MiXTelematics
-B48B19	Apple
 00AF1F	Cisco
 4CCC6A	Micro-Star INTL
 985BB0	Kmdata
@@ -13445,9 +13485,6 @@ E42D02	TCT mobile
 3C8C40	Hangzhou H3C
 B04519	TCT mobile
 A81559	Breathometer
-ECADB8	Apple
-9801A7	Apple
-2CF0A2	Apple
 C09727	Samsung
 2C5A8D	SysTRONIK Elektronik u. Systemtechnik
 8C897A	Augtek
@@ -13474,11 +13511,6 @@ A0B437	GD Mission Systems
 9CDD1F	Intelligent Steward
 00EBD5	Cisco
 1C7B23	Qingdao Hisense
-1C740D	ZyXEL
-001349	ZyXEL
-404A03	ZyXEL
-CC5D4E	ZyXEL
-A0E4CB	ZyXEL
 90CF7D	Qingdao Hisense
 F8F082	NAG
 40F413	Rubezh
@@ -13734,13 +13766,9 @@ E43ED7	Arcadyan
 00B0CE	Viveris
 E00DB9	Cree
 40FE0D	Maxio
-609AC1	Apple
-F07960	Apple
-9C8BA0	Apple
 9840BB	Dell
 E04FBD	Sichuan Tianyi Comheart Telecomco
 00B0E1	Cisco
-4C3275	Apple
 0006F4	Prime
 ACE77B	Sichuan Tianyi Comheart Telecomco
 24A43C	Ubiquiti Networks
@@ -13760,7 +13788,6 @@ B83A9D	Alarm.com
 2CC260	Oracle
 407183	Juniper Networks
 0059DC	Cisco
-ACF85C	Private
 1CC0E1	IEEE Registration Authority
 00749C	Ruijie Networks
 00271C	Mercury
@@ -13775,7 +13802,6 @@ F0219D	Cal-Comp
 506B8D	Nutanix
 0038DF	Cisco
 006BF1	Cisco
-CC81DA	Shanghai Phicomm
 20D25F	SmartCap
 3CFA43	Huawei
 145F94	Huawei
@@ -13814,10 +13840,6 @@ FC10C6	Taicang T&W
 5C4A1F	Sichuan Tianyi Comheart Telecomco
 0C8DDB	Cisco Meraki
 B0F963	Hangzhou H3C
-E4E4AB	Apple
-58404E	Apple
-DC0C5C	Apple
-2C200B	Apple
 98B6E9	Nintendo
 8809AF	Masimo
 00E06C	Ultra
@@ -13866,11 +13888,7 @@ BC3F8F	Huawei
 00D071	Echelon
 0030C5	Cadence Design Systems
 504061	Nokia
-7467F7	Extreme Networks
-B4C799	Extreme Networks
 54E3F6	Alcatel-Lucent
-5C0E8B	Extreme Networks
-00E02B	Extreme Networks
 B0C205	Bionime
 0C61CF	Texas Instruments
 7C2664	Sagemcom Broadband SAS
@@ -13879,8 +13897,6 @@ A002DC	Amazon
 0C47C9	Amazon
 747548	Amazon
 AC63BE	Amazon
-DCA4CA	Apple
-8C8FE9	Apple
 40FA7F	Preh Car Connect
 F8AB05	Sagemcom Broadband SAS
 C0028D	WINSTAR Display
@@ -13890,9 +13906,6 @@ C0D3C0	Samsung
 F097E5	Tamio
 F4E4AD	zte
 F85971	Intel
-9810E8	Apple
-B49CDF	Apple
-4C82CF	Echostar
 F49634	Intel
 144FD7	IEEE Registration Authority
 6C4B90	LiteON
@@ -13926,7 +13939,6 @@ DC6DCD	Guangdong Oppo Mobile Telecom
 9874DA	Infinix mobility
 143F27	Noccela
 64351C	e-CoN SysTEMS IndIA
-5C6A80	ZyXEL
 0CB912	JM-DATA
 1893D7	Texas Instruments
 EC363F	Markov
@@ -14128,16 +14140,7 @@ CC7EE7	Panasonic AVC Networks
 84253F	silex
 40D63C	Equitech IndustrialCo
 40017A	Cisco
-A4E975	Apple
-C0A53E	Apple
-9800C6	Apple
-787B8A	Apple
-3866F0	Apple
-20EE28	Apple
-08F4AB	Apple
-8C8590	Apple
 FC017C	Hon Hai Precision
-2CB21A	Phicomm
 28840E	silicon valley immigration
 00C0EE	KYOCERA Display
 CC5A53	Cisco
@@ -14165,19 +14168,8 @@ C850E9	Raisecom
 90FD9F	Silicon Laboratories
 504EDC	Ping
 50F722	Cisco
-344B3D	Fiberhome Telecom
-E42F26	Fiberhome Telecom
-BC9889	Fiberhome Telecom
-1088CE	Fiberhome Telecom
-FCF647	Fiberhome Telecom
-74CC39	Fiberhome Telecom
-6CA858	Fiberhome Telecom
-341A35	Fiberhome Telecom
-18D225	Fiberhome Telecom
-185282	Fiberhome Telecom
 BC4101	Shenzhen TINNO Mobile
 5C8D2D	Shanghai Wellpay Information
-70B921	Fiberhome Telecom
 BC825D	Mitsumi Electric
 5CA176	Sichuan Tianyi Comheart Telecomco
 C8E7F0	Juniper Networks
@@ -14201,15 +14193,12 @@ F092B4	Sichuan Tianyi Comheart Telecomco
 7483EF	Arista Networks
 001C73	Arista Networks
 38AD8E	New H3C
-B0CA68	Apple
 001248	Dell EMC
 000144	Dell EMC
 00BF61	Samsung
 309FFB	Ardomus Networks
-5CE28C	ZyXEL
 E4BD4B	zte
 6C5697	Amazon
-74E19A	Fiberhome Telecom
 3CA581	vivo Mobile
 F4EAB5	Aerohive Networks
 F82055	Green Information System
@@ -14237,23 +14226,226 @@ DC4F22	Espressif
 70E56E	Texas Instruments
 F085C1	Shenzhen RF-Link
 C8DEC9	Coriant
-5819F8	ARRIS Group
 380E4D	Cisco
+FC9DD8	Beijing TongTongYiLian Science and
+04B167	Xiaomi
+38ADBE	New H3C
+5819F8	ARRIS Group
+207852	Nokia
+AC6417	Siemens - Automation - EWA
+CC5D4E	ZyXEL
+404A03	ZyXEL
+001349	ZyXEL
+1C740D	ZyXEL
+A0E4CB	ZyXEL
+5C6A80	ZyXEL
+5CE28C	ZyXEL
+A8EEC6	Muuselabs/SA
+A09DC1	China Dragon
+38437D	Compal Broadband Networks
+5C86C1	Dongguan Solum
+6CDD30	Cisco
+00806C	Secure Systems
+000261	Tilgin
+ACE2D3	HP
+282FC2	Automotive Data Solutions
+001D38	Seagate
+683E02	SIEMENS
+34E380	Genexis B.V
+2CB21A	Phicomm
+CC81DA	Phicomm
+B80716	vivo Mobile
+C8DF84	Texas Instruments
+5C0E8B	Extreme Networks
+B4C799	Extreme Networks
+7467F7	Extreme Networks
+980074	Raisecom
+18C19D	Integrated Device Sdn. Bhd
+00E02B	Extreme Networks
+A486AE	Quectel Wireless Solutions
+702605	SONY Visual
+5C5F67	Intel
+7C7635	Intel
+DC48B2	Baraja
+000123	Schneider Electric Japan Holdings
+D86375	Xiaomi
+DCBFE9	Motorola Mobility
+2C37C5	Qingdao Haier Intelligent Home Appliance
+7495EC	Alps Electric
+185282	Fiberhome Telecom
+18D225	Fiberhome Telecom
+0402CA	Shenzhen Vtsonic
+306A85	Samsung
+E4F14C	Private
+341A35	Fiberhome Telecom
+6CA858	Fiberhome Telecom
+74CC39	Fiberhome Telecom
+FCF647	Fiberhome Telecom
+1088CE	Fiberhome Telecom
+BC9889	Fiberhome Telecom
+E42F26	Fiberhome Telecom
+344B3D	Fiberhome Telecom
+70B921	Fiberhome Telecom
+74E19A	Fiberhome Telecom
+ACF85C	Private
+D460E3	Sercomm
+D02598	Apple
+A8667F	Apple
+7014A6	Apple
+10417F	Apple
+AC293A	Apple
+94E96A	Apple
+0C4DE9	Apple
+907240	Apple
+A88808	Apple
+C8E0EB	Apple
+54E43A	Apple
+28E14C	Apple
+848E0C	Apple
+B03495	Apple
+F0F61C	Apple
+0C3021	Apple
+D89695	Apple
+649ABE	Apple
+5CF5DA	Apple
+20A2E4	Apple
+F02475	Apple
+24A074	Apple
+8863DF	Apple
+609217	Apple
+34E2FD	Apple
+0C3E9F	Apple
+6C709F	Apple
+6C4008	Apple
+5C97F3	Apple
+90FD61	Apple
+006171	Apple
+80E650	Apple
+DC2B2A	Apple
+B844D9	Apple
+E0F5C6	Apple
+949426	Apple
+CC29F5	Apple
+58404E	Apple
+DC0C5C	Apple
+2C200B	Apple
+DCA4CA	Apple
+8C8FE9	Apple
+9810E8	Apple
+B49CDF	Apple
+A4E975	Apple
+C0A53E	Apple
+9800C6	Apple
+787B8A	Apple
+3866F0	Apple
+20EE28	Apple
+08F4AB	Apple
+8C8590	Apple
+B48B19	Apple
+E49A79	Apple
+28A02B	Apple
+B44BD2	Apple
+2CF0A2	Apple
+ECADB8	Apple
+9801A7	Apple
+609AC1	Apple
+F07960	Apple
+9C8BA0	Apple
+4C3275	Apple
+E4E4AB	Apple
+C8334B	Apple
+00F4B9	Apple
+0C771A	Apple
+74E1B6	Apple
+64200C	Apple
+C0847A	Apple
+183451	Apple
+FC253F	Apple
+1040F3	Apple
+6CC26B	Apple
+182032	Apple
+70DEE2	Apple
+00C610	Apple
+101C0C	Apple
+7CFADF	Apple
+5CF938	Apple
+3871DE	Apple
+BC5436	Apple
+9C4FDA	Apple
+1C5CF2	Apple
+60FB42	Apple
+002500	Apple
+00236C	Apple
+0021E9	Apple
+001FF3	Apple
+001F5B	Apple
+001E52	Apple
+001D4F	Apple
+001124	Apple
+A8FAD8	Apple
+5C969D	Apple
+E48B7F	Apple
+84FCFE	Apple
+444C0C	Apple
+8C2DAA	Apple
+6C3E6D	Apple
+189EFC	Apple
+C09F42	Apple
+B8F6B1	Apple
+406C8F	Apple
+A4D1D2	Apple
+040CCE	Apple
+D89E3F	Apple
+28E7CF	Apple
+C8BCC8	Apple
+D8A25E	Apple
+90840D	Apple
+F81EDF	Apple
+B0CA68	Apple
+98CA33	Apple
+68EF43	Apple
+CC2DB7	Apple
+D4A33D	Apple
+E4E0A6	Apple
+70EF00	Apple
+A039EE	Sagemcom Broadband SAS
+A44027	zte
+1C1161	Ciena
+4C82CF	Dish
+F0C9D1	GD Midea Air-Conditioning Equipment
+101D51	8Mesh Networks
+D49CF4	Palo Alto Networks
+3C574F	China Mobile Group Device
+506B4B	Mellanox
+F8C120	Xi'an Link-Science
+903A72	Ruckus Wireless
+3CE824	Huawei
+E8ABF3	Huawei
+7006AC	Eastcompeace
+506F77	Huawei
+2C9569	ARRIS Group
+509551	ARRIS Group
+609813	Shanghai Visking Digital
+8C4CAD	Evoluzn
+A4D4B2	Shenzhen MeiG Smart
+DCE533	IEEE Registration Authority
+8CF710	AMPAK
+38E1AA	zte
+18A28A	Essel-T
+38DEAD	Intel
+74E182	Texas Instruments
+40BD32	Texas Instruments
 D86CE9	Sagemcom Broadband SAS
 3C81D8	Sagemcom Broadband SAS
 2CE412	Sagemcom Broadband SAS
 181E78	Sagemcom Broadband SAS
 0037B7	Sagemcom Broadband SAS
 0014BF	Cisco-Linksys
-6C8DC1	Apple
-38CADA	Apple
 8C579B	Wistron Neweb
 B436A9	Fibocom Wireless
 6416F0	Huawei
 48DB50	Huawei
 2400BA	Huawei
-68DBCA	Apple
-044BED	Apple
 3CBB73	Shenzhen Xinguodu
 3CCF5B	Icomm HK
 F40304	Google
@@ -14318,8 +14510,6 @@ EC5F23	Qinghai Kimascend
 047D50	Shenzhen Kang Ying
 54EFFE	Fullpower
 EC52DC	WORLD MEDIA AND
-A4D18C	Apple
-CC25EF	Apple
 240995	Huawei
 247F3C	Huawei
 1C8E5C	Huawei
@@ -14411,18 +14601,6 @@ B83861	Cisco
 887556	Cisco
 60735C	Cisco
 FC9947	Cisco
-7CC537	Apple
-70CD60	Apple
-24AB81	Apple
-581FAA	Apple
-A46706	Apple
-3C0754	Apple
-E4CE8F	Apple
-E8040B	Apple
-B8C75D	Apple
-403CFC	Apple
-286AB8	Apple
-7CC3A1	Apple
 00E16D	Cisco
 F8C288	Cisco
 E0ACF1	Cisco
@@ -14433,19 +14611,6 @@ E0D173	Cisco
 547C69	Cisco
 689CE2	Cisco
 40A6E8	Cisco
-B8782E	Apple
-000502	Apple
-0010FA	Apple
-000393	Apple
-0016CB	Apple
-0017F2	Apple
-001B63	Apple
-001EC2	Apple
-002608	Apple
-7C6D62	Apple
-40D32D	Apple
-D83062	Apple
-C42C03	Apple
 6C2056	Cisco
 BC1665	Cisco
 44ADD9	Cisco
@@ -14453,60 +14618,10 @@ BC1665	Cisco
 6C416A	Cisco
 F872EA	Cisco
 0C6803	Cisco
-789F70	Apple
-DC3714	Apple
-40331A	Apple
-94F6A3	Apple
-D81D72	Apple
-70ECE4	Apple
-38C986	Apple
-FCFC48	Apple
 2857BE	Hangzhou Hikvision Digital
 50D59C	Thai Habel
 FCA386	Shenzhen Chuangwei-RGB
 F0F249	Hitron
-A4C361	Apple
-AC7F3E	Apple
-280B5C	Apple
-90B931	Apple
-24A2E1	Apple
-80EA96	Apple
-600308	Apple
-04F13E	Apple
-54724F	Apple
-48746E	Apple
-3CAB8E	Apple
-7C6DF8	Apple
-48D705	Apple
-3CD0F8	Apple
-98D6BB	Apple
-4CB199	Apple
-64E682	Apple
-804971	Apple
-98FE94	Apple
-D8004D	Apple
-98B8E3	Apple
-80929F	Apple
-885395	Apple
-9C04EB	Apple
-78FD94	Apple
-C88550	Apple
-D4F46F	Apple
-787E61	Apple
-60F81D	Apple
-4C7C5F	Apple
-48E9F1	Apple
-FCE998	Apple
-F099BF	Apple
-68644B	Apple
-A8968A	Apple
-4C8D79	Apple
-207D74	Apple
-F4F15A	Apple
-042665	Apple
-2CB43A	Apple
-689C70	Apple
-087045	Apple
 CCE0C3	Mangstor
 84A423	Sagemcom Broadband SAS
 346987	zte
@@ -14534,9 +14649,6 @@ E80734	Champion Optical Network
 A03299	Lenovo
 A845CD	Siselectron
 D0C193	Skybell
-209BCD	Apple
-F0B0E7	Apple
-CC20E8	Apple
 E435C8	Huawei
 D47208	Bragi
 489A42	Technomate
@@ -14762,7 +14874,6 @@ FC923B	Nokia
 C4C919	Energy Imports
 88A73C	Ragentek Group
 B0D7C5	Logipix
-38C9A9	SMART High Reliability Solutions
 BC1A67	YF
 B024F3	Progeny Systems
 8C4DB9	Unmonday
@@ -16516,7 +16627,6 @@ EC3091	Cisco
 0011C5	TEN
 0011C8	Powercom
 0011CD	Axsun
-0011C6	Seagate
 0011B4	Westermo Teleindustri
 0011B9	Inner Range
 0011C0	Aday
@@ -16730,7 +16840,6 @@ EC3091	Cisco
 000C63	Zenith
 000C68	SigmaTel
 000C6F	Amtek System
-000C50	Seagate
 000C55	Microlink
 000C5C	GTN Systems B.V
 000C61	AC DBA Advanced Digital
@@ -18117,16 +18226,12 @@ A87B39	Nokia
 D099D5	Alcatel-Lucent
 DC0077	TP-Link
 0060DC	NEC Magnus
-F45C89	Apple
 0021FD	Lacroix Traffic S.A.U
 4CB44A	NANOWAVE
 78C3E9	Samsung
 9C5C8E	ASUS
 70884D	Japan Radio
 4C55CC	Zentri
-BCEC5D	Apple
-DC415F	Apple
-30636B	Apple
 84683E	Intel
 C88722	Lumenpulse
 30A9DE	LG Innotek
@@ -18220,9 +18325,6 @@ F845AD	Konka Group
 4C0B3A	TCT mobile
 C02FF1	Volta Networks
 4882F2	Appel Elektronik
-0C5101	Apple
-086D41	Apple
-04D3CF	Apple
 30C82A	WI-BIZ srl
 0062EC	Cisco
 0C8A87	AgLogica Holdings
@@ -18259,8 +18361,6 @@ C816BD	Qingdao Hisense
 587E61	Qingdao Hisense
 340AFF	Qingdao Hisense
 F85A00	Sanford
-5067F0	ZyXEL
-C86C87	ZyXEL
 D8E0B8	Bulat
 68C44D	Motorola Mobility
 48FCB6	Lava
@@ -18378,7 +18478,6 @@ FC2FAA	Nokia
 7802B7	ShenZhen Ultra Easy
 F81D78	IEEE Registration Authority
 88AD43	Pegatron
-E4186B	ZyXEL
 6C71BD	Ezelink Telecom
 842519	Samsung
 88DEA9	Roku
@@ -18389,10 +18488,7 @@ FC4203	Samsung
 1C232C	Samsung
 08010F	Sichuan Tianyi Comheart Telecomco
 CCA260	Sichuan Tianyi Comheart Telecomco
-203CAE	Apple
-748D08	Apple
 00D78F	Cisco
-A03BE3	Apple
 886B0F	Bluegiga
 98541B	Intel
 CC61E5	Motorola Mobility
@@ -18575,11 +18671,6 @@ ACC1EE	Xiaomi
 CCA219	Shenzhen Along Investment
 94A04E	Bostex
 8CA5A1	Oregano Systems - Design
-64B0A6	Apple
-84FCAC	Apple
-6C19C0	Apple
-20AB37	Apple
-186590	Apple
 2C0BE9	Cisco
 2C6373	Sichuan Tianyi Comheart Telecomco
 9CCC83	Juniper Networks
@@ -18634,7 +18725,6 @@ F4DC41	Youngzone Culture
 CCCE1E	AVM Audiovisuelles Marketing und Computersysteme
 501E2D	StreamUnlimited
 40B034	HP
-FC0A81	Extreme Networks
 C8B5AD	Hewlett Packard
 88E628	Shenzhen Kezhonglong Optoelectronic
 9CDA3E	Intel
@@ -18657,11 +18747,6 @@ B8D7AF	Murata Manufacturing
 F0EE10	Samsung
 A8A198	TCT mobile
 107D1A	Dell
-C0D012	Apple
-D4DCCD	Apple
-484BAA	Apple
-F80377	Apple
-14BD61	Apple
 0827CE	Nagano Keiki
 00D318	SPG Controls
 2C3124	Cisco
@@ -18885,9 +18970,6 @@ B0350B	Mobiwire Mobiles
 E048D3	Mobiwire Mobiles
 24C42F	Philips Lifeline
 B8EE0E	Sagemcom Broadband SAS
-78886D	Apple
-A85C2C	Apple
-00DB70	Apple
 386EA2	vivo Mobile
 58B42D	YSTen
 181456	Nokia
@@ -18922,18 +19004,6 @@ B8D94D	Sagemcom Broadband SAS
 A468BC	Private
 80C755	Panasonic Appliances
 A0648F	Askey
-04C1B9	Fiberhome Telecom
-D467E7	Fiberhome Telecom
-34BF90	Fiberhome Telecom
-F8C96C	Fiberhome Telecom
-48555F	Fiberhome Telecom
-D4AD2D	Fiberhome Telecom
-D00492	Fiberhome Telecom
-809FAB	Fiberhome Telecom
-9C88AD	Fiberhome Telecom
-5CE3B6	Fiberhome Telecom
-48F97C	Fiberhome Telecom
-105887	Fiberhome Telecom
 04848A	7INOVA
 E81DA8	Ruckus Wireless
 3CC079	Shenzhen One-Nine Intelligent
@@ -18956,10 +19026,6 @@ F06E0B	Microsoft
 000E2E	Edimax
 701F53	Cisco
 1046B4	FormericaOE
-80B03D	Apple
-C83C85	Apple
-A04EA7	Apple
-409C28	Apple
 50C9A0	Skipper
 F04F7C	Private
 0CB2B7	Texas Instruments
@@ -18969,7 +19035,51 @@ F04F7C	Private
 8CCF09	Dell EMC
 10A4BE	Shenzhen Bilian
 E8825B	ARRIS Group
+5C865C	Samsung
+142882	Midicom
+80C5F2	Azurewave
+80B708	Blue Danube Systems
+805E0C	Yealink Network
+3C2C99	Edgecore Networks
+04C1B9	Fiberhome Telecom
+5CE3B6	Fiberhome Telecom
+9C88AD	Fiberhome Telecom
+809FAB	Fiberhome Telecom
+D00492	Fiberhome Telecom
 00BE9E	Fiberhome Telecom
+D4AD2D	Fiberhome Telecom
+48555F	Fiberhome Telecom
+F8C96C	Fiberhome Telecom
+34BF90	Fiberhome Telecom
+D467E7	Fiberhome Telecom
+105887	Fiberhome Telecom
+48F97C	Fiberhome Telecom
+68572D	Hangzhou Aixiangji
+FCFC48	Apple
+38C986	Apple
+70ECE4	Apple
+D81D72	Apple
+94F6A3	Apple
+F0B0E7	Apple
+209BCD	Apple
+CC20E8	Apple
+10C25A	Technicolor CH USA
+501CB0	Cisco
+C4FFBC	IEEE Registration Authority
+04AC44	Holtek Semiconductor
+F4DCA5	Dawon DNS
+8C5973	ZyXEL
+94FE9D	Shenzhen Gongjin
+247E12	Cisco
+04D13A	Xiaomi
+785860	Huawei
+F89066	Nain
+B4FBF9	Huawei
+785DC8	LG
+7C3953	zte
+48C796	Samsung
+804E70	Samsung
+D8445C	DEV Tecnologia Com Man Eq
 54C57A	Sunnovo
 34E911	vivo Mobile
 348584	Aerohive Networks
@@ -18999,6 +19109,153 @@ C863F1	Sony Interactive
 588A5A	Dell
 84509A	Easy Soft TV
 10AE60	Private
+DC2834	HAKKO
+D8E004	Vodia Networks
+C86C87	ZyXEL
+5067F0	ZyXEL
+E4186B	ZyXEL
+E4F042	Google
+B0982B	Sagemcom Broadband SAS
+4048FD	IEEE Registration Authority
+000C50	Seagate
+0011C6	Seagate
+C4C563	Tecno Mobile
+BC91B5	Infinix mobility
+88D039	TCL Technoly
+240D6C	Smnd
+FC0A81	Extreme Networks
+20E09C	Nokia
+34BA38	PAL Mohan
+9829A6	Compal Information
+04197F	Grasphere Japan
+BCFFEB	Motorola Mobility
+CC40D0	Netgear
+B42D56	Extreme Networks
+005D73	Cisco
+9C32CE	Canon
+7440BB	Hon Hai Precision
+685ACF	Samsung
+044F17	HUMAX
+48746E	Apple
+54724F	Apple
+04F13E	Apple
+600308	Apple
+80EA96	Apple
+24A2E1	Apple
+90B931	Apple
+A8968A	Apple
+9C04EB	Apple
+885395	Apple
+80929F	Apple
+98B8E3	Apple
+D8004D	Apple
+689C70	Apple
+2CB43A	Apple
+042665	Apple
+F4F15A	Apple
+207D74	Apple
+4C8D79	Apple
+68644B	Apple
+F099BF	Apple
+FCE998	Apple
+48E9F1	Apple
+4C7C5F	Apple
+60F81D	Apple
+787E61	Apple
+D4F46F	Apple
+C88550	Apple
+280B5C	Apple
+AC7F3E	Apple
+A4C361	Apple
+087045	Apple
+78FD94	Apple
+48D705	Apple
+7C6DF8	Apple
+3CAB8E	Apple
+40331A	Apple
+DC3714	Apple
+789F70	Apple
+98FE94	Apple
+804971	Apple
+186590	Apple
+64B0A6	Apple
+84FCAC	Apple
+6C19C0	Apple
+20AB37	Apple
+C0D012	Apple
+D4DCCD	Apple
+484BAA	Apple
+F80377	Apple
+14BD61	Apple
+78886D	Apple
+A85C2C	Apple
+F45C89	Apple
+BCEC5D	Apple
+DC415F	Apple
+30636B	Apple
+0C5101	Apple
+086D41	Apple
+04D3CF	Apple
+203CAE	Apple
+748D08	Apple
+A03BE3	Apple
+3C0754	Apple
+A46706	Apple
+581FAA	Apple
+24AB81	Apple
+70CD60	Apple
+7CC537	Apple
+C42C03	Apple
+D83062	Apple
+40D32D	Apple
+7C6D62	Apple
+0010FA	Apple
+000502	Apple
+B8782E	Apple
+A4D18C	Apple
+CC25EF	Apple
+68DBCA	Apple
+044BED	Apple
+6C8DC1	Apple
+38CADA	Apple
+00DB70	Apple
+80B03D	Apple
+C83C85	Apple
+A04EA7	Apple
+409C28	Apple
+08E689	Apple
+286AB8	Apple
+403CFC	Apple
+B8C75D	Apple
+E8040B	Apple
+E4CE8F	Apple
+64E682	Apple
+4CB199	Apple
+98D6BB	Apple
+3CD0F8	Apple
+7CC3A1	Apple
+002608	Apple
+001EC2	Apple
+001B63	Apple
+0017F2	Apple
+0016CB	Apple
+000393	Apple
+B4F7A1	LG
+C0A8F0	Adamson Systems
+38C9A9	SMART High Reliability Solutions
+283B82	D-Link
+C400AD	Advantech
+345A06	Sharp
+0C8BD3	Itel Mobile
+B42EF8	Eline
+4CEFC0	Amazon
+D46D6D	Intel
+0C5415	Intel
+CC8E71	Cisco
+CC3B58	Curiouser
+38F554	Hisense Electric
+E42D7B	China Mobile IOT
+04ECBB	Fiberhome Telecom
 2C3996	Sagemcom Broadband SAS
 0054BD	Swelaser
 0057D2	Cisco
@@ -19006,12 +19263,6 @@ C863F1	Sony Interactive
 806AB0	Shenzhen TINNO Mobile
 A0F895	Shenzhen TINNO Mobile
 0078CD	Ignition Design
-28ED6A	Apple
-34AB37	Apple
-60A37D	Apple
-0056CD	Apple
-7081EB	Apple
-086698	Apple
 2CFD37	Blue Calypso
 0C6127	Actiontec
 001B11	D-Link
@@ -19086,7 +19337,6 @@ B0F1A3	Fengfan
 A4516F	Microsoft Mobile
 246081	razberi
 8CAB8E	Shanghai Feixun
-9060F1	Apple
 EC26CA	TP-Link
 2C088C	HUMAX
 40F308	Murata Manufacturing
@@ -19124,7 +19374,6 @@ A49947	Huawei
 1C1D67	Huawei
 84A8E4	Huawei
 202BC1	Huawei
-741BB2	Apple
 002586	TP-Link
 F8D111	TP-Link
 F4EC38	TP-Link
@@ -19136,7 +19385,6 @@ DCEB94	Cisco
 5C838F	Cisco
 AC7E8A	Cisco
 382056	Cisco
-28CFE9	Apple
 00502A	Cisco
 005014	Cisco
 0090D9	Cisco
@@ -19202,85 +19450,7 @@ DCA5F4	Cisco
 E8EDF3	Cisco
 78DA6E	Cisco
 24E9B3	Cisco
-E425E7	Apple
-080007	Apple
-000A95	Apple
-002241	Apple
-0023DF	Apple
-0025BC	Apple
-00264A	Apple
-0026B0	Apple
-041E64	Apple
-D49A20	Apple
-9027E4	Apple
-60334B	Apple
-A43135	Apple
-9C35EB	Apple
-507A55	Apple
-A0999B	Apple
-24240E	Apple
-903C92	Apple
-341298	Apple
-9C293F	Apple
 488AD2	Shenzhen Mercury
-A88E24	Apple
-E8802E	Apple
-68AE20	Apple
-E0B52D	Apple
-80BE05	Apple
-D8BB2C	Apple
-D04F7E	Apple
-2C1F23	Apple
-549F13	Apple
-B8098A	Apple
-F0DBE2	Apple
-18EE69	Apple
-748114	Apple
-18F643	Apple
-D0A637	Apple
-A01828	Apple
-D0034B	Apple
-5C5948	Apple
-78CA39	Apple
-18E7F4	Apple
-B8FF61	Apple
-DC2B61	Apple
-1093E9	Apple
-442A60	Apple
-E0F847	Apple
-145A05	Apple
-28CFDA	Apple
-148FC6	Apple
-283737	Apple
-045453	Apple
-F0CBA1	Apple
-C06394	Apple
-8C006D	Apple
-B09FBA	Apple
-DC86D8	Apple
-8C2937	Apple
-DC9B9C	Apple
-98F0AB	Apple
-F0DBF8	Apple
-ACCF5C	Apple
-3C15C2	Apple
-04489A	Apple
-D8CF9C	Apple
-30F7C5	Apple
-008865	Apple
-40B395	Apple
-3090AB	Apple
-1CE62B	Apple
-A0EDCD	Apple
-A886DD	Apple
-54EAA8	Apple
-E4C63D	Apple
-843835	Apple
-7073CB	Apple
-9C207B	Apple
-842999	Apple
-74E2F5	Apple
-20C9D0	Apple
 1402EC	Hewlett Packard
 707938	Wuxi Zhanrui
 646A74	Auth-Servers
@@ -19302,15 +19472,8 @@ C4EF70	Home Skinovations
 B813E9	Trace Live Network
 746F19	Icarvisions
 7C7176	Wuxi iData
-7C0191	Apple
-70480F	Apple
-A4B805	Apple
-587F57	Apple
-80D605	Apple
 68A828	Huawei
 988744	Wuxi Hongda Science and
-C869CD	Apple
-BC6C21	Apple
 9C8DD3	Leonton
 246C8A	YUKAI
 A43831	RF elements s.r.o
@@ -19326,7 +19489,6 @@ AC1FD7	Real Vision
 C8A2CE	Oasis Media Systems
 A4DEC9	QLove Mobile Intelligence Information
 A4A6A9	Private
-0469F8	Apple
 9C7A03	Ciena
 380AAB	Formlabs
 F41535	SPON
@@ -19527,7 +19689,6 @@ D0FA1D	Qihoo 360
 046785	scemtec Hard- und fuer Mess- und Steuerungstechnik
 FC6DC0	BME
 784561	CyberTAN
-D896E0	Alibaba Cloud Computing
 300D2A	Zhejiang Wellcom
 64EAC5	SiboTech Automation
 F4F26D	TP-Link
@@ -22251,7 +22412,6 @@ DC3350	TechSAT
 0050FA	Oxtel
 005086	Telkom
 0050E1	NS
-005013	Chaparral Network Storage
 005022	Zonet
 005040	Panasonic Electric Works
 0050D6	Atlas Copco Tools
@@ -22268,7 +22428,6 @@ DC3350	TechSAT
 0050D2	CMC
 0090DE	Cardkey Systems
 009060	System Create
-0090F1	DOT Hill Systems
 0090E2	Distributed Processing
 00906B	Applied Resources
 009020	Philips Analytical X-RAY B.V
@@ -22561,7 +22720,6 @@ DC3350	TechSAT
 00C0B9	Funk
 00C065	Scope
 00C018	Lanart
-00C0FF	DOT Hill Systems
 00400D	Lannet Data
 0040F5	OEM Engines
 004019	Aeon Systems
@@ -22939,7 +23097,6 @@ C4E510	Mechatro
 403F8C	TP-Link
 14C3C2	K.A. Schmersal
 10785B	Actiontec
-20768F	Apple
 9C5CF9	Sony Mobile
 88A084	Formation Data Systems
 0025DC	Sumitomo Electric
@@ -22948,11 +23105,7 @@ C4E510	Mechatro
 009050	Teleste
 BC44B0	Elastifile
 7864E6	Green Motive
-C0CCF8	Apple
-80ED2C	Apple
-E8B2AC	Apple
 0080B8	DMG Mori B.U.G
-8489AD	Apple
 40B688	LEGIC Identsystems
 A09D91	SoundBridge
 30785C	Partow Tamas Novin
@@ -23046,12 +23199,8 @@ D09DAB	TCT mobile
 18E3BC	TCT mobile
 289AFA	TCT mobile
 44A42D	TCT mobile
-8C8EF2	Apple
-F40F24	Apple
 A0D385	AUMA Riester
 1414E6	Ningbo Sanhe Digital
-84A134	Apple
-1C9148	Apple
 CC167E	Cisco
 600810	Huawei
 C85B76	LCFC
@@ -23073,12 +23222,6 @@ FC2D5E	zte
 E811CA	Shandong Kaer Electric.Co
 ECD68A	Shenzhen JMicron Intelligent Developmen
 08D0B7	Qingdao Hisense
-28285D	ZyXEL
-5CF4AB	ZyXEL
-4C9EFF	ZyXEL
-0023F8	ZyXEL
-B0B2DC	ZyXEL
-90EF68	ZyXEL
 A8AD3D	Alcatel-Lucent Shanghai Bell
 E03005	Alcatel-Lucent Shanghai Bell
 2824FF	Wistron Neweb
@@ -23368,9 +23511,6 @@ C8028F	Nova
 20DBAB	Samsung
 000DF0	Qcom
 5C9960	Samsung
-5CF7E6	Apple
-A0D795	Apple
-CC088D	Apple
 0080FB	BVM
 002722	Ubiquiti Networks
 687251	Ubiquiti Networks
@@ -23404,11 +23544,6 @@ E8EADA	Denkovi Assembly
 40ED98	IEEE Registration Authority
 480C49	NAKAYO
 00D0EC	NAKAYO
-B0702D	Apple
-D0C5F3	Apple
-60F445	Apple
-00B362	Apple
-F86214	Apple
 C0E54E	ARIES Embedded
 001D72	Wistron
 0C73BE	Dongguan Haimai
@@ -23431,17 +23566,14 @@ C0E54E	ARIES Embedded
 407D0F	Huawei
 3805AC	Piller Group
 F8BBBF	eero
-000130	Extreme Networks
 706DEC	Wifi-soft
 AC6B0F	Cadence Design Systems
 1CA0D3	IEEE Registration Authority
-34D270	Amazon
-CC82EB	Kyocera
 00BB3A	Private
 E0CB1D	Private
 84D6D0	Amazon
-5082D5	Apple
-9C84BF	Apple
+34D270	Amazon
+CC82EB	Kyocera
 7894B4	Sercomm
 000F17	Insta Elektro
 002365	Insta Elektro
@@ -23451,13 +23583,10 @@ A41163	IEEE Registration Authority
 70AF24	TP Vision Belgium
 7CE97C	Itel Mobile
 285F2F	RNware
+E0C0D1	CK Telecom
 948BC1	Samsung
 4827EA	Samsung
-E0C0D1	CK Telecom
 049573	zte
-48BF6B	Apple
-245BA7	Apple
-BCA920	Apple
 D055B2	Integrated Device Sdn. Bhd
 A49BF5	Hybridserver Tec
 B436E3	Kbvision Group
@@ -23486,16 +23615,15 @@ B83A08	Tenda. LtdDongguan branch
 D8D866	Shenzhen Tozed
 F43E61	Shenzhen Gongjin
 001FA4	Shenzhen Gongjin
+1C5A0B	Tegile Systems
 38AC3D	Nephos
 A09347	Guangdong Oppo Mobile Telecom
 C8F230	Guangdong Oppo Mobile Telecom
 1C77F6	Guangdong Oppo Mobile Telecom
 E44790	Guangdong Oppo Mobile Telecom
-1C5A0B	Tegile Systems
 D4503F	Guangdong Oppo Mobile Telecom
-CC90E8	Shenzhen YOUHUA
-D8C8E9	Phicomm
 8425A4	Tariox
+CC90E8	Shenzhen YOUHUA
 88CC45	Skyworth Digital
 605317	Sandstone
 50338B	Texas Instruments
@@ -23504,39 +23632,20 @@ F4FCB1	JJ
 543B30	duagon
 60BA18	nextLAP
 704CA5	Fortinet
+40163B	Samsung
 5C497D	Samsung
 E47DBD	Samsung
 503DA1	Samsung
+508569	Samsung
+1077B1	Samsung
 5CF6DC	Samsung
 380195	Samsung
 BC1485	Samsung
-40163B	Samsung
-508569	Samsung
-1077B1	Samsung
 88D50C	Guangdong Oppo Mobile Telecom
 509A4C	Dell
 00180A	Cisco Meraki
 AC2205	Compal Broadband Networks
 80A036	Shanghai MXCHIP Information
-D42C0F	ARRIS Group
-8496D8	ARRIS Group
-80F503	ARRIS Group
-5CB066	ARRIS Group
-C0C522	ARRIS Group
-E0B7B1	ARRIS Group
-94877C	ARRIS Group
-407009	ARRIS Group
-F8EDA5	ARRIS Group
-5465DE	ARRIS Group
-6CCA08	ARRIS Group
-5C8FE0	ARRIS Group
-001675	ARRIS Group
-00D088	ARRIS Group
-0017EE	ARRIS Group
-001180	ARRIS Group
-00909C	ARRIS Group
-8096B1	ARRIS Group
-7CBFB1	ARRIS Group
 0012C9	ARRIS Group
 984B4A	ARRIS Group
 001A77	ARRIS Group
@@ -23544,10 +23653,13 @@ CC7D37	ARRIS Group
 0017E2	ARRIS Group
 001784	ARRIS Group
 0016B5	ARRIS Group
-BCCAB5	ARRIS Group
-000FCC	ARRIS Group
-3C7A8A	ARRIS Group
-ACEC80	ARRIS Group
+001675	ARRIS Group
+00D088	ARRIS Group
+0017EE	ARRIS Group
+001180	ARRIS Group
+00909C	ARRIS Group
+8096B1	ARRIS Group
+7CBFB1	ARRIS Group
 0015A3	ARRIS Group
 0015A4	ARRIS Group
 9C3426	ARRIS Group
@@ -23557,28 +23669,40 @@ ACEC80	ARRIS Group
 001FC4	ARRIS Group
 001C12	ARRIS Group
 001CFB	ARRIS Group
+D42C0F	ARRIS Group
+8496D8	ARRIS Group
+80F503	ARRIS Group
+5CB066	ARRIS Group
+C0C522	ARRIS Group
 0024A0	ARRIS Group
 002636	ARRIS Group
 E48399	ARRIS Group
+E0B7B1	ARRIS Group
+94877C	ARRIS Group
+407009	ARRIS Group
+F8EDA5	ARRIS Group
+5465DE	ARRIS Group
+6CCA08	ARRIS Group
+5C8FE0	ARRIS Group
+8C395C	Bit4id Srl
+BCCAB5	ARRIS Group
+000FCC	ARRIS Group
+3C7A8A	ARRIS Group
+ACEC80	ARRIS Group
 2CA17D	ARRIS Group
 04714B	IEEE Registration Authority
 309C23	Micro-Star INTL
-8C395C	Bit4id Srl
 947BE7	Samsung
 2C2617	Oculus VR
 98F7D7	ARRIS Group
 2C41A1	Bose
 C8DE51	IntegraOptics
 182CB4	Nectarsoft
-14780B	PerkinElmer
 74DADA	D-Link
-4C910C	Corporativo Lanix S.A. de C.V
 BCD713	Owl
 E8E1E1	Gemtek
 98F2B3	Hewlett Packard
-30FE31	Nokia
 BC1C81	Sichuan iLink
-703018	Avaya
 CCF954	Avaya
 581626	Avaya
 B4B017	Avaya
@@ -23589,42 +23713,44 @@ F873A2	Avaya
 6CFA58	Avaya
 3475C7	Avaya
 C4BED4	Avaya
-000CAB	Commend
+30FE31	Nokia
+703018	Avaya
 78B28D	Beijing Tengling
+000CAB	Commend
 00EC0A	Xiaomi
 A86B7C	Shenzhen Fenglian
+9CA5C0	vivo Mobile
 1CDA27	vivo Mobile
 70D923	vivo Mobile
-9CA5C0	vivo Mobile
 F430B9	HP
+2C9EEC	Jabil Circuit Penang
 943FC2	Hewlett Packard
 A06A44	Vizio
-2C9EEC	Jabil Circuit Penang
 B44F96	Zhejiang Xinzailing
 D822F4	Avnet Silica
 58493B	Palo Alto Networks
 D083D4	Xtel Wireless ApS
 7CEB7F	Dmet
 8C8580	Smart Innovation
+C4571F	June Life
 FC5A1D	Hitron
 287B09	zte
 4859A4	zte
 3894E0	Syrotech Networks
 34F64B	Intel
-C4571F	June Life
+ACED5C	Intel
 18204C	Kummler+Matter
 740ABC	LightwaveRF
-ACED5C	Intel
 54BD79	Samsung
+D86C63	Google
+743E2B	Ruckus Wireless
+D838FC	Ruckus Wireless
+0CF4D5	Ruckus Wireless
+AC6706	Ruckus Wireless
 94F665	Ruckus Wireless
 E0107F	Ruckus Wireless
 001392	Ruckus Wireless
-D838FC	Ruckus Wireless
-0CF4D5	Ruckus Wireless
-743E2B	Ruckus Wireless
-AC6706	Ruckus Wireless
 7811DC	XIAOMI
-D86C63	Google
 D837BE	Shenzhen Gongjin
 DC44B6	Samsung
 1007B6	Samsung
@@ -23644,47 +23770,43 @@ F0F8F2	Texas Instruments
 50642B	XIAOMI
 909D7D	ARRIS Group
 84A1D1	Sagemcom Broadband SAS
-788102	Sercomm
 783690	Yulong Telecom Scientific
+788102	Sercomm
 58A0CB	TrackNet
+586163	Quantum Networks
 3C7843	Huawei
 A47758	Ningbo Freewings
-586163	Quantum Networks
 00051E	Brocade Systems
 080088	Brocade Systems
 00010F	Brocade Systems
-0014C9	Brocade Systems
-200CC8	Netgear
-DCEF09	Netgear
-A06391	Netgear
-A040A0	Netgear
-8C3BAD	Netgear
+00197F	Plantronics
+E4F4C6	Netgear
 001E2A	Netgear
+0014C9	Brocade Systems
 00184D	Netgear
 0026F2	Netgear
 30469A	Netgear
 4C60DE	Netgear
 E8FCAF	Netgear
-00197F	Plantronics
-E4F4C6	Netgear
-005079	Private
+200CC8	Netgear
+DCEF09	Netgear
+A06391	Netgear
+A040A0	Netgear
+8C3BAD	Netgear
 F86465	Anova Applied
 A830AD	Weifang GoerTek
 70E1FD	Flextronics
 001D44	Krohne
 D4D2E5	BKAV
 C06D1A	Tianjin Henxinhuifeng
-E470B8	Intel
 3432E6	Panasonic Devices
 40A3CC	Intel
-B019C6	Apple
-58E28F	Apple
-AC1F74	Apple
-9C305B	Hon Hai Precision
-FCE557	Nokia
+E470B8	Intel
 303855	Nokia
-8C4500	Murata Manufacturing
+FCE557	Nokia
+9C305B	Hon Hai Precision
 00289F	Semptian
+8C4500	Murata Manufacturing
 6C7660	Kyocera
 104B46	Mitsubishi Electric
 903DBD	Secure Meters
@@ -23695,8 +23817,8 @@ A491B1	Technicolor
 68ECC5	Intel
 CC9891	Cisco
 1C7022	Murata Manufacturing
-189BA5	IEEE Registration Authority
 947EB9	National Narrowband Network
+189BA5	IEEE Registration Authority
 4CBD8F	Hangzhou Hikvision Digital
 B4D64E	Caldero
 F89DBB	Tintri
@@ -23710,17 +23832,12 @@ B0E17E	Huawei
 98EF9B	Ohsung
 84E327	Tailyn
 7091F3	Universal
-F4E204	Traqueur
 68C63A	Espressif
+F4E204	Traqueur
 3456FE	Cisco Meraki
 08674E	Hisense broadband multimedia
-F08CFB	Fiberhome Telecom
-F0407B	Fiberhome Telecom
-BCC00F	Fiberhome Telecom
 6405E9	Shenzhen WayOS Crop
-B8C716	Fiberhome Telecom
 50A83A	S Mobile Devices
-EC8AC7	Fiberhome Telecom
 E084F3	High Grade Controls
 74BBD3	Shenzhen xeme
 D8ED1C	Magna SL
@@ -23730,10 +23847,10 @@ A07099	Beijing Huacan
 B0935B	ARRIS Group
 20F19E	ARRIS Group
 389D92	Seiko Epson
+74860B	Cisco
 C0174D	Samsung
 A407B6	Samsung
 149F3C	Samsung
-74860B	Cisco
 149FB6	Guangdong Genius
 7C1C4E	LG Innotek
 70708B	Cisco
@@ -23741,11 +23858,9 @@ BC903A	Robert Bosch
 603D26	Technicolor CH USA
 3820A8	ColorTokens
 705896	InShow
-D05995	Fiberhome Telecom
-54DF24	Fiberhome Telecom
 78870D	Unifiedgateways India
-3CA616	vivo Mobile
 B4A382	Hangzhou Hikvision Digital
+3CA616	vivo Mobile
 88B4A6	Motorola Mobility
 742857	Mayfield Robotics
 00CB00	Private
@@ -23754,16 +23869,10 @@ B4A382	Hangzhou Hikvision Digital
 245CCB	AXIe Consortium
 F8F21E	Intel
 282986	APC by Schneider Electric
+74DA38	Edimax
 386B1C	Shenzhen Mercury
 38019F	Shenzhen Fast
 002424	Ace Axis
-74DA38	Edimax
-D0D2B0	Apple
-D88F76	Apple
-3C2EF9	Apple
-24F677	Apple
-7867D7	Apple
-5433CB	Apple
 8C839D	Shenzhen Xinyupeng
 ECFAF4	SenRa
 70991C	Shenzhen Honesty
@@ -23778,31 +23887,233 @@ D06726	Hewlett Packard
 947BBE	Ubicquia
 E82A44	Liteon
 0005A7	HYPERCHIP
-000966	Trimble
 78DDD9	Guangzhou Shiyuan
-2C5491	Microsoft
-58C17A	Cambium Networks
+000966	Trimble
 ECB0E1	Ciena
+58C17A	Cambium Networks
+2C5491	Microsoft
+0450DA	Qiku Internet Network Scientific
 08BC20	Hangzhou Royal Cloud
 5C70A3	LG
 10F96F	LG
 F01C13	LG
 00AA70	LG
-0450DA	Qiku Internet Network Scientific
-C49A02	LG
-344DF7	LG
+BCF5AC	LG
+CCFA00	LG
+F8A9D0	LG
 805A04	LG
 5CAF06	LG
 B81DAA	LG
 10F1F2	LG
-BCF5AC	LG
-CCFA00	LG
-F8A9D0	LG
 0025E5	LG
 0022A9	LG
+C49A02	LG
+344DF7	LG
 449160	Murata Manufacturing
 44D5A5	AddOn
 00AECD	Pensando Systems
+44AD19	Xingfei
+D896E0	Alibaba Cloud Computing
+30EB1F	Skylab M&C
+B0B2DC	ZyXEL
+0023F8	ZyXEL
+4C9EFF	ZyXEL
+5CF4AB	ZyXEL
+1479F3	China Mobile Group Device
+90EF68	ZyXEL
+28285D	ZyXEL
+4CAE1C	SaiNXT LLP
+4C910C	Lanix Internacional
+2C4205	Lytx
+0090F1	Seagate Cloud Systems
+D45DDF	Pegatron
+D41A3F	Guangdong Oppo Mobile Telecom
+005013	Seagate Cloud Systems
+00C0FF	Seagate Cloud Systems
+EC8193	Logitech
+D096FB	DASAN Network Solutions
+5C521E	Nintendo
+A825EB	Cambridge
+D8C8E9	Phicomm
+64F88A	China Mobile IOT
+6C49C1	o2ones
+68DB54	Phicomm
+E48F34	Vodafone Italia S.p.A
+2C6B7D	Texas Instruments
+788038	Funai Electric
+000130	Extreme Networks
+CC6EA4	Samsung
+C477AF	Advanced Digital Broadcast
+20DFB9	Google
+44F034	Kaonmedia
+14780B	Varex Imaging Deutschland
+10CD6E	Fisys
+A46CF1	Samsung
+0CA8A7	Samsung
+54B802	Samsung
+282C02	IEEE Registration Authority
+B8C716	Fiberhome Telecom
+D05995	Fiberhome Telecom
+54DF24	Fiberhome Telecom
+583BD9	Fiberhome Telecom
+F0407B	Fiberhome Telecom
+F08CFB	Fiberhome Telecom
+EC8AC7	Fiberhome Telecom
+BCC00F	Fiberhome Telecom
+005079	Private
+5C0038	Viasat Group S.p.A
+0469F8	Apple
+BC6C21	Apple
+C869CD	Apple
+80D605	Apple
+587F57	Apple
+A4B805	Apple
+70480F	Apple
+7C0191	Apple
+9C293F	Apple
+341298	Apple
+903C92	Apple
+24240E	Apple
+A0999B	Apple
+D0A637	Apple
+18F643	Apple
+748114	Apple
+18EE69	Apple
+F0DBE2	Apple
+B8098A	Apple
+549F13	Apple
+2C1F23	Apple
+E4CB59	Beijing Loveair Science and
+C87765	Tiesse
+507A55	Apple
+9C35EB	Apple
+A43135	Apple
+D0034B	Apple
+A01828	Apple
+3C15C2	Apple
+ACCF5C	Apple
+F0DBF8	Apple
+98F0AB	Apple
+DC9B9C	Apple
+8C2937	Apple
+DC86D8	Apple
+E4C63D	Apple
+54EAA8	Apple
+A886DD	Apple
+A0EDCD	Apple
+1CE62B	Apple
+3090AB	Apple
+F0CBA1	Apple
+045453	Apple
+283737	Apple
+148FC6	Apple
+28CFDA	Apple
+145A05	Apple
+D04F7E	Apple
+D8BB2C	Apple
+80BE05	Apple
+E0B52D	Apple
+68AE20	Apple
+E8802E	Apple
+A88E24	Apple
+D8CF9C	Apple
+04489A	Apple
+B09FBA	Apple
+8C006D	Apple
+C06394	Apple
+843835	Apple
+20C9D0	Apple
+74E2F5	Apple
+842999	Apple
+9C207B	Apple
+40B395	Apple
+008865	Apple
+30F7C5	Apple
+7073CB	Apple
+00B362	Apple
+F86214	Apple
+B0702D	Apple
+D0C5F3	Apple
+60F445	Apple
+5082D5	Apple
+9C84BF	Apple
+48BF6B	Apple
+245BA7	Apple
+BCA920	Apple
+B019C6	Apple
+58E28F	Apple
+AC1F74	Apple
+20768F	Apple
+C0CCF8	Apple
+80ED2C	Apple
+E8B2AC	Apple
+8489AD	Apple
+8C8EF2	Apple
+F40F24	Apple
+84A134	Apple
+1C9148	Apple
+5CF7E6	Apple
+A0D795	Apple
+CC088D	Apple
+080007	Apple
+E425E7	Apple
+28CFE9	Apple
+9060F1	Apple
+741BB2	Apple
+28ED6A	Apple
+34AB37	Apple
+60A37D	Apple
+0056CD	Apple
+7081EB	Apple
+086698	Apple
+E0F847	Apple
+442A60	Apple
+1093E9	Apple
+DC2B61	Apple
+B8FF61	Apple
+18E7F4	Apple
+78CA39	Apple
+5C5948	Apple
+60334B	Apple
+9027E4	Apple
+24F677	Apple
+7867D7	Apple
+5433CB	Apple
+D0D2B0	Apple
+D88F76	Apple
+3C2EF9	Apple
+DC56E7	Apple
+347C25	Apple
+D4909C	Apple
+D49A20	Apple
+041E64	Apple
+0026B0	Apple
+00264A	Apple
+0025BC	Apple
+0023DF	Apple
+002241	Apple
+000A95	Apple
+605F8D	eero
+B4DEDF	zte
+847460	zte
+B4A8B9	Cisco
+88B6EE	Dish
+38E60A	Xiaomi
+C042D0	Juniper Networks
+E8330D	Xaptec
+D8D775	Sagemcom Broadband SAS
+785364	SHIFT
+347E5C	Sonos
+24181D	Samsung
+54B7E5	Rayson
+BC0FA7	Ouster
+ACF970	Huawei
+0C41E9	Huawei
+58D759	Huawei
+B41C30	zte
+F4C248	Samsung
+A8515B	Samsung
+606BFF	Nintendo
 525400	QEMU Virtual NIC
 B0C420	Bochs Virtual NIC
 DEADCA	PearPC Virtual NIC
