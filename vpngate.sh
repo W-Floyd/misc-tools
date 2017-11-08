@@ -53,26 +53,38 @@ sed -e '1,2d' -e '$d' vpngate.csv | {
 
         openssl enc -base64 -d -A <<< "$(cut -d , -f 15 <<< "${__line}")" > "${__output}"
 
-        __country="$(cut -d , -f 6 <<< "${__line}")"
-        __country_file="${__output_dir}_country/.${__country}"
+        __destination="$(grep -E '^remote' "${__output}" | sed 's/^.* \([^ ]*\) .*/\1/')"
 
-        if ! [ -e "${__country_file}" ]; then
-            echo '00' > "${__country_file}"
+        echo -n "Testing ${__destination}... "
+
+        if fping "${__destination}" -q; then
+
+            echo 'success'
+
+            __country="$(cut -d , -f 6 <<< "${__line}")"
+            __country_file="${__output_dir}_country/.${__country}"
+
+            if ! [ -e "${__country_file}" ]; then
+                echo '00' > "${__country_file}"
+            fi
+
+            __num="$(cat "${__country_file}")"
+
+            __num="$((10#$__num+1))"
+
+            __num="$(printf "%02d\n" "${__num}")"
+
+            echo "${__num}" > "${__country_file}"
+
+            __country_output="${__output_dir}_country/VPN Gate ${__country} ${__num}.ovpn"
+
+            cp "${__output}" "${__country_output}"
+
+            nmcli connection import type openvpn file "${__country_output}"
+
+        else
+            echo ' fail'
         fi
-
-        __num="$(cat "${__country_file}")"
-
-        __num="$((10#$__num+1))"
-
-        __num="$(printf "%02d\n" "${__num}")"
-
-        echo "${__num}" > "${__country_file}"
-
-        __country_output="${__output_dir}_country/VPN Gate ${__country} ${__num}.ovpn"
-
-        cp "${__output}" "${__country_output}"
-
-        nmcli connection import type openvpn file "${__country_output}"
 
     fi
     
