@@ -46,3 +46,11 @@ Take piped and/or option inputs and print one of the following:
 
 These are essensially shortcuts for sed functions, they're not
 especially smart. Just easier for scripted conversion work.
+
+### vpngate
+
+A script that fetches a list of VPNs from vpngate.net, falling back to a number of mirrors as needed. It then parses the list and adds these configs to the system through nmcli, optionally to a limited number.
+
+As new servers get swapped through the list, they will be added to the existing list.
+
+If eventually there are too many connections, and you want to clean up, it allows uninstalling the connections, ready to start again.
