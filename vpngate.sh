@@ -2,6 +2,10 @@
 
 __output_dir='./vpngate'
 
+__size () {
+stat "${1}" -c %s
+}
+
 __fetch () {
 echo 'Fetching newest list...'
 # Fetch the raw CSV
@@ -11,8 +15,10 @@ echo 'Fetching newest list...'
 while read -r __url; do
     echo "Trying ${__url}"
     if curl --output /dev/null --silent --head --fail "${__url}"; then
-        wget -q "${__url}" -O vpngate.csv
-        break
+        curl "${__url}" -o vpngate.csv
+        if ! [ "$(__size vpngate.csv)" = 0 ] ; then
+            break
+        fi
     fi
 done <<< 'http://www.vpngate.net/api/iphone/
 http://118.216.211.167:36479/api/iphone/
