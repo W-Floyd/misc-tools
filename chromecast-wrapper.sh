@@ -131,6 +131,8 @@ else
 
 fi
 
-rm "${__sub_file}"
+if [ -e "${__sub_file}" ]; then
+    rm "${__sub_file}"
+fi
 
 exit
