@@ -50,7 +50,15 @@ sed -e '1,2d' -e '$d' vpngate.csv | {
     else
         head -n "${__install_num}"
     fi
-} | while read -r __line; do
+} > _vpngate.csv 
+
+echo 'Extracting configs...'
+
+n=0
+
+while read -r __line; do
+
+    ((n++))
 
     __name="${__line/,*}"
     __output="${__output_dir}/${__name}.ovpn"
@@ -61,40 +69,57 @@ sed -e '1,2d' -e '$d' vpngate.csv | {
 
         __destination="$(grep -E '^remote' "${__output}" | sed 's/^.* \([^ ]*\) .*/\1/')"
 
-        echo -n "Testing ${__destination}... "
-
-        if fping "${__destination}" -q; then
-
-            echo 'success'
-
-            __country="$(cut -d , -f 6 <<< "${__line}")"
-            __country_file="${__output_dir}_country/.${__country}"
-
-            if ! [ -e "${__country_file}" ]; then
-                echo '00' > "${__country_file}"
-            fi
-
-            __num="$(cat "${__country_file}")"
-
-            __num="$((10#$__num+1))"
-
-            __num="$(printf "%02d\n" "${__num}")"
-
-            echo "${__num}" > "${__country_file}"
-
-            __country_output="${__output_dir}_country/VPN Gate ${__country} ${__num}.ovpn"
-
-            cp "${__output}" "${__country_output}"
-
-            nmcli connection import type openvpn file "${__country_output}"
-
-        else
-            echo ' fail'
-        fi
+        echo "${n},${__destination}" >> vpngate_destinations.csv
 
     fi
     
-done
+done < _vpngate.csv
+
+echo 'Testing addresses...'
+
+while read -r __line; do
+
+    echo "${__line#*,}"
+
+done < vpngate_destinations.csv | fping -a -f - 2>/dev/null > vpngate_pingable.csv
+
+echo 'Installing valid configs...'
+
+while read -r __destination; do
+
+    __list_line="$(grep -E "^[0-9]*,${__destination}$" < vpngate_destinations.csv)"
+
+    __line_number="${__list_line/,*}"
+
+    __line="$(sed "${__line_number}!d" < _vpngate.csv)"
+
+    __name="${__line/,*}"
+    __output="${__output_dir}/${__name}.ovpn"
+
+    __country="$(cut -d , -f 6 <<< "${__line}")"
+    __country_file="${__output_dir}_country/.${__country}"
+
+    if ! [ -e "${__country_file}" ]; then
+        echo '00' > "${__country_file}"
+    fi
+
+    __num="$(cat "${__country_file}")"
+
+    __num="$((10#$__num+1))"
+
+    __num="$(printf "%02d\n" "${__num}")"
+
+    echo "${__num}" > "${__country_file}"
+
+    __country_output="${__output_dir}_country/VPN Gate ${__country} ${__num}.ovpn"
+
+    cp "${__output}" "${__country_output}"
+
+    nmcli connection import type openvpn file "${__country_output}"
+    
+done < vpngate_pingable.csv
+
+rm _vpngate.csv
 
 }
 
@@ -108,31 +133,16 @@ if [ -d "${__output_dir}_country" ]; then
     rm -r "${__output_dir}_country"
 fi
 
-__num=0
-
 nmcli -m multiline connection show | while mapfile -t -n 4 ary && ((${#ary[@]})); do
     __type="$(echo "${ary[2]}" | sed 's/^[^ ]* *//')"
     if [ "${__type}" = 'vpn' ]; then
         __name="$(echo "${ary[0]}" | sed 's/^[^ ]* *//')"
         if echo "${__name}" | grep --silent -E '^VPN Gate'; then
-            __id="$(echo "${ary[1]}" | sed 's/^[^ ]* *//')"
-
-            ((__num++))
-
-            if [ "${__num}" -gt 10 ]; then
-                nmcli connection delete "${__id}"
-                wait
-                __num=0
-            else
-                nmcli connection delete "${__id}" &
-            fi
-
+            echo "$(echo "${ary[1]}" | sed 's/^[^ ]* *//')"
         fi
     fi
     
-done
-
-wait
+done | parallel -j10 nmcli connection delete
 
 }
 
@@ -150,9 +160,7 @@ elif [ "${1}" = '-u' ]; then
 elif [ "${1}" = '-f' ]; then
     __fetch
 else
-    echo '-f to fetch, -i to install, -u to uninstall. Required nmcli'
+    echo '-f to fetch, -i to install, -u to uninstall. Requires nmcli'
 fi
-
-
 
 exit
