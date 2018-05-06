@@ -158,7 +158,7 @@ if [ "$(bc -l <<< "${__diff#[+|-]} < ${__best_diff#[+|-]}" 2> /dev/null)" = '1' 
     __best_ratio="${_a}:${_b}"
     if [ "${__best_diff}" = '0' ]; then
         echo "$(simplify "${__best_ratio/:*}" "${__best_ratio/*:}") - Exactly"
-        break
+        exit 1
     fi
     echo -n "$(simplify ${_a} ${_b}) - ${__ratio} - "
     if [ "${__sign}" = '-' ]; then
@@ -260,7 +260,7 @@ else
             #__timer end "Set sign"
 
             #__timer start "Check best"
-            __check_best
+            __check_best || exit
             #__timer end "Check best"
 
             #__timer start "Change ratio"
