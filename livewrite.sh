@@ -94,6 +94,8 @@ else
     fi
 fi
 
+sync
+
 cleanup
 
 exit
