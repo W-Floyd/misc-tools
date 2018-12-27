@@ -1,49 +1,28 @@
 #!/bin/sh
 b=0
 l=0
-for u in $(sed 's/./& /g' <<< $1 | rev)
-do
+for u in $(sed 's/./& /g' <<<$1|rev);do
 case $u in
-i)
-n=1
+i)n=1
 ;;
-v)
-n=5
+v)n=5
 ;;
-x)
-n=10
+x)n=10
 ;;
-l)
-n=50
+l)n=50
 ;;
-c)
-n=100
+c)n=100
 ;;
-d)
-n=500
+d)n=500
 ;;
-m)
-n=1000
-;;
+m)n=1000
 esac
-if [ $n -gt $l ]
-then
-l=$n
-fi
-if [ $b -lt $n ]
-then
-s=+
-elif [ $b = $n ]
-then
-if [ $n -lt $l ]
-then
-s=-
-else
-s=+
-fi
-else
-s=-
-fi
+[ $n -gt $l ]&&l=$n
+[ $b -lt $n ]&&s=+||{
+[ $b = $n ]&&{
+[ $n -lt $l ]&&s=-||s=+
+}||s=-
+}
 b=$n
 e=$e$s$n
 done
